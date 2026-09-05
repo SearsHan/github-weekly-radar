@@ -1,6 +1,8 @@
 name: Update and deploy GitHub Weekly Radar
 
 on:
+  push:
+    branches: [main]
   workflow_dispatch:
   schedule:
     - cron: "15 1 * * *"
@@ -26,6 +28,7 @@ jobs:
       - name: Refresh Top 10
         run: python scripts/update.py
       - name: Commit refreshed data
+        if: github.event_name != 'push'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
