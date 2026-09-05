@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0b0d12" />
+  <title>GitHub Weekly Radar</title>
+  <meta name="description" content="每周只精选 10 个真正值得研究、下载和使用的 GitHub 项目。" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#">GitHub <span>Weekly Radar</span></a>
+    <nav>
+      <button class="nav-btn active" data-view="latest">本周</button>
+      <button class="nav-btn" data-view="favorites">收藏</button>
+      <select id="archiveSelect" aria-label="历史榜单"><option value="">历史榜单</option></select>
+    </nav>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="eyebrow">CURATED · LAST 7 DAYS</div>
+      <h1>每周只看 <em>10</em> 个<br/>真正值得研究的开源项目</h1>
+      <p>不是 GitHub Trending 的简单搬运。这里会告诉你：它是什么、解决什么问题、为什么本周值得关注，以及如何直接下载或安装。</p>
+      <div class="hero-meta"><span id="periodLabel">—</span><span class="dot">·</span><span id="updatedLabel">—</span><span class="dot">·</span><span id="countLabel">—</span></div>
+    </section>
+    <section class="spotlights" id="spotlights"></section>
+    <section class="controls"><div class="filters" id="filters"></div><div class="sort-wrap"><label for="sortSelect">排序</label><select id="sortSelect"><option value="rank">综合推荐</option><option value="weekly">本周 Star</option><option value="score">Radar Score</option></select></div></section>
+    <section class="grid" id="projectGrid"></section>
+    <section class="empty" id="emptyState" hidden>当前没有符合筛选条件的项目。</section>
+  </main>
+  <dialog id="detailDialog"><button class="dialog-close" id="dialogClose" aria-label="关闭">×</button><div id="dialogContent"></div></dialog>
+  <footer><span>GitHub Weekly Radar</span><span>Data: GitHub Trending + GitHub API</span></footer>
+  <script src="app.js"></script>
+</body>
+</html>
