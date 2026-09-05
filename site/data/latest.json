@@ -1,1 +1,411 @@
-{"period":"2026-W36","updated_at":"2026-09-05T09:30:00+08:00","source":"GitHub Trending · This week","analyzed_count":19,"items":[{"rank":1,"repo":"tt-a1i/archify","name":"Archify","category":["Agent Skill","Codex","可视化"],"language":"JavaScript","stars":47975,"weekly_stars":24227,"score":99,"difficulty":"入门","recommendation":5,"summary":"一个面向 Codex、Cursor、Claude Code 等编码 Agent 的架构可视化 Skill。它把代码库或系统描述转换成经过校验的交互式架构图、工作流图、时序图和数据流图，并可导出 HTML、PNG、SVG、WebM 等格式。","problem":"很多 AI 生成的系统架构图看起来漂亮，但节点关系容易与真实代码脱节。Archify 通过结构化 JSON IR 和确定性校验，让 Agent 生成的架构图更可验证、更适合代码评审和技术沟通。","why_now":"本周新增约 24.2K Star，是当前周榜增长最明显的项目之一；同时它直接支持 Codex CLI 和 Agent Skills 工作流。","core_features":["支持架构图、工作流、时序图、数据流等多种图形","面向 Codex/Cursor/Claude Code/OpenCode 的 Agent Skill","结构化 JSON IR + 确定性校验","支持架构变更 Before / Delta / After 对比","可导出 HTML、PNG、SVG、WebM 和分享卡片"],"audience":["Codex 用户","AI Agent 开发者","技术负责人","需要做系统流程图的人"],"use_cases":["让 Codex 自动生成项目架构图","代码评审前展示架构变化","把复杂业务流程变成交互式图表","制作可分享的技术方案图"],"recommendation_reason":"与你目前使用 Codex、Skills 和自动化工作流的方向高度匹配，而且安装门槛很低，可以直接作为 Codex 的视觉化能力扩展。","github_url":"https://github.com/tt-a1i/archify","download_url":"https://github.com/tt-a1i/archify/archive/refs/heads/main.zip","release_url":null,"clone":"git clone https://github.com/tt-a1i/archify.git","install":"npx skills add tt-a1i/archify -g"},{"rank":2,"repo":"THU-MAIC/OpenMAIC","name":"OpenMAIC","category":["Multi-Agent","教育","Codex"],"language":"TypeScript","stars":31473,"weekly_stars":10023,"score":96,"difficulty":"中等","recommendation":5,"summary":"一个开源多 Agent 互动课堂平台，可以把一个主题、文档、音频或视频自动生成成完整课程，包括幻灯片、测验、交互式模拟、项目式学习内容，以及能够实时讨论和讲解的 AI 教师与 AI 同学。","problem":"传统 AI 生成课程通常只产出一份静态 PPT。OpenMAIC 把课程规划、内容生成、互动课堂、语音、白板和持续修改整合成一个多 Agent 工作流。","why_now":"项目在 2026 年 8 月 27 日发布 v1.0.0，引入 Agent Workbench、可持续会话和 20 个内置 Skills，本周新增约 10K Star。","core_features":["一个提示词生成完整互动课程","多 Agent 教师与同学实时互动","支持 PPT、测验、模拟、PBL、图片、视频和语音","Agent Workbench 可持续修改整套课程","支持 Codex 等 Agent 工作台","可导出 PPTX 和互动 HTML"],"audience":["课程开发者","培训机构","知识付费团队","AI Agent 用户","内容创作者"],"use_cases":["把培训资料快速制作成课程","生成知识付费课件","将内部 SOP 变成互动培训","用 Codex 调用 Skill 自动生成课堂"],"recommendation_reason":"对你做培训、知识付费和内容产品很有参考价值，尤其值得研究它的“资料 → Agent 规划 → 课件/互动内容”生产链。","github_url":"https://github.com/THU-MAIC/OpenMAIC","download_url":"https://github.com/THU-MAIC/OpenMAIC/archive/refs/heads/main.zip","release_url":"https://github.com/THU-MAIC/OpenMAIC/releases/latest","clone":"git clone https://github.com/THU-MAIC/OpenMAIC.git","install":"git clone https://github.com/THU-MAIC/OpenMAIC.git"},{"rank":3,"repo":"K-Dense-AI/scientific-agent-skills","name":"Scientific Agent Skills","category":["Agent Skills","Codex","研究"],"language":"Python","stars":42615,"weekly_stars":7370,"score":94,"difficulty":"入门","recommendation":5,"summary":"一个大型 Agent Skills 开源库，把科研流程、专业数据库和常用科学 Python 工具封装成可复用技能。目前包含 160+ 个研究技能和 100+ 科学数据库入口，并支持 Codex、Cursor、Claude Code 等遵循 Agent Skills 标准的客户端。","problem":"通用 Agent 虽然会写代码，但面对专业科研数据库、分析流程和行业工具时容易缺乏操作规范。该项目把成熟工作流直接封装成 Skill，让 Agent 获得可复用的专业操作知识。","why_now":"项目近期从 Claude Scientific Skills 扩展为通用 Scientific Agent Skills，并强化 Codex 等多客户端兼容，本周新增约 7.4K Star。","core_features":["160+ 可直接使用的科研 Agent Skills","覆盖 100+ 科学和金融数据库","兼容 Codex/Cursor/Claude Code","涵盖数据分析、可视化、科研写作与自动化","每个带脚本的 Skill 都配套测试"],"audience":["Codex 重度用户","Skill 开发者","研究人员","数据分析人员"],"use_cases":["参考成熟 Skill 的结构设计","给 Codex 增加专业数据分析能力","搭建自己的行业 Skill 库","学习 Agent Plugin/Skill 标准"],"recommendation_reason":"即使你不做科研，这个仓库也非常适合作为“高质量 Skill 应该怎么设计”的参考库，对你继续制作自己的 Codex Skills 很有价值。","github_url":"https://github.com/K-Dense-AI/scientific-agent-skills","download_url":"https://github.com/K-Dense-AI/scientific-agent-skills/archive/refs/heads/main.zip","release_url":null,"clone":"git clone https://github.com/K-Dense-AI/scientific-agent-skills.git","install":"git clone https://github.com/K-Dense-AI/scientific-agent-skills.git"},{"rank":4,"repo":"debpalash/VoiceStudio","name":"VoiceStudio","category":["AI 音频","本地 AI","MCP"],"language":"Python","stars":17829,"weekly_stars":3902,"score":91,"difficulty":"入门","recommendation":5,"summary":"一个本地运行的开源语音工作室，可用于声音克隆、声音设计、视频配音、听写、转录和有声书制作。它整合多种 TTS/ASR 引擎，支持 macOS、Windows、Linux 和 Docker，并提供本地 API 与 MCP Server。","problem":"商业语音平台通常按量收费，而且语音、项目和素材需要上传云端。VoiceStudio 把主要语音工作流搬到本机，降低长期内容生产成本并增强隐私控制。","why_now":"项目正在活跃 Beta 阶段，已提供跨平台安装包、16 个 TTS 和 11 个 ASR 引擎，本周新增约 3.9K Star。","core_features":["声音克隆与声音设计","视频配音、听写、转录和长音频制作","16 个 TTS / 11 个 ASR 引擎","支持 646 种语言目录","提供 REST/SSE/WebSocket API 与 MCP Server","本地数据和本地模型工作流"],"audience":["视频创作者","设计师","知识付费团队","AI 自动化用户"],"use_cases":["短视频批量配音","课程旁白和有声内容","本地会议转录","通过 MCP 接入 Agent 工作流"],"recommendation_reason":"与你的视觉与内容生产场景匹配度较高，尤其适合继续组合成“文案 → 配音 → 视频”的自动化内容生产流程。","github_url":"https://github.com/debpalash/VoiceStudio","download_url":"https://github.com/debpalash/VoiceStudio/archive/refs/heads/main.zip","release_url":"https://github.com/debpalash/VoiceStudio/releases/latest","clone":"git clone https://github.com/debpalash/VoiceStudio.git","install":"从 Latest Release 下载 macOS / Windows / Linux 安装包"},{"rank":5,"repo":"abi/screenshot-to-code","name":"Screenshot to Code","category":["AI 设计","前端","视觉转代码"],"language":"Python","stars":77673,"weekly_stars":2412,"score":90,"difficulty":"中等","recommendation":5,"summary":"把截图、Mockup、Figma 设计或网站录屏转换成可运行前端代码的 AI 工具。支持 HTML/Tailwind、React、Vue、Bootstrap、Ionic 等技术栈，也可以根据网站操作录屏生成可交互原型。","problem":"设计稿落地到前端时，通常需要重新测量布局、识别组件并手工还原。这个项目用视觉模型直接理解截图和素材，把视觉参考快速转换成可编辑代码。","why_now":"项目持续更新多模型支持和视觉自检能力，本周新增约 2.4K Star，仍是设计转代码领域最受关注的开源项目之一。","core_features":["截图转 HTML/React/Vue","支持 Tailwind、Bootstrap、Ionic","支持 Figma 设计和网站录屏","可提取截图中的真实图片与 Logo","可让 Agent 渲染页面并视觉检查结果"],"audience":["视觉设计师","UI/UX 设计师","前端开发者","独立产品开发者"],"use_cases":["把参考图快速转成网页","把设计稿做成交互原型","验证 AI 生成 UI 的还原度","快速制作落地页"],"recommendation_reason":"这是本期最值得你作为视觉设计师亲自测试的项目之一，可直接研究“参考图 → 可编辑网页”的生产效率。","github_url":"https://github.com/abi/screenshot-to-code","download_url":"https://github.com/abi/screenshot-to-code/archive/refs/heads/main.zip","release_url":null,"clone":"git clone https://github.com/abi/screenshot-to-code.git","install":"git clone https://github.com/abi/screenshot-to-code.git"},{"rank":6,"repo":"Gitlawb/openclaude","name":"OpenClaude","category":["Coding Agent","MCP","CLI"],"language":"TypeScript","stars":32554,"weekly_stars":1389,"score":88,"difficulty":"中等","recommendation":4,"summary":"一个开源的终端 Coding Agent，目标是用同一套 CLI 工作流连接不同云端和本地模型。它支持 OpenAI 兼容接口、Gemini、GitHub Models、Codex OAuth、Ollama 等后端，并提供 Tools、Agents、MCP、Slash Commands 和流式输出。","problem":"不同模型和 Coding Agent 的终端工作流彼此割裂。OpenClaude 尝试把多种模型提供商统一进一个终端 Agent 环境，减少切换工具和配置的成本。","why_now":"多模型 Coding Agent 和本地模型组合使用仍是热门方向，该项目本周新增约 1.4K Star。","core_features":["一个 CLI 使用多种云端与本地模型","支持 MCP、Tools、Agents 和 Slash Commands","支持 Codex OAuth / Codex 等后端","支持 Ollama 本地模型","提供 VS Code 扩展和 npm 包"],"audience":["Codex 用户","终端重度用户","多模型用户","Agent 开发者"],"use_cases":["在统一 CLI 中切换多个模型","测试不同模型完成同一编程任务","接入自定义 MCP 工具","把本地模型加入 Coding Agent 工作流"],"recommendation_reason":"适合用来理解“Codex + 其他模型 + MCP”如何统一到一个终端工作流，不过与你现有 Codex 的功能有一定重叠，建议先研究再决定是否长期使用。","github_url":"https://github.com/Gitlawb/openclaude","download_url":"https://github.com/Gitlawb/openclaude/archive/refs/heads/main.zip","release_url":null,"clone":"git clone https://github.com/Gitlawb/openclaude.git","install":"npm install -g @gitlawb/openclaude"},{"rank":7,"repo":"MakazhanAlpamys/Soup","name":"Soup","category":["LLM","模型微调","CLI"],"language":"Python","stars":5280,"weekly_stars":1812,"score":85,"difficulty":"较高","recommendation":4,"summary":"一个把大模型微调和后训练简化成“一个 YAML + 一个命令”的 CLI。项目重点解决显存和训练配置复杂度，提供 Layer Streaming 等机制，让较大的模型也能在显存有限的消费级 GPU 上进行 LoRA/QLoRA 微调。","problem":"LLM 微调涉及显存规划、量化、批大小、GPU 环境和大量训练配置。Soup 把这些工程细节封装起来，让用户更快进入训练任务本身。","why_now":"项目强调可在 4GB 笔记本 GPU 上微调 8B 模型，并持续优化显存使用，本周新增约 1.8K Star。","core_features":["一份 YAML 完成模型微调配置","自动处理 GPU、量化和批大小","支持本地 LoRA/QLoRA 训练","Layer Streaming 降低显存占用","提供 CLI、基准测试和 Colab 验证"],"audience":["LLM 开发者","模型微调学习者","本地 AI 用户"],"use_cases":["在有限显存设备上学习模型微调","快速做领域模型 LoRA","减少训练环境配置时间"],"recommendation_reason":"技术价值较高，但与你当前主要设计/自动化工作流的直接关联较弱，更适合作为需要本地微调模型时再深入研究的工具。","github_url":"https://github.com/MakazhanAlpamys/Soup","download_url":"https://github.com/MakazhanAlpamys/Soup/archive/refs/heads/main.zip","release_url":null,"clone":"git clone https://github.com/MakazhanAlpamys/Soup.git","install":"pip install \"soup-cli[train]\""},{"rank":8,"repo":"ChromeDevTools/chrome-devtools-mcp","name":"Chrome DevTools MCP","category":["MCP","浏览器自动化","Codex"],"language":"TypeScript","stars":50926,"weekly_stars":1058,"score":84,"difficulty":"入门","recommendation":5,"summary":"Google Chrome DevTools 团队面向编码 Agent 提供的 MCP Server，让 AI 可以控制和检查真实 Chrome 浏览器，并使用 DevTools 完成网页自动化、网络请求分析、控制台调试、截图和性能追踪。","problem":"普通浏览器自动化主要解决“点击和输入”，但遇到页面报错、网络请求、性能问题时 Agent 缺乏深层浏览器信息。该项目把 Chrome DevTools 能力直接暴露给 Agent。","why_now":"MCP 与浏览器 Agent 仍在快速增长，该项目本周新增约 1.1K Star，并由 ChromeDevTools 官方组织维护。","core_features":["Agent 控制真实 Chrome 浏览器","分析网络请求和控制台错误","记录性能 Trace 并提取分析结果","基于 Puppeteer 的可靠浏览器自动化","支持标准 MCP 客户端"],"audience":["Codex 用户","网页自动化开发者","前端开发者","数据采集用户"],"use_cases":["让 Codex 调试网页","自动化后台操作","分析网站接口请求","做页面性能诊断"],"recommendation_reason":"与你刚才提出的“后台数据自动录入”场景直接相关。如果以后抖音来客等平台无法走 API，它可以成为 Codex 浏览器自动化的重要基础工具。","github_url":"https://github.com/ChromeDevTools/chrome-devtools-mcp","download_url":"https://github.com/ChromeDevTools/chrome-devtools-mcp/archive/refs/heads/main.zip","release_url":null,"clone":"git clone https://github.com/ChromeDevTools/chrome-devtools-mcp.git","install":"npx -y chrome-devtools-mcp@latest"},{"rank":9,"repo":"punkpeye/awesome-mcp-servers","name":"Awesome MCP Servers","category":["MCP","资源库","Agent"],"language":"Mixed","stars":94143,"weekly_stars":1130,"score":82,"difficulty":"入门","recommendation":5,"summary":"一个持续维护的 MCP Server 项目导航库，用于发现可以连接 AI Agent 的数据库、浏览器、文件、开发工具、SaaS 和各种外部服务。它更像 MCP 生态的目录，而不是单一软件。","problem":"MCP 项目数量快速增加后，用户很难判断有哪些 Server、分别解决什么问题。Awesome MCP Servers 把分散项目集中整理，适合作为寻找 Agent 外部能力的入口。","why_now":"MCP 生态继续扩张，该仓库本周新增约 1.1K Star，总 Star 已超过 94K。","core_features":["集中整理大量 MCP Server","覆盖数据库、网页、云服务和开发工具","适合快速发现 Agent 外部能力","持续由社区补充和维护"],"audience":["Codex 用户","MCP 用户","Agent 开发者","自动化爱好者"],"use_cases":["寻找企业微信/Notion/数据库类 MCP","搭建 Codex 工具链","调研某个平台有没有现成 MCP","建立自己的 MCP 收藏库"],"recommendation_reason":"建议长期收藏。以后每当你想让 Codex 连接一个新平台，可以先在这里查有没有现成 MCP，再决定是否自己开发。","github_url":"https://github.com/punkpeye/awesome-mcp-servers","download_url":"https://github.com/punkpeye/awesome-mcp-servers/archive/refs/heads/main.zip","release_url":null,"clone":"git clone https://github.com/punkpeye/awesome-mcp-servers.git","install":null},{"rank":10,"repo":"OpenWhispr/openwhispr","name":"OpenWhispr","category":["语音转文字","本地 AI","MCP"],"language":"JavaScript","stars":6737,"weekly_stars":642,"score":80,"difficulty":"入门","recommendation":4,"summary":"一个隐私优先的跨平台语音输入、会议转录和笔记工具，可选择完全本地的 Whisper/NVIDIA Parakeet，也可以接入云模型。支持全局快捷键听写、会议转录、AI 语音助手、笔记管理以及 API/MCP。","problem":"语音输入和会议记录工具常依赖云端订阅。OpenWhispr 提供本地优先方案，让音频可以不离开设备，同时仍保留 AI 助手和自动化能力。","why_now":"项目持续扩展本地模型、会议和 MCP 功能，本周新增约 642 Star，属于增长中的桌面 AI 工具。","core_features":["全局快捷键语音输入到任意 App","Whisper/Parakeet 本地转录","会议识别、说话人区分和笔记","支持多种云端或本地 AI 模型","提供公共 API 与 MCP Server","macOS/Windows/Linux 跨平台"],"audience":["内容创作者","会议较多的团队","隐私敏感用户","Agent 自动化用户"],"use_cases":["口述文案自动变文字","会议自动转录和整理","语音控制 AI 助手","通过 MCP 让 Agent 调用笔记和转录"],"recommendation_reason":"如果你有大量口述需求、客户沟通或内容灵感记录，它比单纯语音转文字更值得关注，因为后续还可以接进 Agent 自动化链路。","github_url":"https://github.com/OpenWhispr/openwhispr","download_url":"https://github.com/OpenWhispr/openwhispr/archive/refs/heads/main.zip","release_url":"https://github.com/OpenWhispr/openwhispr/releases/latest","clone":"git clone https://github.com/OpenWhispr/openwhispr.git","install":"从 Latest Release 下载桌面安装包"}]}
+{
+  "period": "2026-W36",
+  "updated_at": "2026-09-05T02:37:39+00:00",
+  "source": "GitHub Trending · This week",
+  "analyzed_count": 20,
+  "items": [
+    {
+      "rank": 1,
+      "repo": "tt-a1i/archify",
+      "name": "archify",
+      "category": [
+        "Agent Skill",
+        "Codex",
+        "可视化"
+      ],
+      "language": "JavaScript",
+      "stars": 48176,
+      "weekly_stars": 21896,
+      "score": 100,
+      "difficulty": "入门",
+      "recommendation": 5,
+      "summary": "一个面向 Codex、Cursor、Claude Code 等编码 Agent 的架构可视化 Skill。它把代码库或系统描述转换成经过校验的交互式架构图、工作流图、时序图和数据流图，并可导出 HTML、PNG、SVG、WebM 等格式。",
+      "problem": "很多 AI 生成的系统架构图看起来漂亮，但节点关系容易与真实代码脱节。Archify 通过结构化 JSON IR 和确定性校验，让 Agent 生成的架构图更可验证、更适合代码评审和技术沟通。",
+      "why_now": "本周新增约 24.2K Star，是当前周榜增长最明显的项目之一；同时它直接支持 Codex CLI 和 Agent Skills 工作流。",
+      "core_features": [
+        "支持架构图、工作流、时序图、数据流等多种图形",
+        "面向 Codex/Cursor/Claude Code/OpenCode 的 Agent Skill",
+        "结构化 JSON IR + 确定性校验",
+        "支持架构变更 Before / Delta / After 对比",
+        "可导出 HTML、PNG、SVG、WebM 和分享卡片"
+      ],
+      "audience": [
+        "Codex 用户",
+        "AI Agent 开发者",
+        "技术负责人",
+        "需要做系统流程图的人"
+      ],
+      "use_cases": [
+        "让 Codex 自动生成项目架构图",
+        "代码评审前展示架构变化",
+        "把复杂业务流程变成交互式图表",
+        "制作可分享的技术方案图"
+      ],
+      "recommendation_reason": "与你目前使用 Codex、Skills 和自动化工作流的方向高度匹配，而且安装门槛很低，可以直接作为 Codex 的视觉化能力扩展。",
+      "github_url": "https://github.com/tt-a1i/archify",
+      "download_url": "https://github.com/tt-a1i/archify/archive/refs/heads/main.zip",
+      "release_url": null,
+      "clone": "git clone https://github.com/tt-a1i/archify.git",
+      "install": "npx skills add tt-a1i/archify -g"
+    },
+    {
+      "rank": 2,
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "name": "scientific-agent-skills",
+      "category": [
+        "Agent Skills",
+        "Codex",
+        "研究"
+      ],
+      "language": "Python",
+      "stars": 42656,
+      "weekly_stars": 6898,
+      "score": 79,
+      "difficulty": "入门",
+      "recommendation": 5,
+      "summary": "一个大型 Agent Skills 开源库，把科研流程、专业数据库和常用科学 Python 工具封装成可复用技能。目前包含 160+ 个研究技能和 100+ 科学数据库入口，并支持 Codex、Cursor、Claude Code 等遵循 Agent Skills 标准的客户端。",
+      "problem": "通用 Agent 虽然会写代码，但面对专业科研数据库、分析流程和行业工具时容易缺乏操作规范。该项目把成熟工作流直接封装成 Skill，让 Agent 获得可复用的专业操作知识。",
+      "why_now": "项目近期从 Claude Scientific Skills 扩展为通用 Scientific Agent Skills，并强化 Codex 等多客户端兼容，本周新增约 7.4K Star。",
+      "core_features": [
+        "160+ 可直接使用的科研 Agent Skills",
+        "覆盖 100+ 科学和金融数据库",
+        "兼容 Codex/Cursor/Claude Code",
+        "涵盖数据分析、可视化、科研写作与自动化",
+        "每个带脚本的 Skill 都配套测试"
+      ],
+      "audience": [
+        "Codex 重度用户",
+        "Skill 开发者",
+        "研究人员",
+        "数据分析人员"
+      ],
+      "use_cases": [
+        "参考成熟 Skill 的结构设计",
+        "给 Codex 增加专业数据分析能力",
+        "搭建自己的行业 Skill 库",
+        "学习 Agent Plugin/Skill 标准"
+      ],
+      "recommendation_reason": "即使你不做科研，这个仓库也非常适合作为“高质量 Skill 应该怎么设计”的参考库，对你继续制作自己的 Codex Skills 很有价值。",
+      "github_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "download_url": "https://github.com/K-Dense-AI/scientific-agent-skills/archive/refs/heads/main.zip",
+      "release_url": null,
+      "clone": "git clone https://github.com/K-Dense-AI/scientific-agent-skills.git",
+      "install": "git clone https://github.com/K-Dense-AI/scientific-agent-skills.git"
+    },
+    {
+      "rank": 3,
+      "repo": "THU-MAIC/OpenMAIC",
+      "name": "OpenMAIC",
+      "category": [
+        "Multi-Agent",
+        "教育",
+        "Codex"
+      ],
+      "language": "TypeScript",
+      "stars": 31543,
+      "weekly_stars": 10274,
+      "score": 70,
+      "difficulty": "中等",
+      "recommendation": 5,
+      "summary": "一个开源多 Agent 互动课堂平台，可以把一个主题、文档、音频或视频自动生成成完整课程，包括幻灯片、测验、交互式模拟、项目式学习内容，以及能够实时讨论和讲解的 AI 教师与 AI 同学。",
+      "problem": "传统 AI 生成课程通常只产出一份静态 PPT。OpenMAIC 把课程规划、内容生成、互动课堂、语音、白板和持续修改整合成一个多 Agent 工作流。",
+      "why_now": "项目在 2026 年 8 月 27 日发布 v1.0.0，引入 Agent Workbench、可持续会话和 20 个内置 Skills，本周新增约 10K Star。",
+      "core_features": [
+        "一个提示词生成完整互动课程",
+        "多 Agent 教师与同学实时互动",
+        "支持 PPT、测验、模拟、PBL、图片、视频和语音",
+        "Agent Workbench 可持续修改整套课程",
+        "支持 Codex 等 Agent 工作台",
+        "可导出 PPTX 和互动 HTML"
+      ],
+      "audience": [
+        "课程开发者",
+        "培训机构",
+        "知识付费团队",
+        "AI Agent 用户",
+        "内容创作者"
+      ],
+      "use_cases": [
+        "把培训资料快速制作成课程",
+        "生成知识付费课件",
+        "将内部 SOP 变成互动培训",
+        "用 Codex 调用 Skill 自动生成课堂"
+      ],
+      "recommendation_reason": "对你做培训、知识付费和内容产品很有参考价值，尤其值得研究它的“资料 → Agent 规划 → 课件/互动内容”生产链。",
+      "github_url": "https://github.com/THU-MAIC/OpenMAIC",
+      "download_url": "https://github.com/THU-MAIC/OpenMAIC/archive/refs/heads/main.zip",
+      "release_url": "https://github.com/THU-MAIC/OpenMAIC/releases/latest",
+      "clone": "git clone https://github.com/THU-MAIC/OpenMAIC.git",
+      "install": "git clone https://github.com/THU-MAIC/OpenMAIC.git"
+    },
+    {
+      "rank": 4,
+      "repo": "every-app/open-seo",
+      "name": "open-seo",
+      "language": "TypeScript",
+      "stars": 17036,
+      "weekly_stars": 2950,
+      "score": 66,
+      "github_url": "https://github.com/every-app/open-seo",
+      "download_url": "https://github.com/every-app/open-seo/archive/refs/heads/main.zip",
+      "clone": "git clone https://github.com/every-app/open-seo.git",
+      "summary": "Open source alternative to Semrush and Ahrefs",
+      "category": [
+        "开源工具"
+      ],
+      "difficulty": "中等",
+      "problem": "请查看项目 README 了解它解决的具体问题。",
+      "why_now": "近 7 天新增约 2,950 Star。",
+      "core_features": [
+        "项目详情以官方 README 为准"
+      ],
+      "audience": [
+        "开源项目使用者"
+      ],
+      "use_cases": [
+        "评估是否适合自己的工作流"
+      ],
+      "recommendation_reason": "进入本周高增长候选，并与 AI / Agent / 自动化等方向有一定匹配。",
+      "install": null,
+      "release_url": null
+    },
+    {
+      "rank": 5,
+      "repo": "debpalash/VoiceStudio",
+      "name": "VoiceStudio",
+      "category": [
+        "AI 音频",
+        "本地 AI",
+        "MCP"
+      ],
+      "language": "Python",
+      "stars": 18069,
+      "weekly_stars": 5150,
+      "score": 62,
+      "difficulty": "入门",
+      "recommendation": 5,
+      "summary": "一个本地运行的开源语音工作室，可用于声音克隆、声音设计、视频配音、听写、转录和有声书制作。它整合多种 TTS/ASR 引擎，支持 macOS、Windows、Linux 和 Docker，并提供本地 API 与 MCP Server。",
+      "problem": "商业语音平台通常按量收费，而且语音、项目和素材需要上传云端。VoiceStudio 把主要语音工作流搬到本机，降低长期内容生产成本并增强隐私控制。",
+      "why_now": "项目正在活跃 Beta 阶段，已提供跨平台安装包、16 个 TTS 和 11 个 ASR 引擎，本周新增约 3.9K Star。",
+      "core_features": [
+        "声音克隆与声音设计",
+        "视频配音、听写、转录和长音频制作",
+        "16 个 TTS / 11 个 ASR 引擎",
+        "支持 646 种语言目录",
+        "提供 REST/SSE/WebSocket API 与 MCP Server",
+        "本地数据和本地模型工作流"
+      ],
+      "audience": [
+        "视频创作者",
+        "设计师",
+        "知识付费团队",
+        "AI 自动化用户"
+      ],
+      "use_cases": [
+        "短视频批量配音",
+        "课程旁白和有声内容",
+        "本地会议转录",
+        "通过 MCP 接入 Agent 工作流"
+      ],
+      "recommendation_reason": "与你的视觉与内容生产场景匹配度较高，尤其适合继续组合成“文案 → 配音 → 视频”的自动化内容生产流程。",
+      "github_url": "https://github.com/debpalash/VoiceStudio",
+      "download_url": "https://github.com/debpalash/VoiceStudio/archive/refs/heads/main.zip",
+      "release_url": "https://github.com/debpalash/VoiceStudio/releases/latest",
+      "clone": "git clone https://github.com/debpalash/VoiceStudio.git",
+      "install": "从 Latest Release 下载 macOS / Windows / Linux 安装包"
+    },
+    {
+      "rank": 6,
+      "repo": "bilawalsidhu/gods-eye-view",
+      "name": "gods-eye-view",
+      "language": "JavaScript",
+      "stars": 17549,
+      "weekly_stars": 7314,
+      "score": 55,
+      "github_url": "https://github.com/bilawalsidhu/gods-eye-view",
+      "download_url": "https://github.com/bilawalsidhu/gods-eye-view/archive/refs/heads/main.zip",
+      "clone": "git clone https://github.com/bilawalsidhu/gods-eye-view.git",
+      "summary": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+      "category": [
+        "开源工具"
+      ],
+      "difficulty": "中等",
+      "problem": "请查看项目 README 了解它解决的具体问题。",
+      "why_now": "近 7 天新增约 7,314 Star。",
+      "core_features": [
+        "项目详情以官方 README 为准"
+      ],
+      "audience": [
+        "开源项目使用者"
+      ],
+      "use_cases": [
+        "评估是否适合自己的工作流"
+      ],
+      "recommendation_reason": "进入本周高增长候选，并与 AI / Agent / 自动化等方向有一定匹配。",
+      "install": null,
+      "release_url": null
+    },
+    {
+      "rank": 7,
+      "repo": "ChromeDevTools/chrome-devtools-mcp",
+      "name": "chrome-devtools-mcp",
+      "category": [
+        "MCP",
+        "浏览器自动化",
+        "Codex"
+      ],
+      "language": "TypeScript",
+      "stars": 50943,
+      "weekly_stars": 1067,
+      "score": 49,
+      "difficulty": "入门",
+      "recommendation": 5,
+      "summary": "Google Chrome DevTools 团队面向编码 Agent 提供的 MCP Server，让 AI 可以控制和检查真实 Chrome 浏览器，并使用 DevTools 完成网页自动化、网络请求分析、控制台调试、截图和性能追踪。",
+      "problem": "普通浏览器自动化主要解决“点击和输入”，但遇到页面报错、网络请求、性能问题时 Agent 缺乏深层浏览器信息。该项目把 Chrome DevTools 能力直接暴露给 Agent。",
+      "why_now": "MCP 与浏览器 Agent 仍在快速增长，该项目本周新增约 1.1K Star，并由 ChromeDevTools 官方组织维护。",
+      "core_features": [
+        "Agent 控制真实 Chrome 浏览器",
+        "分析网络请求和控制台错误",
+        "记录性能 Trace 并提取分析结果",
+        "基于 Puppeteer 的可靠浏览器自动化",
+        "支持标准 MCP 客户端"
+      ],
+      "audience": [
+        "Codex 用户",
+        "网页自动化开发者",
+        "前端开发者",
+        "数据采集用户"
+      ],
+      "use_cases": [
+        "让 Codex 调试网页",
+        "自动化后台操作",
+        "分析网站接口请求",
+        "做页面性能诊断"
+      ],
+      "recommendation_reason": "与你刚才提出的“后台数据自动录入”场景直接相关。如果以后抖音来客等平台无法走 API，它可以成为 Codex 浏览器自动化的重要基础工具。",
+      "github_url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "download_url": "https://github.com/ChromeDevTools/chrome-devtools-mcp/archive/refs/heads/main.zip",
+      "release_url": null,
+      "clone": "git clone https://github.com/ChromeDevTools/chrome-devtools-mcp.git",
+      "install": "npx -y chrome-devtools-mcp@latest"
+    },
+    {
+      "rank": 8,
+      "repo": "jingyaogong/minimind",
+      "name": "minimind",
+      "language": "Python",
+      "stars": 58557,
+      "weekly_stars": 3390,
+      "score": 43,
+      "github_url": "https://github.com/jingyaogong/minimind",
+      "download_url": "https://github.com/jingyaogong/minimind/archive/refs/heads/master.zip",
+      "clone": "git clone https://github.com/jingyaogong/minimind.git",
+      "summary": "🧠 Train a 64M-parameter LLM from scratch in just 2h!",
+      "category": [
+        "开源工具"
+      ],
+      "difficulty": "中等",
+      "problem": "请查看项目 README 了解它解决的具体问题。",
+      "why_now": "近 7 天新增约 3,390 Star。",
+      "core_features": [
+        "项目详情以官方 README 为准"
+      ],
+      "audience": [
+        "开源项目使用者"
+      ],
+      "use_cases": [
+        "评估是否适合自己的工作流"
+      ],
+      "recommendation_reason": "进入本周高增长候选，并与 AI / Agent / 自动化等方向有一定匹配。",
+      "install": null,
+      "release_url": null
+    },
+    {
+      "rank": 9,
+      "repo": "Gitlawb/openclaude",
+      "name": "openclaude",
+      "category": [
+        "Coding Agent",
+        "MCP",
+        "CLI"
+      ],
+      "language": "TypeScript",
+      "stars": 32586,
+      "weekly_stars": 1679,
+      "score": 40,
+      "difficulty": "中等",
+      "recommendation": 4,
+      "summary": "一个开源的终端 Coding Agent，目标是用同一套 CLI 工作流连接不同云端和本地模型。它支持 OpenAI 兼容接口、Gemini、GitHub Models、Codex OAuth、Ollama 等后端，并提供 Tools、Agents、MCP、Slash Commands 和流式输出。",
+      "problem": "不同模型和 Coding Agent 的终端工作流彼此割裂。OpenClaude 尝试把多种模型提供商统一进一个终端 Agent 环境，减少切换工具和配置的成本。",
+      "why_now": "多模型 Coding Agent 和本地模型组合使用仍是热门方向，该项目本周新增约 1.4K Star。",
+      "core_features": [
+        "一个 CLI 使用多种云端与本地模型",
+        "支持 MCP、Tools、Agents 和 Slash Commands",
+        "支持 Codex OAuth / Codex 等后端",
+        "支持 Ollama 本地模型",
+        "提供 VS Code 扩展和 npm 包"
+      ],
+      "audience": [
+        "Codex 用户",
+        "终端重度用户",
+        "多模型用户",
+        "Agent 开发者"
+      ],
+      "use_cases": [
+        "在统一 CLI 中切换多个模型",
+        "测试不同模型完成同一编程任务",
+        "接入自定义 MCP 工具",
+        "把本地模型加入 Coding Agent 工作流"
+      ],
+      "recommendation_reason": "适合用来理解“Codex + 其他模型 + MCP”如何统一到一个终端工作流，不过与你现有 Codex 的功能有一定重叠，建议先研究再决定是否长期使用。",
+      "github_url": "https://github.com/Gitlawb/openclaude",
+      "download_url": "https://github.com/Gitlawb/openclaude/archive/refs/heads/main.zip",
+      "release_url": null,
+      "clone": "git clone https://github.com/Gitlawb/openclaude.git",
+      "install": "npm install -g @gitlawb/openclaude"
+    },
+    {
+      "rank": 10,
+      "repo": "punkpeye/awesome-mcp-servers",
+      "name": "awesome-mcp-servers",
+      "category": [
+        "MCP",
+        "资源库",
+        "Agent"
+      ],
+      "language": "Mixed",
+      "stars": 94163,
+      "weekly_stars": 1198,
+      "score": 39,
+      "difficulty": "入门",
+      "recommendation": 5,
+      "summary": "一个持续维护的 MCP Server 项目导航库，用于发现可以连接 AI Agent 的数据库、浏览器、文件、开发工具、SaaS 和各种外部服务。它更像 MCP 生态的目录，而不是单一软件。",
+      "problem": "MCP 项目数量快速增加后，用户很难判断有哪些 Server、分别解决什么问题。Awesome MCP Servers 把分散项目集中整理，适合作为寻找 Agent 外部能力的入口。",
+      "why_now": "MCP 生态继续扩张，该仓库本周新增约 1.1K Star，总 Star 已超过 94K。",
+      "core_features": [
+        "集中整理大量 MCP Server",
+        "覆盖数据库、网页、云服务和开发工具",
+        "适合快速发现 Agent 外部能力",
+        "持续由社区补充和维护"
+      ],
+      "audience": [
+        "Codex 用户",
+        "MCP 用户",
+        "Agent 开发者",
+        "自动化爱好者"
+      ],
+      "use_cases": [
+        "寻找企业微信/Notion/数据库类 MCP",
+        "搭建 Codex 工具链",
+        "调研某个平台有没有现成 MCP",
+        "建立自己的 MCP 收藏库"
+      ],
+      "recommendation_reason": "建议长期收藏。以后每当你想让 Codex 连接一个新平台，可以先在这里查有没有现成 MCP，再决定是否自己开发。",
+      "github_url": "https://github.com/punkpeye/awesome-mcp-servers",
+      "download_url": "https://github.com/punkpeye/awesome-mcp-servers/archive/refs/heads/main.zip",
+      "release_url": null,
+      "clone": "git clone https://github.com/punkpeye/awesome-mcp-servers.git",
+      "install": null
+    }
+  ]
+}
