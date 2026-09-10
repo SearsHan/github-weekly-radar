@@ -1,6 +1,6 @@
 {
   "period": "2026-W37",
-  "updated_at": "2026-09-09T05:57:21+00:00",
+  "updated_at": "2026-09-10T05:56:16+00:00",
   "source": "GitHub Trending · This week",
   "analyzed_count": 20,
   "items": [
@@ -14,8 +14,8 @@
         "可视化"
       ],
       "language": "JavaScript",
-      "stars": 55094,
-      "weekly_stars": 13318,
+      "stars": 56396,
+      "weekly_stars": 12541,
       "score": 100,
       "difficulty": "入门",
       "recommendation": 5,
@@ -53,8 +53,8 @@
       "repo": "affaan-m/ECC",
       "name": "ECC",
       "language": "JavaScript",
-      "stars": 254523,
-      "weekly_stars": 8527,
+      "stars": 255338,
+      "weekly_stars": 9146,
       "score": 100,
       "github_url": "https://github.com/affaan-m/ECC",
       "download_url": "https://github.com/affaan-m/ECC/archive/refs/heads/main.zip",
@@ -84,8 +84,8 @@
       "repo": "DietrichGebert/ponytail",
       "name": "ponytail",
       "language": "JavaScript",
-      "stars": 132490,
-      "weekly_stars": 12598,
+      "stars": 133743,
+      "weekly_stars": 12431,
       "score": 96,
       "github_url": "https://github.com/DietrichGebert/ponytail",
       "download_url": "https://github.com/DietrichGebert/ponytail/archive/refs/heads/main.zip",
@@ -115,9 +115,9 @@
       "repo": "mattpocock/skills",
       "name": "skills",
       "language": "Shell",
-      "stars": 257155,
-      "weekly_stars": 13419,
-      "score": 95,
+      "stars": 258066,
+      "weekly_stars": 13143,
+      "score": 94,
       "github_url": "https://github.com/mattpocock/skills",
       "download_url": "https://github.com/mattpocock/skills/archive/refs/heads/main.zip",
       "clone": "git clone https://github.com/mattpocock/skills.git",
@@ -146,9 +146,9 @@
       "repo": "blader/humanizer",
       "name": "humanizer",
       "language": "Python",
-      "stars": 45550,
-      "weekly_stars": 5790,
-      "score": 74,
+      "stars": 46101,
+      "weekly_stars": 5925,
+      "score": 75,
       "github_url": "https://github.com/blader/humanizer",
       "download_url": "https://github.com/blader/humanizer/archive/refs/heads/main.zip",
       "clone": "git clone https://github.com/blader/humanizer.git",
@@ -174,11 +174,42 @@
     },
     {
       "rank": 6,
+      "repo": "heygen-com/hyperframes",
+      "name": "hyperframes",
+      "language": "TypeScript",
+      "stars": 48491,
+      "weekly_stars": 4643,
+      "score": 67,
+      "github_url": "https://github.com/heygen-com/hyperframes",
+      "download_url": "https://github.com/heygen-com/hyperframes/archive/refs/heads/main.zip",
+      "clone": "git clone https://github.com/heygen-com/hyperframes.git",
+      "summary": "Write HTML. Render video. Built for agents.",
+      "category": [
+        "开源工具"
+      ],
+      "difficulty": "中等",
+      "problem": "请查看项目 README 了解它解决的具体问题。",
+      "why_now": "近 7 天新增约 3,886 Star。",
+      "core_features": [
+        "项目详情以官方 README 为准"
+      ],
+      "audience": [
+        "开源项目使用者"
+      ],
+      "use_cases": [
+        "评估是否适合自己的工作流"
+      ],
+      "recommendation_reason": "进入本周高增长候选，并与 AI / Agent / 自动化等方向有一定匹配。",
+      "install": null,
+      "release_url": null
+    },
+    {
+      "rank": 7,
       "repo": "ruvnet/ruflo",
       "name": "ruflo",
       "language": "TypeScript",
-      "stars": 71706,
-      "weekly_stars": 1585,
+      "stars": 71854,
+      "weekly_stars": 1618,
       "score": 67,
       "github_url": "https://github.com/ruvnet/ruflo",
       "download_url": "https://github.com/ruvnet/ruflo/archive/refs/heads/main.zip",
@@ -204,44 +235,13 @@
       "release_url": null
     },
     {
-      "rank": 7,
-      "repo": "NousResearch/hermes-agent",
-      "name": "hermes-agent",
-      "language": "Python",
-      "stars": 243547,
-      "weekly_stars": 4221,
-      "score": 65,
-      "github_url": "https://github.com/NousResearch/hermes-agent",
-      "download_url": "https://github.com/NousResearch/hermes-agent/archive/refs/heads/main.zip",
-      "clone": "git clone https://github.com/NousResearch/hermes-agent.git",
-      "summary": "The agent that grows with you",
-      "category": [
-        "开源工具"
-      ],
-      "difficulty": "中等",
-      "problem": "请查看项目 README 了解它解决的具体问题。",
-      "why_now": "近 7 天新增约 4,221 Star。",
-      "core_features": [
-        "项目详情以官方 README 为准"
-      ],
-      "audience": [
-        "开源项目使用者"
-      ],
-      "use_cases": [
-        "评估是否适合自己的工作流"
-      ],
-      "recommendation_reason": "进入本周高增长候选，并与 AI / Agent / 自动化等方向有一定匹配。",
-      "install": null,
-      "release_url": null
-    },
-    {
       "rank": 8,
       "repo": "mksglu/context-mode",
       "name": "context-mode",
       "language": "TypeScript",
-      "stars": 21484,
-      "weekly_stars": 935,
-      "score": 65,
+      "stars": 21819,
+      "weekly_stars": 1331,
+      "score": 66,
       "github_url": "https://github.com/mksglu/context-mode",
       "download_url": "https://github.com/mksglu/context-mode/archive/refs/heads/main.zip",
       "clone": "git clone https://github.com/mksglu/context-mode.git",
@@ -267,22 +267,22 @@
     },
     {
       "rank": 9,
-      "repo": "heygen-com/hyperframes",
-      "name": "hyperframes",
-      "language": "TypeScript",
-      "stars": 47966,
-      "weekly_stars": 3886,
+      "repo": "NousResearch/hermes-agent",
+      "name": "hermes-agent",
+      "language": "Python",
+      "stars": 243937,
+      "weekly_stars": 4114,
       "score": 64,
-      "github_url": "https://github.com/heygen-com/hyperframes",
-      "download_url": "https://github.com/heygen-com/hyperframes/archive/refs/heads/main.zip",
-      "clone": "git clone https://github.com/heygen-com/hyperframes.git",
-      "summary": "Write HTML. Render video. Built for agents.",
+      "github_url": "https://github.com/NousResearch/hermes-agent",
+      "download_url": "https://github.com/NousResearch/hermes-agent/archive/refs/heads/main.zip",
+      "clone": "git clone https://github.com/NousResearch/hermes-agent.git",
+      "summary": "The agent that grows with you",
       "category": [
         "开源工具"
       ],
       "difficulty": "中等",
       "problem": "请查看项目 README 了解它解决的具体问题。",
-      "why_now": "近 7 天新增约 3,886 Star。",
+      "why_now": "近 7 天新增约 4,221 Star。",
       "core_features": [
         "项目详情以官方 README 为准"
       ],
@@ -298,22 +298,22 @@
     },
     {
       "rank": 10,
-      "repo": "every-app/open-seo",
-      "name": "open-seo",
-      "language": "TypeScript",
-      "stars": 17968,
-      "weekly_stars": 1846,
-      "score": 61,
-      "github_url": "https://github.com/every-app/open-seo",
-      "download_url": "https://github.com/every-app/open-seo/archive/refs/heads/main.zip",
-      "clone": "git clone https://github.com/every-app/open-seo.git",
-      "summary": "Open source alternative to Semrush and Ahrefs",
+      "repo": "ayghri/i-have-adhd",
+      "name": "i-have-adhd",
+      "language": "Python",
+      "stars": 35416,
+      "weekly_stars": 6581,
+      "score": 63,
+      "github_url": "https://github.com/ayghri/i-have-adhd",
+      "download_url": "https://github.com/ayghri/i-have-adhd/archive/refs/heads/main.zip",
+      "clone": "git clone https://github.com/ayghri/i-have-adhd.git",
+      "summary": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
       "category": [
         "开源工具"
       ],
       "difficulty": "中等",
       "problem": "请查看项目 README 了解它解决的具体问题。",
-      "why_now": "近 7 天新增约 2,950 Star。",
+      "why_now": "近 7 天新增约 6,581 Star。",
       "core_features": [
         "项目详情以官方 README 为准"
       ],
