@@ -1,8 +1,8 @@
 {
   "period": "2026-W37",
-  "updated_at": "2026-09-10T05:56:16+00:00",
+  "updated_at": "2026-09-11T05:55:50+00:00",
   "source": "GitHub Trending · This week",
-  "analyzed_count": 20,
+  "analyzed_count": 22,
   "items": [
     {
       "rank": 1,
@@ -14,8 +14,8 @@
         "可视化"
       ],
       "language": "JavaScript",
-      "stars": 56396,
-      "weekly_stars": 12541,
+      "stars": 57693,
+      "weekly_stars": 11958,
       "score": 100,
       "difficulty": "入门",
       "recommendation": 5,
@@ -53,8 +53,8 @@
       "repo": "affaan-m/ECC",
       "name": "ECC",
       "language": "JavaScript",
-      "stars": 255338,
-      "weekly_stars": 9146,
+      "stars": 256018,
+      "weekly_stars": 9257,
       "score": 100,
       "github_url": "https://github.com/affaan-m/ECC",
       "download_url": "https://github.com/affaan-m/ECC/archive/refs/heads/main.zip",
@@ -84,9 +84,9 @@
       "repo": "DietrichGebert/ponytail",
       "name": "ponytail",
       "language": "JavaScript",
-      "stars": 133743,
-      "weekly_stars": 12431,
-      "score": 96,
+      "stars": 135020,
+      "weekly_stars": 11638,
+      "score": 93,
       "github_url": "https://github.com/DietrichGebert/ponytail",
       "download_url": "https://github.com/DietrichGebert/ponytail/archive/refs/heads/main.zip",
       "clone": "git clone https://github.com/DietrichGebert/ponytail.git",
@@ -115,9 +115,9 @@
       "repo": "mattpocock/skills",
       "name": "skills",
       "language": "Shell",
-      "stars": 258066,
-      "weekly_stars": 13143,
-      "score": 94,
+      "stars": 259067,
+      "weekly_stars": 12356,
+      "score": 90,
       "github_url": "https://github.com/mattpocock/skills",
       "download_url": "https://github.com/mattpocock/skills/archive/refs/heads/main.zip",
       "clone": "git clone https://github.com/mattpocock/skills.git",
@@ -143,12 +143,74 @@
     },
     {
       "rank": 5,
+      "repo": "cathrynlavery/diagram-design",
+      "name": "diagram-design",
+      "language": "HTML",
+      "stars": 37988,
+      "weekly_stars": 7329,
+      "score": 80,
+      "github_url": "https://github.com/cathrynlavery/diagram-design",
+      "download_url": "https://github.com/cathrynlavery/diagram-design/archive/refs/heads/main.zip",
+      "clone": "git clone https://github.com/cathrynlavery/diagram-design.git",
+      "summary": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "category": [
+        "开源工具"
+      ],
+      "difficulty": "中等",
+      "problem": "请查看项目 README 了解它解决的具体问题。",
+      "why_now": "近 7 天新增约 7,329 Star。",
+      "core_features": [
+        "项目详情以官方 README 为准"
+      ],
+      "audience": [
+        "开源项目使用者"
+      ],
+      "use_cases": [
+        "评估是否适合自己的工作流"
+      ],
+      "recommendation_reason": "进入本周高增长候选，并与 AI / Agent / 自动化等方向有一定匹配。",
+      "install": null,
+      "release_url": null
+    },
+    {
+      "rank": 6,
+      "repo": "ayghri/i-have-adhd",
+      "name": "i-have-adhd",
+      "language": "Python",
+      "stars": 38992,
+      "weekly_stars": 10215,
+      "score": 78,
+      "github_url": "https://github.com/ayghri/i-have-adhd",
+      "download_url": "https://github.com/ayghri/i-have-adhd/archive/refs/heads/main.zip",
+      "clone": "git clone https://github.com/ayghri/i-have-adhd.git",
+      "summary": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+      "category": [
+        "开源工具"
+      ],
+      "difficulty": "中等",
+      "problem": "请查看项目 README 了解它解决的具体问题。",
+      "why_now": "近 7 天新增约 6,581 Star。",
+      "core_features": [
+        "项目详情以官方 README 为准"
+      ],
+      "audience": [
+        "开源项目使用者"
+      ],
+      "use_cases": [
+        "评估是否适合自己的工作流"
+      ],
+      "recommendation_reason": "进入本周高增长候选，并与 AI / Agent / 自动化等方向有一定匹配。",
+      "install": null,
+      "release_url": null
+    },
+    {
+      "rank": 7,
       "repo": "blader/humanizer",
       "name": "humanizer",
       "language": "Python",
-      "stars": 46101,
-      "weekly_stars": 5925,
-      "score": 75,
+      "stars": 46600,
+      "weekly_stars": 5224,
+      "score": 72,
       "github_url": "https://github.com/blader/humanizer",
       "download_url": "https://github.com/blader/humanizer/archive/refs/heads/main.zip",
       "clone": "git clone https://github.com/blader/humanizer.git",
@@ -173,13 +235,13 @@
       "release_url": null
     },
     {
-      "rank": 6,
+      "rank": 8,
       "repo": "heygen-com/hyperframes",
       "name": "hyperframes",
       "language": "TypeScript",
-      "stars": 48491,
-      "weekly_stars": 4643,
-      "score": 67,
+      "stars": 48840,
+      "weekly_stars": 4896,
+      "score": 68,
       "github_url": "https://github.com/heygen-com/hyperframes",
       "download_url": "https://github.com/heygen-com/hyperframes/archive/refs/heads/main.zip",
       "clone": "git clone https://github.com/heygen-com/hyperframes.git",
@@ -204,13 +266,13 @@
       "release_url": null
     },
     {
-      "rank": 7,
+      "rank": 9,
       "repo": "ruvnet/ruflo",
       "name": "ruflo",
       "language": "TypeScript",
-      "stars": 71854,
-      "weekly_stars": 1618,
-      "score": 67,
+      "stars": 72021,
+      "weekly_stars": 1694,
+      "score": 68,
       "github_url": "https://github.com/ruvnet/ruflo",
       "download_url": "https://github.com/ruvnet/ruflo/archive/refs/heads/main.zip",
       "clone": "git clone https://github.com/ruvnet/ruflo.git",
@@ -235,13 +297,13 @@
       "release_url": null
     },
     {
-      "rank": 8,
+      "rank": 10,
       "repo": "mksglu/context-mode",
       "name": "context-mode",
       "language": "TypeScript",
-      "stars": 21819,
-      "weekly_stars": 1331,
-      "score": 66,
+      "stars": 22052,
+      "weekly_stars": 1619,
+      "score": 67,
       "github_url": "https://github.com/mksglu/context-mode",
       "download_url": "https://github.com/mksglu/context-mode/archive/refs/heads/main.zip",
       "clone": "git clone https://github.com/mksglu/context-mode.git",
@@ -252,68 +314,6 @@
       "difficulty": "中等",
       "problem": "请查看项目 README 了解它解决的具体问题。",
       "why_now": "近 7 天新增约 935 Star。",
-      "core_features": [
-        "项目详情以官方 README 为准"
-      ],
-      "audience": [
-        "开源项目使用者"
-      ],
-      "use_cases": [
-        "评估是否适合自己的工作流"
-      ],
-      "recommendation_reason": "进入本周高增长候选，并与 AI / Agent / 自动化等方向有一定匹配。",
-      "install": null,
-      "release_url": null
-    },
-    {
-      "rank": 9,
-      "repo": "NousResearch/hermes-agent",
-      "name": "hermes-agent",
-      "language": "Python",
-      "stars": 243937,
-      "weekly_stars": 4114,
-      "score": 64,
-      "github_url": "https://github.com/NousResearch/hermes-agent",
-      "download_url": "https://github.com/NousResearch/hermes-agent/archive/refs/heads/main.zip",
-      "clone": "git clone https://github.com/NousResearch/hermes-agent.git",
-      "summary": "The agent that grows with you",
-      "category": [
-        "开源工具"
-      ],
-      "difficulty": "中等",
-      "problem": "请查看项目 README 了解它解决的具体问题。",
-      "why_now": "近 7 天新增约 4,221 Star。",
-      "core_features": [
-        "项目详情以官方 README 为准"
-      ],
-      "audience": [
-        "开源项目使用者"
-      ],
-      "use_cases": [
-        "评估是否适合自己的工作流"
-      ],
-      "recommendation_reason": "进入本周高增长候选，并与 AI / Agent / 自动化等方向有一定匹配。",
-      "install": null,
-      "release_url": null
-    },
-    {
-      "rank": 10,
-      "repo": "ayghri/i-have-adhd",
-      "name": "i-have-adhd",
-      "language": "Python",
-      "stars": 35416,
-      "weekly_stars": 6581,
-      "score": 63,
-      "github_url": "https://github.com/ayghri/i-have-adhd",
-      "download_url": "https://github.com/ayghri/i-have-adhd/archive/refs/heads/main.zip",
-      "clone": "git clone https://github.com/ayghri/i-have-adhd.git",
-      "summary": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
-      "category": [
-        "开源工具"
-      ],
-      "difficulty": "中等",
-      "problem": "请查看项目 README 了解它解决的具体问题。",
-      "why_now": "近 7 天新增约 6,581 Star。",
       "core_features": [
         "项目详情以官方 README 为准"
       ],
