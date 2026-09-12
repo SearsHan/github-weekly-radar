@@ -1,8 +1,8 @@
 {
   "period": "2026-W37",
-  "updated_at": "2026-09-11T05:55:50+00:00",
+  "updated_at": "2026-09-12T05:44:40+00:00",
   "source": "GitHub Trending · This week",
-  "analyzed_count": 22,
+  "analyzed_count": 23,
   "items": [
     {
       "rank": 1,
@@ -14,8 +14,8 @@
         "可视化"
       ],
       "language": "JavaScript",
-      "stars": 57693,
-      "weekly_stars": 11958,
+      "stars": 58778,
+      "weekly_stars": 11006,
       "score": 100,
       "difficulty": "入门",
       "recommendation": 5,
@@ -53,8 +53,8 @@
       "repo": "affaan-m/ECC",
       "name": "ECC",
       "language": "JavaScript",
-      "stars": 256018,
-      "weekly_stars": 9257,
+      "stars": 256625,
+      "weekly_stars": 8714,
       "score": 100,
       "github_url": "https://github.com/affaan-m/ECC",
       "download_url": "https://github.com/affaan-m/ECC/archive/refs/heads/main.zip",
@@ -81,105 +81,12 @@
     },
     {
       "rank": 3,
-      "repo": "DietrichGebert/ponytail",
-      "name": "ponytail",
-      "language": "JavaScript",
-      "stars": 135020,
-      "weekly_stars": 11638,
-      "score": 93,
-      "github_url": "https://github.com/DietrichGebert/ponytail",
-      "download_url": "https://github.com/DietrichGebert/ponytail/archive/refs/heads/main.zip",
-      "clone": "git clone https://github.com/DietrichGebert/ponytail.git",
-      "summary": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-      "category": [
-        "开源工具"
-      ],
-      "difficulty": "中等",
-      "problem": "请查看项目 README 了解它解决的具体问题。",
-      "why_now": "近 7 天新增约 12,186 Star。",
-      "core_features": [
-        "项目详情以官方 README 为准"
-      ],
-      "audience": [
-        "开源项目使用者"
-      ],
-      "use_cases": [
-        "评估是否适合自己的工作流"
-      ],
-      "recommendation_reason": "进入本周高增长候选，并与 AI / Agent / 自动化等方向有一定匹配。",
-      "install": null,
-      "release_url": null
-    },
-    {
-      "rank": 4,
-      "repo": "mattpocock/skills",
-      "name": "skills",
-      "language": "Shell",
-      "stars": 259067,
-      "weekly_stars": 12356,
-      "score": 90,
-      "github_url": "https://github.com/mattpocock/skills",
-      "download_url": "https://github.com/mattpocock/skills/archive/refs/heads/main.zip",
-      "clone": "git clone https://github.com/mattpocock/skills.git",
-      "summary": "Skills for Real Engineers. Straight from my .agents directory.",
-      "category": [
-        "开源工具"
-      ],
-      "difficulty": "中等",
-      "problem": "请查看项目 README 了解它解决的具体问题。",
-      "why_now": "近 7 天新增约 13,419 Star。",
-      "core_features": [
-        "项目详情以官方 README 为准"
-      ],
-      "audience": [
-        "开源项目使用者"
-      ],
-      "use_cases": [
-        "评估是否适合自己的工作流"
-      ],
-      "recommendation_reason": "进入本周高增长候选，并与 AI / Agent / 自动化等方向有一定匹配。",
-      "install": null,
-      "release_url": null
-    },
-    {
-      "rank": 5,
-      "repo": "cathrynlavery/diagram-design",
-      "name": "diagram-design",
-      "language": "HTML",
-      "stars": 37988,
-      "weekly_stars": 7329,
-      "score": 80,
-      "github_url": "https://github.com/cathrynlavery/diagram-design",
-      "download_url": "https://github.com/cathrynlavery/diagram-design/archive/refs/heads/main.zip",
-      "clone": "git clone https://github.com/cathrynlavery/diagram-design.git",
-      "summary": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
-      "category": [
-        "开源工具"
-      ],
-      "difficulty": "中等",
-      "problem": "请查看项目 README 了解它解决的具体问题。",
-      "why_now": "近 7 天新增约 7,329 Star。",
-      "core_features": [
-        "项目详情以官方 README 为准"
-      ],
-      "audience": [
-        "开源项目使用者"
-      ],
-      "use_cases": [
-        "评估是否适合自己的工作流"
-      ],
-      "recommendation_reason": "进入本周高增长候选，并与 AI / Agent / 自动化等方向有一定匹配。",
-      "install": null,
-      "release_url": null
-    },
-    {
-      "rank": 6,
       "repo": "ayghri/i-have-adhd",
       "name": "i-have-adhd",
       "language": "Python",
-      "stars": 38992,
-      "weekly_stars": 10215,
-      "score": 78,
+      "stars": 42302,
+      "weekly_stars": 13164,
+      "score": 90,
       "github_url": "https://github.com/ayghri/i-have-adhd",
       "download_url": "https://github.com/ayghri/i-have-adhd/archive/refs/heads/main.zip",
       "clone": "git clone https://github.com/ayghri/i-have-adhd.git",
@@ -204,13 +111,106 @@
       "release_url": null
     },
     {
+      "rank": 4,
+      "repo": "DietrichGebert/ponytail",
+      "name": "ponytail",
+      "language": "JavaScript",
+      "stars": 135970,
+      "weekly_stars": 11054,
+      "score": 90,
+      "github_url": "https://github.com/DietrichGebert/ponytail",
+      "download_url": "https://github.com/DietrichGebert/ponytail/archive/refs/heads/main.zip",
+      "clone": "git clone https://github.com/DietrichGebert/ponytail.git",
+      "summary": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "category": [
+        "开源工具"
+      ],
+      "difficulty": "中等",
+      "problem": "请查看项目 README 了解它解决的具体问题。",
+      "why_now": "近 7 天新增约 12,186 Star。",
+      "core_features": [
+        "项目详情以官方 README 为准"
+      ],
+      "audience": [
+        "开源项目使用者"
+      ],
+      "use_cases": [
+        "评估是否适合自己的工作流"
+      ],
+      "recommendation_reason": "进入本周高增长候选，并与 AI / Agent / 自动化等方向有一定匹配。",
+      "install": null,
+      "release_url": null
+    },
+    {
+      "rank": 5,
+      "repo": "mattpocock/skills",
+      "name": "skills",
+      "language": "Shell",
+      "stars": 259940,
+      "weekly_stars": 10571,
+      "score": 83,
+      "github_url": "https://github.com/mattpocock/skills",
+      "download_url": "https://github.com/mattpocock/skills/archive/refs/heads/main.zip",
+      "clone": "git clone https://github.com/mattpocock/skills.git",
+      "summary": "Skills for Real Engineers. Straight from my .agents directory.",
+      "category": [
+        "开源工具"
+      ],
+      "difficulty": "中等",
+      "problem": "请查看项目 README 了解它解决的具体问题。",
+      "why_now": "近 7 天新增约 13,419 Star。",
+      "core_features": [
+        "项目详情以官方 README 为准"
+      ],
+      "audience": [
+        "开源项目使用者"
+      ],
+      "use_cases": [
+        "评估是否适合自己的工作流"
+      ],
+      "recommendation_reason": "进入本周高增长候选，并与 AI / Agent / 自动化等方向有一定匹配。",
+      "install": null,
+      "release_url": null
+    },
+    {
+      "rank": 6,
+      "repo": "cathrynlavery/diagram-design",
+      "name": "diagram-design",
+      "language": "HTML",
+      "stars": 38570,
+      "weekly_stars": 7776,
+      "score": 82,
+      "github_url": "https://github.com/cathrynlavery/diagram-design",
+      "download_url": "https://github.com/cathrynlavery/diagram-design/archive/refs/heads/main.zip",
+      "clone": "git clone https://github.com/cathrynlavery/diagram-design.git",
+      "summary": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "category": [
+        "开源工具"
+      ],
+      "difficulty": "中等",
+      "problem": "请查看项目 README 了解它解决的具体问题。",
+      "why_now": "近 7 天新增约 7,329 Star。",
+      "core_features": [
+        "项目详情以官方 README 为准"
+      ],
+      "audience": [
+        "开源项目使用者"
+      ],
+      "use_cases": [
+        "评估是否适合自己的工作流"
+      ],
+      "recommendation_reason": "进入本周高增长候选，并与 AI / Agent / 自动化等方向有一定匹配。",
+      "install": null,
+      "release_url": null
+    },
+    {
       "rank": 7,
       "repo": "blader/humanizer",
       "name": "humanizer",
       "language": "Python",
-      "stars": 46600,
-      "weekly_stars": 5224,
-      "score": 72,
+      "stars": 47020,
+      "weekly_stars": 4649,
+      "score": 70,
       "github_url": "https://github.com/blader/humanizer",
       "download_url": "https://github.com/blader/humanizer/archive/refs/heads/main.zip",
       "clone": "git clone https://github.com/blader/humanizer.git",
@@ -239,8 +239,8 @@
       "repo": "heygen-com/hyperframes",
       "name": "hyperframes",
       "language": "TypeScript",
-      "stars": 48840,
-      "weekly_stars": 4896,
+      "stars": 49056,
+      "weekly_stars": 5100,
       "score": 68,
       "github_url": "https://github.com/heygen-com/hyperframes",
       "download_url": "https://github.com/heygen-com/hyperframes/archive/refs/heads/main.zip",
@@ -267,22 +267,22 @@
     },
     {
       "rank": 9,
-      "repo": "ruvnet/ruflo",
-      "name": "ruflo",
+      "repo": "mksglu/context-mode",
+      "name": "context-mode",
       "language": "TypeScript",
-      "stars": 72021,
-      "weekly_stars": 1694,
+      "stars": 22239,
+      "weekly_stars": 1810,
       "score": 68,
-      "github_url": "https://github.com/ruvnet/ruflo",
-      "download_url": "https://github.com/ruvnet/ruflo/archive/refs/heads/main.zip",
-      "clone": "git clone https://github.com/ruvnet/ruflo.git",
-      "summary": "🌊 The original agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+      "github_url": "https://github.com/mksglu/context-mode",
+      "download_url": "https://github.com/mksglu/context-mode/archive/refs/heads/main.zip",
+      "clone": "git clone https://github.com/mksglu/context-mode.git",
+      "summary": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and   enforces routing across 17 platforms via MCP + hooks.",
       "category": [
         "开源工具"
       ],
       "difficulty": "中等",
       "problem": "请查看项目 README 了解它解决的具体问题。",
-      "why_now": "近 7 天新增约 1,585 Star。",
+      "why_now": "近 7 天新增约 935 Star。",
       "core_features": [
         "项目详情以官方 README 为准"
       ],
@@ -298,22 +298,22 @@
     },
     {
       "rank": 10,
-      "repo": "mksglu/context-mode",
-      "name": "context-mode",
+      "repo": "ruvnet/ruflo",
+      "name": "ruflo",
       "language": "TypeScript",
-      "stars": 22052,
-      "weekly_stars": 1619,
-      "score": 67,
-      "github_url": "https://github.com/mksglu/context-mode",
-      "download_url": "https://github.com/mksglu/context-mode/archive/refs/heads/main.zip",
-      "clone": "git clone https://github.com/mksglu/context-mode.git",
-      "summary": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and   enforces routing across 17 platforms via MCP + hooks.",
+      "stars": 72168,
+      "weekly_stars": 1726,
+      "score": 68,
+      "github_url": "https://github.com/ruvnet/ruflo",
+      "download_url": "https://github.com/ruvnet/ruflo/archive/refs/heads/main.zip",
+      "clone": "git clone https://github.com/ruvnet/ruflo.git",
+      "summary": "🌊 The original agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
       "category": [
         "开源工具"
       ],
       "difficulty": "中等",
       "problem": "请查看项目 README 了解它解决的具体问题。",
-      "why_now": "近 7 天新增约 935 Star。",
+      "why_now": "近 7 天新增约 1,585 Star。",
       "core_features": [
         "项目详情以官方 README 为准"
       ],
