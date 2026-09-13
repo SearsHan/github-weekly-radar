@@ -1,8 +1,8 @@
 {
   "period": "2026-W37",
-  "updated_at": "2026-09-12T05:44:40+00:00",
+  "updated_at": "2026-09-13T06:05:32+00:00",
   "source": "GitHub Trending · This week",
-  "analyzed_count": 23,
+  "analyzed_count": 21,
   "items": [
     {
       "rank": 1,
@@ -14,8 +14,8 @@
         "可视化"
       ],
       "language": "JavaScript",
-      "stars": 58778,
-      "weekly_stars": 11006,
+      "stars": 59942,
+      "weekly_stars": 10442,
       "score": 100,
       "difficulty": "入门",
       "recommendation": 5,
@@ -53,9 +53,9 @@
       "repo": "affaan-m/ECC",
       "name": "ECC",
       "language": "JavaScript",
-      "stars": 256625,
-      "weekly_stars": 8714,
-      "score": 100,
+      "stars": 257232,
+      "weekly_stars": 8086,
+      "score": 98,
       "github_url": "https://github.com/affaan-m/ECC",
       "download_url": "https://github.com/affaan-m/ECC/archive/refs/heads/main.zip",
       "clone": "git clone https://github.com/affaan-m/ECC.git",
@@ -84,9 +84,9 @@
       "repo": "ayghri/i-have-adhd",
       "name": "i-have-adhd",
       "language": "Python",
-      "stars": 42302,
-      "weekly_stars": 13164,
-      "score": 90,
+      "stars": 43597,
+      "weekly_stars": 15924,
+      "score": 97,
       "github_url": "https://github.com/ayghri/i-have-adhd",
       "download_url": "https://github.com/ayghri/i-have-adhd/archive/refs/heads/main.zip",
       "clone": "git clone https://github.com/ayghri/i-have-adhd.git",
@@ -115,9 +115,9 @@
       "repo": "DietrichGebert/ponytail",
       "name": "ponytail",
       "language": "JavaScript",
-      "stars": 135970,
-      "weekly_stars": 11054,
-      "score": 90,
+      "stars": 136774,
+      "weekly_stars": 9272,
+      "score": 83,
       "github_url": "https://github.com/DietrichGebert/ponytail",
       "download_url": "https://github.com/DietrichGebert/ponytail/archive/refs/heads/main.zip",
       "clone": "git clone https://github.com/DietrichGebert/ponytail.git",
@@ -143,43 +143,12 @@
     },
     {
       "rank": 5,
-      "repo": "mattpocock/skills",
-      "name": "skills",
-      "language": "Shell",
-      "stars": 259940,
-      "weekly_stars": 10571,
-      "score": 83,
-      "github_url": "https://github.com/mattpocock/skills",
-      "download_url": "https://github.com/mattpocock/skills/archive/refs/heads/main.zip",
-      "clone": "git clone https://github.com/mattpocock/skills.git",
-      "summary": "Skills for Real Engineers. Straight from my .agents directory.",
-      "category": [
-        "开源工具"
-      ],
-      "difficulty": "中等",
-      "problem": "请查看项目 README 了解它解决的具体问题。",
-      "why_now": "近 7 天新增约 13,419 Star。",
-      "core_features": [
-        "项目详情以官方 README 为准"
-      ],
-      "audience": [
-        "开源项目使用者"
-      ],
-      "use_cases": [
-        "评估是否适合自己的工作流"
-      ],
-      "recommendation_reason": "进入本周高增长候选，并与 AI / Agent / 自动化等方向有一定匹配。",
-      "install": null,
-      "release_url": null
-    },
-    {
-      "rank": 6,
       "repo": "cathrynlavery/diagram-design",
       "name": "diagram-design",
       "language": "HTML",
-      "stars": 38570,
-      "weekly_stars": 7776,
-      "score": 82,
+      "stars": 38944,
+      "weekly_stars": 7409,
+      "score": 81,
       "github_url": "https://github.com/cathrynlavery/diagram-design",
       "download_url": "https://github.com/cathrynlavery/diagram-design/archive/refs/heads/main.zip",
       "clone": "git clone https://github.com/cathrynlavery/diagram-design.git",
@@ -204,23 +173,54 @@
       "release_url": null
     },
     {
-      "rank": 7,
-      "repo": "blader/humanizer",
-      "name": "humanizer",
-      "language": "Python",
-      "stars": 47020,
-      "weekly_stars": 4649,
-      "score": 70,
-      "github_url": "https://github.com/blader/humanizer",
-      "download_url": "https://github.com/blader/humanizer/archive/refs/heads/main.zip",
-      "clone": "git clone https://github.com/blader/humanizer.git",
-      "summary": "Agent skill that removes signs of AI-generated writing from text",
+      "rank": 6,
+      "repo": "mattpocock/skills",
+      "name": "skills",
+      "language": "Shell",
+      "stars": 260631,
+      "weekly_stars": 8960,
+      "score": 77,
+      "github_url": "https://github.com/mattpocock/skills",
+      "download_url": "https://github.com/mattpocock/skills/archive/refs/heads/main.zip",
+      "clone": "git clone https://github.com/mattpocock/skills.git",
+      "summary": "Skills for Real Engineers. Straight from my .agents directory.",
       "category": [
         "开源工具"
       ],
       "difficulty": "中等",
       "problem": "请查看项目 README 了解它解决的具体问题。",
-      "why_now": "近 7 天新增约 5,790 Star。",
+      "why_now": "近 7 天新增约 13,419 Star。",
+      "core_features": [
+        "项目详情以官方 README 为准"
+      ],
+      "audience": [
+        "开源项目使用者"
+      ],
+      "use_cases": [
+        "评估是否适合自己的工作流"
+      ],
+      "recommendation_reason": "进入本周高增长候选，并与 AI / Agent / 自动化等方向有一定匹配。",
+      "install": null,
+      "release_url": null
+    },
+    {
+      "rank": 7,
+      "repo": "mksglu/context-mode",
+      "name": "context-mode",
+      "language": "TypeScript",
+      "stars": 22423,
+      "weekly_stars": 1936,
+      "score": 69,
+      "github_url": "https://github.com/mksglu/context-mode",
+      "download_url": "https://github.com/mksglu/context-mode/archive/refs/heads/main.zip",
+      "clone": "git clone https://github.com/mksglu/context-mode.git",
+      "summary": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and   enforces routing across 17 platforms via MCP + hooks.",
+      "category": [
+        "开源工具"
+      ],
+      "difficulty": "中等",
+      "problem": "请查看项目 README 了解它解决的具体问题。",
+      "why_now": "近 7 天新增约 935 Star。",
       "core_features": [
         "项目详情以官方 README 为准"
       ],
@@ -236,11 +236,42 @@
     },
     {
       "rank": 8,
+      "repo": "bilawalsidhu/gods-eye-view",
+      "name": "gods-eye-view",
+      "language": "JavaScript",
+      "stars": 30397,
+      "weekly_stars": 10510,
+      "score": 68,
+      "github_url": "https://github.com/bilawalsidhu/gods-eye-view",
+      "download_url": "https://github.com/bilawalsidhu/gods-eye-view/archive/refs/heads/main.zip",
+      "clone": "git clone https://github.com/bilawalsidhu/gods-eye-view.git",
+      "summary": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+      "category": [
+        "开源工具"
+      ],
+      "difficulty": "中等",
+      "problem": "请查看项目 README 了解它解决的具体问题。",
+      "why_now": "近 7 天新增约 10,510 Star。",
+      "core_features": [
+        "项目详情以官方 README 为准"
+      ],
+      "audience": [
+        "开源项目使用者"
+      ],
+      "use_cases": [
+        "评估是否适合自己的工作流"
+      ],
+      "recommendation_reason": "进入本周高增长候选，并与 AI / Agent / 自动化等方向有一定匹配。",
+      "install": null,
+      "release_url": null
+    },
+    {
+      "rank": 9,
       "repo": "heygen-com/hyperframes",
       "name": "hyperframes",
       "language": "TypeScript",
-      "stars": 49056,
-      "weekly_stars": 5100,
+      "stars": 49263,
+      "weekly_stars": 5124,
       "score": 68,
       "github_url": "https://github.com/heygen-com/hyperframes",
       "download_url": "https://github.com/heygen-com/hyperframes/archive/refs/heads/main.zip",
@@ -266,54 +297,23 @@
       "release_url": null
     },
     {
-      "rank": 9,
-      "repo": "mksglu/context-mode",
-      "name": "context-mode",
-      "language": "TypeScript",
-      "stars": 22239,
-      "weekly_stars": 1810,
-      "score": 68,
-      "github_url": "https://github.com/mksglu/context-mode",
-      "download_url": "https://github.com/mksglu/context-mode/archive/refs/heads/main.zip",
-      "clone": "git clone https://github.com/mksglu/context-mode.git",
-      "summary": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and   enforces routing across 17 platforms via MCP + hooks.",
-      "category": [
-        "开源工具"
-      ],
-      "difficulty": "中等",
-      "problem": "请查看项目 README 了解它解决的具体问题。",
-      "why_now": "近 7 天新增约 935 Star。",
-      "core_features": [
-        "项目详情以官方 README 为准"
-      ],
-      "audience": [
-        "开源项目使用者"
-      ],
-      "use_cases": [
-        "评估是否适合自己的工作流"
-      ],
-      "recommendation_reason": "进入本周高增长候选，并与 AI / Agent / 自动化等方向有一定匹配。",
-      "install": null,
-      "release_url": null
-    },
-    {
       "rank": 10,
-      "repo": "ruvnet/ruflo",
-      "name": "ruflo",
-      "language": "TypeScript",
-      "stars": 72168,
-      "weekly_stars": 1726,
-      "score": 68,
-      "github_url": "https://github.com/ruvnet/ruflo",
-      "download_url": "https://github.com/ruvnet/ruflo/archive/refs/heads/main.zip",
-      "clone": "git clone https://github.com/ruvnet/ruflo.git",
-      "summary": "🌊 The original agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+      "repo": "blader/humanizer",
+      "name": "humanizer",
+      "language": "Python",
+      "stars": 47407,
+      "weekly_stars": 4069,
+      "score": 67,
+      "github_url": "https://github.com/blader/humanizer",
+      "download_url": "https://github.com/blader/humanizer/archive/refs/heads/main.zip",
+      "clone": "git clone https://github.com/blader/humanizer.git",
+      "summary": "Agent skill that removes signs of AI-generated writing from text",
       "category": [
         "开源工具"
       ],
       "difficulty": "中等",
       "problem": "请查看项目 README 了解它解决的具体问题。",
-      "why_now": "近 7 天新增约 1,585 Star。",
+      "why_now": "近 7 天新增约 5,790 Star。",
       "core_features": [
         "项目详情以官方 README 为准"
       ],
