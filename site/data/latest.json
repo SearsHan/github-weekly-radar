@@ -1,8 +1,8 @@
 {
-  "period": "2026-W37",
-  "updated_at": "2026-09-13T06:05:32+00:00",
+  "period": "2026-W38",
+  "updated_at": "2026-09-14T06:13:03+00:00",
   "source": "GitHub Trending · This week",
-  "analyzed_count": 21,
+  "analyzed_count": 23,
   "items": [
     {
       "rank": 1,
@@ -14,9 +14,9 @@
         "可视化"
       ],
       "language": "JavaScript",
-      "stars": 59942,
-      "weekly_stars": 10442,
-      "score": 100,
+      "stars": 61193,
+      "weekly_stars": 10132,
+      "score": 99,
       "difficulty": "入门",
       "recommendation": 5,
       "summary": "一个面向 Codex、Cursor、Claude Code 等编码 Agent 的架构可视化 Skill。它把代码库或系统描述转换成经过校验的交互式架构图、工作流图、时序图和数据流图，并可导出 HTML、PNG、SVG、WebM 等格式。",
@@ -50,42 +50,11 @@
     },
     {
       "rank": 2,
-      "repo": "affaan-m/ECC",
-      "name": "ECC",
-      "language": "JavaScript",
-      "stars": 257232,
-      "weekly_stars": 8086,
-      "score": 98,
-      "github_url": "https://github.com/affaan-m/ECC",
-      "download_url": "https://github.com/affaan-m/ECC/archive/refs/heads/main.zip",
-      "clone": "git clone https://github.com/affaan-m/ECC.git",
-      "summary": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "category": [
-        "开源工具"
-      ],
-      "difficulty": "中等",
-      "problem": "请查看项目 README 了解它解决的具体问题。",
-      "why_now": "近 7 天新增约 5,445 Star。",
-      "core_features": [
-        "项目详情以官方 README 为准"
-      ],
-      "audience": [
-        "开源项目使用者"
-      ],
-      "use_cases": [
-        "评估是否适合自己的工作流"
-      ],
-      "recommendation_reason": "进入本周高增长候选，并与 AI / Agent / 自动化等方向有一定匹配。",
-      "install": null,
-      "release_url": null
-    },
-    {
-      "rank": 3,
       "repo": "ayghri/i-have-adhd",
       "name": "i-have-adhd",
       "language": "Python",
-      "stars": 43597,
-      "weekly_stars": 15924,
+      "stars": 44631,
+      "weekly_stars": 16740,
       "score": 97,
       "github_url": "https://github.com/ayghri/i-have-adhd",
       "download_url": "https://github.com/ayghri/i-have-adhd/archive/refs/heads/main.zip",
@@ -111,13 +80,44 @@
       "release_url": null
     },
     {
+      "rank": 3,
+      "repo": "affaan-m/ECC",
+      "name": "ECC",
+      "language": "JavaScript",
+      "stars": 257889,
+      "weekly_stars": 7264,
+      "score": 95,
+      "github_url": "https://github.com/affaan-m/ECC",
+      "download_url": "https://github.com/affaan-m/ECC/archive/refs/heads/main.zip",
+      "clone": "git clone https://github.com/affaan-m/ECC.git",
+      "summary": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "category": [
+        "开源工具"
+      ],
+      "difficulty": "中等",
+      "problem": "请查看项目 README 了解它解决的具体问题。",
+      "why_now": "近 7 天新增约 5,445 Star。",
+      "core_features": [
+        "项目详情以官方 README 为准"
+      ],
+      "audience": [
+        "开源项目使用者"
+      ],
+      "use_cases": [
+        "评估是否适合自己的工作流"
+      ],
+      "recommendation_reason": "进入本周高增长候选，并与 AI / Agent / 自动化等方向有一定匹配。",
+      "install": null,
+      "release_url": null
+    },
+    {
       "rank": 4,
       "repo": "DietrichGebert/ponytail",
       "name": "ponytail",
       "language": "JavaScript",
-      "stars": 136774,
-      "weekly_stars": 9272,
-      "score": 83,
+      "stars": 137584,
+      "weekly_stars": 8444,
+      "score": 80,
       "github_url": "https://github.com/DietrichGebert/ponytail",
       "download_url": "https://github.com/DietrichGebert/ponytail/archive/refs/heads/main.zip",
       "clone": "git clone https://github.com/DietrichGebert/ponytail.git",
@@ -146,9 +146,9 @@
       "repo": "cathrynlavery/diagram-design",
       "name": "diagram-design",
       "language": "HTML",
-      "stars": 38944,
-      "weekly_stars": 7409,
-      "score": 81,
+      "stars": 39378,
+      "weekly_stars": 7129,
+      "score": 80,
       "github_url": "https://github.com/cathrynlavery/diagram-design",
       "download_url": "https://github.com/cathrynlavery/diagram-design/archive/refs/heads/main.zip",
       "clone": "git clone https://github.com/cathrynlavery/diagram-design.git",
@@ -174,22 +174,22 @@
     },
     {
       "rank": 6,
-      "repo": "mattpocock/skills",
-      "name": "skills",
-      "language": "Shell",
-      "stars": 260631,
-      "weekly_stars": 8960,
-      "score": 77,
-      "github_url": "https://github.com/mattpocock/skills",
-      "download_url": "https://github.com/mattpocock/skills/archive/refs/heads/main.zip",
-      "clone": "git clone https://github.com/mattpocock/skills.git",
-      "summary": "Skills for Real Engineers. Straight from my .agents directory.",
+      "repo": "bilawalsidhu/gods-eye-view",
+      "name": "gods-eye-view",
+      "language": "JavaScript",
+      "stars": 32381,
+      "weekly_stars": 12931,
+      "score": 78,
+      "github_url": "https://github.com/bilawalsidhu/gods-eye-view",
+      "download_url": "https://github.com/bilawalsidhu/gods-eye-view/archive/refs/heads/main.zip",
+      "clone": "git clone https://github.com/bilawalsidhu/gods-eye-view.git",
+      "summary": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
       "category": [
         "开源工具"
       ],
       "difficulty": "中等",
       "problem": "请查看项目 README 了解它解决的具体问题。",
-      "why_now": "近 7 天新增约 13,419 Star。",
+      "why_now": "近 7 天新增约 10,510 Star。",
       "core_features": [
         "项目详情以官方 README 为准"
       ],
@@ -205,11 +205,42 @@
     },
     {
       "rank": 7,
+      "repo": "heygen-com/hyperframes",
+      "name": "hyperframes",
+      "language": "TypeScript",
+      "stars": 49724,
+      "weekly_stars": 5146,
+      "score": 69,
+      "github_url": "https://github.com/heygen-com/hyperframes",
+      "download_url": "https://github.com/heygen-com/hyperframes/archive/refs/heads/main.zip",
+      "clone": "git clone https://github.com/heygen-com/hyperframes.git",
+      "summary": "Write HTML. Render video. Built for agents.",
+      "category": [
+        "开源工具"
+      ],
+      "difficulty": "中等",
+      "problem": "请查看项目 README 了解它解决的具体问题。",
+      "why_now": "近 7 天新增约 3,886 Star。",
+      "core_features": [
+        "项目详情以官方 README 为准"
+      ],
+      "audience": [
+        "开源项目使用者"
+      ],
+      "use_cases": [
+        "评估是否适合自己的工作流"
+      ],
+      "recommendation_reason": "进入本周高增长候选，并与 AI / Agent / 自动化等方向有一定匹配。",
+      "install": null,
+      "release_url": null
+    },
+    {
+      "rank": 8,
       "repo": "mksglu/context-mode",
       "name": "context-mode",
       "language": "TypeScript",
-      "stars": 22423,
-      "weekly_stars": 1936,
+      "stars": 22701,
+      "weekly_stars": 2102,
       "score": 69,
       "github_url": "https://github.com/mksglu/context-mode",
       "download_url": "https://github.com/mksglu/context-mode/archive/refs/heads/main.zip",
@@ -235,54 +266,23 @@
       "release_url": null
     },
     {
-      "rank": 8,
-      "repo": "bilawalsidhu/gods-eye-view",
-      "name": "gods-eye-view",
-      "language": "JavaScript",
-      "stars": 30397,
-      "weekly_stars": 10510,
-      "score": 68,
-      "github_url": "https://github.com/bilawalsidhu/gods-eye-view",
-      "download_url": "https://github.com/bilawalsidhu/gods-eye-view/archive/refs/heads/main.zip",
-      "clone": "git clone https://github.com/bilawalsidhu/gods-eye-view.git",
-      "summary": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
-      "category": [
-        "开源工具"
-      ],
-      "difficulty": "中等",
-      "problem": "请查看项目 README 了解它解决的具体问题。",
-      "why_now": "近 7 天新增约 10,510 Star。",
-      "core_features": [
-        "项目详情以官方 README 为准"
-      ],
-      "audience": [
-        "开源项目使用者"
-      ],
-      "use_cases": [
-        "评估是否适合自己的工作流"
-      ],
-      "recommendation_reason": "进入本周高增长候选，并与 AI / Agent / 自动化等方向有一定匹配。",
-      "install": null,
-      "release_url": null
-    },
-    {
       "rank": 9,
-      "repo": "heygen-com/hyperframes",
-      "name": "hyperframes",
-      "language": "TypeScript",
-      "stars": 49263,
-      "weekly_stars": 5124,
-      "score": 68,
-      "github_url": "https://github.com/heygen-com/hyperframes",
-      "download_url": "https://github.com/heygen-com/hyperframes/archive/refs/heads/main.zip",
-      "clone": "git clone https://github.com/heygen-com/hyperframes.git",
-      "summary": "Write HTML. Render video. Built for agents.",
+      "repo": "blader/humanizer",
+      "name": "humanizer",
+      "language": "Python",
+      "stars": 47784,
+      "weekly_stars": 3673,
+      "score": 66,
+      "github_url": "https://github.com/blader/humanizer",
+      "download_url": "https://github.com/blader/humanizer/archive/refs/heads/main.zip",
+      "clone": "git clone https://github.com/blader/humanizer.git",
+      "summary": "Agent skill that removes signs of AI-generated writing from text",
       "category": [
         "开源工具"
       ],
       "difficulty": "中等",
       "problem": "请查看项目 README 了解它解决的具体问题。",
-      "why_now": "近 7 天新增约 3,886 Star。",
+      "why_now": "近 7 天新增约 5,790 Star。",
       "core_features": [
         "项目详情以官方 README 为准"
       ],
@@ -298,22 +298,22 @@
     },
     {
       "rank": 10,
-      "repo": "blader/humanizer",
-      "name": "humanizer",
-      "language": "Python",
-      "stars": 47407,
-      "weekly_stars": 4069,
-      "score": 67,
-      "github_url": "https://github.com/blader/humanizer",
-      "download_url": "https://github.com/blader/humanizer/archive/refs/heads/main.zip",
-      "clone": "git clone https://github.com/blader/humanizer.git",
-      "summary": "Agent skill that removes signs of AI-generated writing from text",
+      "repo": "coreyhaines31/marketingskills",
+      "name": "marketingskills",
+      "language": "JavaScript",
+      "stars": 50063,
+      "weekly_stars": 2678,
+      "score": 62,
+      "github_url": "https://github.com/coreyhaines31/marketingskills",
+      "download_url": "https://github.com/coreyhaines31/marketingskills/archive/refs/heads/main.zip",
+      "clone": "git clone https://github.com/coreyhaines31/marketingskills.git",
+      "summary": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
       "category": [
         "开源工具"
       ],
       "difficulty": "中等",
       "problem": "请查看项目 README 了解它解决的具体问题。",
-      "why_now": "近 7 天新增约 5,790 Star。",
+      "why_now": "近 7 天新增约 2,678 Star。",
       "core_features": [
         "项目详情以官方 README 为准"
       ],
