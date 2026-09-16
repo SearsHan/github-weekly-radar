@@ -1,16 +1,16 @@
 {
   "period": "2026-W38",
-  "updated_at": "2026-09-15T06:08:47+00:00",
+  "updated_at": "2026-09-16T05:58:25+00:00",
   "source": "GitHub Trending · This week",
-  "analyzed_count": 23,
+  "analyzed_count": 22,
   "items": [
     {
       "rank": 1,
       "repo": "ayghri/i-have-adhd",
       "name": "i-have-adhd",
       "language": "Python",
-      "stars": 45633,
-      "weekly_stars": 17658,
+      "stars": 46411,
+      "weekly_stars": 17880,
       "score": 97,
       "github_url": "https://github.com/ayghri/i-have-adhd",
       "download_url": "https://github.com/ayghri/i-have-adhd/archive/refs/heads/main.zip",
@@ -45,9 +45,9 @@
         "可视化"
       ],
       "language": "JavaScript",
-      "stars": 62612,
-      "weekly_stars": 9868,
-      "score": 97,
+      "stars": 63910,
+      "weekly_stars": 9077,
+      "score": 94,
       "difficulty": "入门",
       "recommendation": 5,
       "summary": "一个面向 Codex、Cursor、Claude Code 等编码 Agent 的架构可视化 Skill。它把代码库或系统描述转换成经过校验的交互式架构图、工作流图、时序图和数据流图，并可导出 HTML、PNG、SVG、WebM 等格式。",
@@ -84,9 +84,9 @@
       "repo": "affaan-m/ECC",
       "name": "ECC",
       "language": "JavaScript",
-      "stars": 258532,
-      "weekly_stars": 6085,
-      "score": 90,
+      "stars": 259487,
+      "weekly_stars": 5398,
+      "score": 88,
       "github_url": "https://github.com/affaan-m/ECC",
       "download_url": "https://github.com/affaan-m/ECC/archive/refs/heads/main.zip",
       "clone": "git clone https://github.com/affaan-m/ECC.git",
@@ -115,9 +115,9 @@
       "repo": "bilawalsidhu/gods-eye-view",
       "name": "gods-eye-view",
       "language": "JavaScript",
-      "stars": 33869,
-      "weekly_stars": 14403,
-      "score": 84,
+      "stars": 35063,
+      "weekly_stars": 15193,
+      "score": 86,
       "github_url": "https://github.com/bilawalsidhu/gods-eye-view",
       "download_url": "https://github.com/bilawalsidhu/gods-eye-view/archive/refs/heads/main.zip",
       "clone": "git clone https://github.com/bilawalsidhu/gods-eye-view.git",
@@ -146,9 +146,9 @@
       "repo": "DietrichGebert/ponytail",
       "name": "ponytail",
       "language": "JavaScript",
-      "stars": 138677,
-      "weekly_stars": 7722,
-      "score": 77,
+      "stars": 139599,
+      "weekly_stars": 7499,
+      "score": 76,
       "github_url": "https://github.com/DietrichGebert/ponytail",
       "download_url": "https://github.com/DietrichGebert/ponytail/archive/refs/heads/main.zip",
       "clone": "git clone https://github.com/DietrichGebert/ponytail.git",
@@ -174,43 +174,12 @@
     },
     {
       "rank": 6,
-      "repo": "cathrynlavery/diagram-design",
-      "name": "diagram-design",
-      "language": "HTML",
-      "stars": 39935,
-      "weekly_stars": 6604,
-      "score": 77,
-      "github_url": "https://github.com/cathrynlavery/diagram-design",
-      "download_url": "https://github.com/cathrynlavery/diagram-design/archive/refs/heads/main.zip",
-      "clone": "git clone https://github.com/cathrynlavery/diagram-design.git",
-      "summary": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
-      "category": [
-        "开源工具"
-      ],
-      "difficulty": "中等",
-      "problem": "请查看项目 README 了解它解决的具体问题。",
-      "why_now": "近 7 天新增约 7,329 Star。",
-      "core_features": [
-        "项目详情以官方 README 为准"
-      ],
-      "audience": [
-        "开源项目使用者"
-      ],
-      "use_cases": [
-        "评估是否适合自己的工作流"
-      ],
-      "recommendation_reason": "进入本周高增长候选，并与 AI / Agent / 自动化等方向有一定匹配。",
-      "install": null,
-      "release_url": null
-    },
-    {
-      "rank": 7,
       "repo": "mksglu/context-mode",
       "name": "context-mode",
       "language": "TypeScript",
-      "stars": 22929,
-      "weekly_stars": 2241,
-      "score": 70,
+      "stars": 23122,
+      "weekly_stars": 1832,
+      "score": 68,
       "github_url": "https://github.com/mksglu/context-mode",
       "download_url": "https://github.com/mksglu/context-mode/archive/refs/heads/main.zip",
       "clone": "git clone https://github.com/mksglu/context-mode.git",
@@ -235,23 +204,23 @@
       "release_url": null
     },
     {
-      "rank": 8,
-      "repo": "heygen-com/hyperframes",
-      "name": "hyperframes",
-      "language": "TypeScript",
-      "stars": 50135,
-      "weekly_stars": 5052,
-      "score": 68,
-      "github_url": "https://github.com/heygen-com/hyperframes",
-      "download_url": "https://github.com/heygen-com/hyperframes/archive/refs/heads/main.zip",
-      "clone": "git clone https://github.com/heygen-com/hyperframes.git",
-      "summary": "Write HTML. Render video. Built for agents.",
+      "rank": 7,
+      "repo": "alibaba/open-code-review",
+      "name": "open-code-review",
+      "language": "Go",
+      "stars": 29268,
+      "weekly_stars": 5169,
+      "score": 67,
+      "github_url": "https://github.com/alibaba/open-code-review",
+      "download_url": "https://github.com/alibaba/open-code-review/archive/refs/heads/main.zip",
+      "clone": "git clone https://github.com/alibaba/open-code-review.git",
+      "summary": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "category": [
         "开源工具"
       ],
       "difficulty": "中等",
       "problem": "请查看项目 README 了解它解决的具体问题。",
-      "why_now": "近 7 天新增约 3,886 Star。",
+      "why_now": "近 7 天新增约 5,169 Star。",
       "core_features": [
         "项目详情以官方 README 为准"
       ],
@@ -266,12 +235,12 @@
       "release_url": null
     },
     {
-      "rank": 9,
+      "rank": 8,
       "repo": "blader/humanizer",
       "name": "humanizer",
       "language": "Python",
-      "stars": 48237,
-      "weekly_stars": 3201,
+      "stars": 48747,
+      "weekly_stars": 3248,
       "score": 64,
       "github_url": "https://github.com/blader/humanizer",
       "download_url": "https://github.com/blader/humanizer/archive/refs/heads/main.zip",
@@ -297,23 +266,54 @@
       "release_url": null
     },
     {
-      "rank": 10,
-      "repo": "coreyhaines31/marketingskills",
-      "name": "marketingskills",
-      "language": "JavaScript",
-      "stars": 50315,
-      "weekly_stars": 2344,
+      "rank": 9,
+      "repo": "heygen-com/hyperframes",
+      "name": "hyperframes",
+      "language": "TypeScript",
+      "stars": 50471,
+      "weekly_stars": 3002,
       "score": 60,
-      "github_url": "https://github.com/coreyhaines31/marketingskills",
-      "download_url": "https://github.com/coreyhaines31/marketingskills/archive/refs/heads/main.zip",
-      "clone": "git clone https://github.com/coreyhaines31/marketingskills.git",
-      "summary": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+      "github_url": "https://github.com/heygen-com/hyperframes",
+      "download_url": "https://github.com/heygen-com/hyperframes/archive/refs/heads/main.zip",
+      "clone": "git clone https://github.com/heygen-com/hyperframes.git",
+      "summary": "Write HTML. Render video. Built for agents.",
       "category": [
         "开源工具"
       ],
       "difficulty": "中等",
       "problem": "请查看项目 README 了解它解决的具体问题。",
-      "why_now": "近 7 天新增约 2,678 Star。",
+      "why_now": "近 7 天新增约 3,886 Star。",
+      "core_features": [
+        "项目详情以官方 README 为准"
+      ],
+      "audience": [
+        "开源项目使用者"
+      ],
+      "use_cases": [
+        "评估是否适合自己的工作流"
+      ],
+      "recommendation_reason": "进入本周高增长候选，并与 AI / Agent / 自动化等方向有一定匹配。",
+      "install": null,
+      "release_url": null
+    },
+    {
+      "rank": 10,
+      "repo": "obra/superpowers",
+      "name": "superpowers",
+      "language": "Shell",
+      "stars": 287279,
+      "weekly_stars": 4170,
+      "score": 58,
+      "github_url": "https://github.com/obra/superpowers",
+      "download_url": "https://github.com/obra/superpowers/archive/refs/heads/main.zip",
+      "clone": "git clone https://github.com/obra/superpowers.git",
+      "summary": "An agentic skills framework & software development methodology that works.",
+      "category": [
+        "开源工具"
+      ],
+      "difficulty": "中等",
+      "problem": "请查看项目 README 了解它解决的具体问题。",
+      "why_now": "近 7 天新增约 4,170 Star。",
       "core_features": [
         "项目详情以官方 README 为准"
       ],
