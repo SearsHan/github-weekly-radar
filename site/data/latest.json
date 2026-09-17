@@ -1,6 +1,6 @@
 {
   "period": "2026-W38",
-  "updated_at": "2026-09-16T05:58:25+00:00",
+  "updated_at": "2026-09-17T06:07:13+00:00",
   "source": "GitHub Trending · This week",
   "analyzed_count": 22,
   "items": [
@@ -9,9 +9,9 @@
       "repo": "ayghri/i-have-adhd",
       "name": "i-have-adhd",
       "language": "Python",
-      "stars": 46411,
-      "weekly_stars": 17880,
-      "score": 97,
+      "stars": 47042,
+      "weekly_stars": 13737,
+      "score": 92,
       "github_url": "https://github.com/ayghri/i-have-adhd",
       "download_url": "https://github.com/ayghri/i-have-adhd/archive/refs/heads/main.zip",
       "clone": "git clone https://github.com/ayghri/i-have-adhd.git",
@@ -37,56 +37,12 @@
     },
     {
       "rank": 2,
-      "repo": "tt-a1i/archify",
-      "name": "archify",
-      "category": [
-        "Agent Skill",
-        "Codex",
-        "可视化"
-      ],
-      "language": "JavaScript",
-      "stars": 63910,
-      "weekly_stars": 9077,
-      "score": 94,
-      "difficulty": "入门",
-      "recommendation": 5,
-      "summary": "一个面向 Codex、Cursor、Claude Code 等编码 Agent 的架构可视化 Skill。它把代码库或系统描述转换成经过校验的交互式架构图、工作流图、时序图和数据流图，并可导出 HTML、PNG、SVG、WebM 等格式。",
-      "problem": "很多 AI 生成的系统架构图看起来漂亮，但节点关系容易与真实代码脱节。Archify 通过结构化 JSON IR 和确定性校验，让 Agent 生成的架构图更可验证、更适合代码评审和技术沟通。",
-      "why_now": "本周新增约 24.2K Star，是当前周榜增长最明显的项目之一；同时它直接支持 Codex CLI 和 Agent Skills 工作流。",
-      "core_features": [
-        "支持架构图、工作流、时序图、数据流等多种图形",
-        "面向 Codex/Cursor/Claude Code/OpenCode 的 Agent Skill",
-        "结构化 JSON IR + 确定性校验",
-        "支持架构变更 Before / Delta / After 对比",
-        "可导出 HTML、PNG、SVG、WebM 和分享卡片"
-      ],
-      "audience": [
-        "Codex 用户",
-        "AI Agent 开发者",
-        "技术负责人",
-        "需要做系统流程图的人"
-      ],
-      "use_cases": [
-        "让 Codex 自动生成项目架构图",
-        "代码评审前展示架构变化",
-        "把复杂业务流程变成交互式图表",
-        "制作可分享的技术方案图"
-      ],
-      "recommendation_reason": "与你目前使用 Codex、Skills 和自动化工作流的方向高度匹配，而且安装门槛很低，可以直接作为 Codex 的视觉化能力扩展。",
-      "github_url": "https://github.com/tt-a1i/archify",
-      "download_url": "https://github.com/tt-a1i/archify/archive/refs/heads/main.zip",
-      "release_url": null,
-      "clone": "git clone https://github.com/tt-a1i/archify.git",
-      "install": "npx skills add tt-a1i/archify -g"
-    },
-    {
-      "rank": 3,
       "repo": "affaan-m/ECC",
       "name": "ECC",
       "language": "JavaScript",
-      "stars": 259487,
-      "weekly_stars": 5398,
-      "score": 88,
+      "stars": 260525,
+      "weekly_stars": 5292,
+      "score": 87,
       "github_url": "https://github.com/affaan-m/ECC",
       "download_url": "https://github.com/affaan-m/ECC/archive/refs/heads/main.zip",
       "clone": "git clone https://github.com/affaan-m/ECC.git",
@@ -111,13 +67,13 @@
       "release_url": null
     },
     {
-      "rank": 4,
+      "rank": 3,
       "repo": "bilawalsidhu/gods-eye-view",
       "name": "gods-eye-view",
       "language": "JavaScript",
-      "stars": 35063,
-      "weekly_stars": 15193,
-      "score": 86,
+      "stars": 36251,
+      "weekly_stars": 14777,
+      "score": 85,
       "github_url": "https://github.com/bilawalsidhu/gods-eye-view",
       "download_url": "https://github.com/bilawalsidhu/gods-eye-view/archive/refs/heads/main.zip",
       "clone": "git clone https://github.com/bilawalsidhu/gods-eye-view.git",
@@ -142,13 +98,44 @@
       "release_url": null
     },
     {
+      "rank": 4,
+      "repo": "alibaba/open-code-review",
+      "name": "open-code-review",
+      "language": "Go",
+      "stars": 32662,
+      "weekly_stars": 8594,
+      "score": 80,
+      "github_url": "https://github.com/alibaba/open-code-review",
+      "download_url": "https://github.com/alibaba/open-code-review/archive/refs/heads/main.zip",
+      "clone": "git clone https://github.com/alibaba/open-code-review.git",
+      "summary": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "category": [
+        "开源工具"
+      ],
+      "difficulty": "中等",
+      "problem": "请查看项目 README 了解它解决的具体问题。",
+      "why_now": "近 7 天新增约 5,169 Star。",
+      "core_features": [
+        "项目详情以官方 README 为准"
+      ],
+      "audience": [
+        "开源项目使用者"
+      ],
+      "use_cases": [
+        "评估是否适合自己的工作流"
+      ],
+      "recommendation_reason": "进入本周高增长候选，并与 AI / Agent / 自动化等方向有一定匹配。",
+      "install": null,
+      "release_url": null
+    },
+    {
       "rank": 5,
       "repo": "DietrichGebert/ponytail",
       "name": "ponytail",
       "language": "JavaScript",
-      "stars": 139599,
-      "weekly_stars": 7499,
-      "score": 76,
+      "stars": 140625,
+      "weekly_stars": 7218,
+      "score": 75,
       "github_url": "https://github.com/DietrichGebert/ponytail",
       "download_url": "https://github.com/DietrichGebert/ponytail/archive/refs/heads/main.zip",
       "clone": "git clone https://github.com/DietrichGebert/ponytail.git",
@@ -177,9 +164,9 @@
       "repo": "mksglu/context-mode",
       "name": "context-mode",
       "language": "TypeScript",
-      "stars": 23122,
-      "weekly_stars": 1832,
-      "score": 68,
+      "stars": 23269,
+      "weekly_stars": 1612,
+      "score": 67,
       "github_url": "https://github.com/mksglu/context-mode",
       "download_url": "https://github.com/mksglu/context-mode/archive/refs/heads/main.zip",
       "clone": "git clone https://github.com/mksglu/context-mode.git",
@@ -205,42 +192,11 @@
     },
     {
       "rank": 7,
-      "repo": "alibaba/open-code-review",
-      "name": "open-code-review",
-      "language": "Go",
-      "stars": 29268,
-      "weekly_stars": 5169,
-      "score": 67,
-      "github_url": "https://github.com/alibaba/open-code-review",
-      "download_url": "https://github.com/alibaba/open-code-review/archive/refs/heads/main.zip",
-      "clone": "git clone https://github.com/alibaba/open-code-review.git",
-      "summary": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
-      "category": [
-        "开源工具"
-      ],
-      "difficulty": "中等",
-      "problem": "请查看项目 README 了解它解决的具体问题。",
-      "why_now": "近 7 天新增约 5,169 Star。",
-      "core_features": [
-        "项目详情以官方 README 为准"
-      ],
-      "audience": [
-        "开源项目使用者"
-      ],
-      "use_cases": [
-        "评估是否适合自己的工作流"
-      ],
-      "recommendation_reason": "进入本周高增长候选，并与 AI / Agent / 自动化等方向有一定匹配。",
-      "install": null,
-      "release_url": null
-    },
-    {
-      "rank": 8,
       "repo": "blader/humanizer",
       "name": "humanizer",
       "language": "Python",
-      "stars": 48747,
-      "weekly_stars": 3248,
+      "stars": 49300,
+      "weekly_stars": 3266,
       "score": 64,
       "github_url": "https://github.com/blader/humanizer",
       "download_url": "https://github.com/blader/humanizer/archive/refs/heads/main.zip",
@@ -266,13 +222,44 @@
       "release_url": null
     },
     {
+      "rank": 8,
+      "repo": "addyosmani/agent-skills",
+      "name": "agent-skills",
+      "language": "JavaScript",
+      "stars": 95610,
+      "weekly_stars": 2119,
+      "score": 59,
+      "github_url": "https://github.com/addyosmani/agent-skills",
+      "download_url": "https://github.com/addyosmani/agent-skills/archive/refs/heads/main.zip",
+      "clone": "git clone https://github.com/addyosmani/agent-skills.git",
+      "summary": "Production-grade engineering skills for AI coding agents.",
+      "category": [
+        "开源工具"
+      ],
+      "difficulty": "中等",
+      "problem": "请查看项目 README 了解它解决的具体问题。",
+      "why_now": "近 7 天新增约 2,119 Star。",
+      "core_features": [
+        "项目详情以官方 README 为准"
+      ],
+      "audience": [
+        "开源项目使用者"
+      ],
+      "use_cases": [
+        "评估是否适合自己的工作流"
+      ],
+      "recommendation_reason": "进入本周高增长候选，并与 AI / Agent / 自动化等方向有一定匹配。",
+      "install": null,
+      "release_url": null
+    },
+    {
       "rank": 9,
       "repo": "heygen-com/hyperframes",
       "name": "hyperframes",
       "language": "TypeScript",
-      "stars": 50471,
-      "weekly_stars": 3002,
-      "score": 60,
+      "stars": 50819,
+      "weekly_stars": 2413,
+      "score": 58,
       "github_url": "https://github.com/heygen-com/hyperframes",
       "download_url": "https://github.com/heygen-com/hyperframes/archive/refs/heads/main.zip",
       "clone": "git clone https://github.com/heygen-com/hyperframes.git",
@@ -301,9 +288,9 @@
       "repo": "obra/superpowers",
       "name": "superpowers",
       "language": "Shell",
-      "stars": 287279,
-      "weekly_stars": 4170,
-      "score": 58,
+      "stars": 287727,
+      "weekly_stars": 4023,
+      "score": 57,
       "github_url": "https://github.com/obra/superpowers",
       "download_url": "https://github.com/obra/superpowers/archive/refs/heads/main.zip",
       "clone": "git clone https://github.com/obra/superpowers.git",
