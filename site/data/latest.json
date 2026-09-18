@@ -1,27 +1,27 @@
 {
   "period": "2026-W38",
-  "updated_at": "2026-09-17T06:07:13+00:00",
+  "updated_at": "2026-09-18T05:53:11+00:00",
   "source": "GitHub Trending · This week",
-  "analyzed_count": 22,
+  "analyzed_count": 21,
   "items": [
     {
       "rank": 1,
-      "repo": "ayghri/i-have-adhd",
-      "name": "i-have-adhd",
-      "language": "Python",
-      "stars": 47042,
-      "weekly_stars": 13737,
+      "repo": "alibaba/open-code-review",
+      "name": "open-code-review",
+      "language": "Go",
+      "stars": 35427,
+      "weekly_stars": 11489,
       "score": 92,
-      "github_url": "https://github.com/ayghri/i-have-adhd",
-      "download_url": "https://github.com/ayghri/i-have-adhd/archive/refs/heads/main.zip",
-      "clone": "git clone https://github.com/ayghri/i-have-adhd.git",
-      "summary": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+      "github_url": "https://github.com/alibaba/open-code-review",
+      "download_url": "https://github.com/alibaba/open-code-review/archive/refs/heads/main.zip",
+      "clone": "git clone https://github.com/alibaba/open-code-review.git",
+      "summary": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "category": [
         "开源工具"
       ],
       "difficulty": "中等",
       "problem": "请查看项目 README 了解它解决的具体问题。",
-      "why_now": "近 7 天新增约 6,581 Star。",
+      "why_now": "近 7 天新增约 5,169 Star。",
       "core_features": [
         "项目详情以官方 README 为准"
       ],
@@ -40,9 +40,9 @@
       "repo": "affaan-m/ECC",
       "name": "ECC",
       "language": "JavaScript",
-      "stars": 260525,
-      "weekly_stars": 5292,
-      "score": 87,
+      "stars": 261336,
+      "weekly_stars": 5607,
+      "score": 88,
       "github_url": "https://github.com/affaan-m/ECC",
       "download_url": "https://github.com/affaan-m/ECC/archive/refs/heads/main.zip",
       "clone": "git clone https://github.com/affaan-m/ECC.git",
@@ -71,9 +71,9 @@
       "repo": "bilawalsidhu/gods-eye-view",
       "name": "gods-eye-view",
       "language": "JavaScript",
-      "stars": 36251,
-      "weekly_stars": 14777,
-      "score": 85,
+      "stars": 37251,
+      "weekly_stars": 14460,
+      "score": 84,
       "github_url": "https://github.com/bilawalsidhu/gods-eye-view",
       "download_url": "https://github.com/bilawalsidhu/gods-eye-view/archive/refs/heads/main.zip",
       "clone": "git clone https://github.com/bilawalsidhu/gods-eye-view.git",
@@ -99,22 +99,22 @@
     },
     {
       "rank": 4,
-      "repo": "alibaba/open-code-review",
-      "name": "open-code-review",
-      "language": "Go",
-      "stars": 32662,
-      "weekly_stars": 8594,
+      "repo": "ayghri/i-have-adhd",
+      "name": "i-have-adhd",
+      "language": "Python",
+      "stars": 47595,
+      "weekly_stars": 10800,
       "score": 80,
-      "github_url": "https://github.com/alibaba/open-code-review",
-      "download_url": "https://github.com/alibaba/open-code-review/archive/refs/heads/main.zip",
-      "clone": "git clone https://github.com/alibaba/open-code-review.git",
-      "summary": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "github_url": "https://github.com/ayghri/i-have-adhd",
+      "download_url": "https://github.com/ayghri/i-have-adhd/archive/refs/heads/main.zip",
+      "clone": "git clone https://github.com/ayghri/i-have-adhd.git",
+      "summary": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
       "category": [
         "开源工具"
       ],
       "difficulty": "中等",
       "problem": "请查看项目 README 了解它解决的具体问题。",
-      "why_now": "近 7 天新增约 5,169 Star。",
+      "why_now": "近 7 天新增约 6,581 Star。",
       "core_features": [
         "项目详情以官方 README 为准"
       ],
@@ -130,22 +130,22 @@
     },
     {
       "rank": 5,
-      "repo": "DietrichGebert/ponytail",
-      "name": "ponytail",
-      "language": "JavaScript",
-      "stars": 140625,
-      "weekly_stars": 7218,
-      "score": 75,
-      "github_url": "https://github.com/DietrichGebert/ponytail",
-      "download_url": "https://github.com/DietrichGebert/ponytail/archive/refs/heads/main.zip",
-      "clone": "git clone https://github.com/DietrichGebert/ponytail.git",
-      "summary": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "repo": "Panniantong/Agent-Reach",
+      "name": "Agent-Reach",
+      "language": "Python",
+      "stars": 82883,
+      "weekly_stars": 3670,
+      "score": 70,
+      "github_url": "https://github.com/Panniantong/Agent-Reach",
+      "download_url": "https://github.com/Panniantong/Agent-Reach/archive/refs/heads/main.zip",
+      "clone": "git clone https://github.com/Panniantong/Agent-Reach.git",
+      "summary": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
       "category": [
         "开源工具"
       ],
       "difficulty": "中等",
       "problem": "请查看项目 README 了解它解决的具体问题。",
-      "why_now": "近 7 天新增约 12,186 Star。",
+      "why_now": "近 7 天新增约 3,670 Star。",
       "core_features": [
         "项目详情以官方 README 为准"
       ],
@@ -164,8 +164,8 @@
       "repo": "mksglu/context-mode",
       "name": "context-mode",
       "language": "TypeScript",
-      "stars": 23269,
-      "weekly_stars": 1612,
+      "stars": 23424,
+      "weekly_stars": 1482,
       "score": 67,
       "github_url": "https://github.com/mksglu/context-mode",
       "download_url": "https://github.com/mksglu/context-mode/archive/refs/heads/main.zip",
@@ -192,11 +192,42 @@
     },
     {
       "rank": 7,
+      "repo": "stablyai/orca",
+      "name": "orca",
+      "language": "TypeScript",
+      "stars": 71296,
+      "weekly_stars": 5305,
+      "score": 64,
+      "github_url": "https://github.com/stablyai/orca",
+      "download_url": "https://github.com/stablyai/orca/archive/refs/heads/main.zip",
+      "clone": "git clone https://github.com/stablyai/orca.git",
+      "summary": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+      "category": [
+        "开源工具"
+      ],
+      "difficulty": "中等",
+      "problem": "请查看项目 README 了解它解决的具体问题。",
+      "why_now": "近 7 天新增约 5,305 Star。",
+      "core_features": [
+        "项目详情以官方 README 为准"
+      ],
+      "audience": [
+        "开源项目使用者"
+      ],
+      "use_cases": [
+        "评估是否适合自己的工作流"
+      ],
+      "recommendation_reason": "进入本周高增长候选，并与 AI / Agent / 自动化等方向有一定匹配。",
+      "install": null,
+      "release_url": null
+    },
+    {
+      "rank": 8,
       "repo": "blader/humanizer",
       "name": "humanizer",
       "language": "Python",
-      "stars": 49300,
-      "weekly_stars": 3266,
+      "stars": 49665,
+      "weekly_stars": 3235,
       "score": 64,
       "github_url": "https://github.com/blader/humanizer",
       "download_url": "https://github.com/blader/humanizer/archive/refs/heads/main.zip",
@@ -222,13 +253,13 @@
       "release_url": null
     },
     {
-      "rank": 8,
+      "rank": 9,
       "repo": "addyosmani/agent-skills",
       "name": "agent-skills",
       "language": "JavaScript",
-      "stars": 95610,
-      "weekly_stars": 2119,
-      "score": 59,
+      "stars": 95986,
+      "weekly_stars": 2560,
+      "score": 61,
       "github_url": "https://github.com/addyosmani/agent-skills",
       "download_url": "https://github.com/addyosmani/agent-skills/archive/refs/heads/main.zip",
       "clone": "git clone https://github.com/addyosmani/agent-skills.git",
@@ -253,54 +284,23 @@
       "release_url": null
     },
     {
-      "rank": 9,
-      "repo": "heygen-com/hyperframes",
-      "name": "hyperframes",
-      "language": "TypeScript",
-      "stars": 50819,
-      "weekly_stars": 2413,
-      "score": 58,
-      "github_url": "https://github.com/heygen-com/hyperframes",
-      "download_url": "https://github.com/heygen-com/hyperframes/archive/refs/heads/main.zip",
-      "clone": "git clone https://github.com/heygen-com/hyperframes.git",
-      "summary": "Write HTML. Render video. Built for agents.",
-      "category": [
-        "开源工具"
-      ],
-      "difficulty": "中等",
-      "problem": "请查看项目 README 了解它解决的具体问题。",
-      "why_now": "近 7 天新增约 3,886 Star。",
-      "core_features": [
-        "项目详情以官方 README 为准"
-      ],
-      "audience": [
-        "开源项目使用者"
-      ],
-      "use_cases": [
-        "评估是否适合自己的工作流"
-      ],
-      "recommendation_reason": "进入本周高增长候选，并与 AI / Agent / 自动化等方向有一定匹配。",
-      "install": null,
-      "release_url": null
-    },
-    {
       "rank": 10,
-      "repo": "obra/superpowers",
-      "name": "superpowers",
-      "language": "Shell",
-      "stars": 287727,
-      "weekly_stars": 4023,
+      "repo": "danny-avila/LibreChat",
+      "name": "LibreChat",
+      "language": "TypeScript",
+      "stars": 44258,
+      "weekly_stars": 1421,
       "score": 57,
-      "github_url": "https://github.com/obra/superpowers",
-      "download_url": "https://github.com/obra/superpowers/archive/refs/heads/main.zip",
-      "clone": "git clone https://github.com/obra/superpowers.git",
-      "summary": "An agentic skills framework & software development methodology that works.",
+      "github_url": "https://github.com/danny-avila/LibreChat",
+      "download_url": "https://github.com/danny-avila/LibreChat/archive/refs/heads/main.zip",
+      "clone": "git clone https://github.com/danny-avila/LibreChat.git",
+      "summary": "Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active",
       "category": [
         "开源工具"
       ],
       "difficulty": "中等",
       "problem": "请查看项目 README 了解它解决的具体问题。",
-      "why_now": "近 7 天新增约 4,170 Star。",
+      "why_now": "近 7 天新增约 1,421 Star。",
       "core_features": [
         "项目详情以官方 README 为准"
       ],
