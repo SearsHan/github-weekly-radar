@@ -1,6 +1,6 @@
 {
   "period": "2026-W38",
-  "updated_at": "2026-09-19T05:49:19+00:00",
+  "updated_at": "2026-09-20T06:11:27+00:00",
   "source": "GitHub Trending · This week",
   "analyzed_count": 21,
   "items": [
@@ -9,8 +9,8 @@
       "repo": "alibaba/open-code-review",
       "name": "open-code-review",
       "language": "Go",
-      "stars": 36880,
-      "weekly_stars": 14144,
+      "stars": 37835,
+      "weekly_stars": 15028,
       "score": 100,
       "github_url": "https://github.com/alibaba/open-code-review",
       "download_url": "https://github.com/alibaba/open-code-review/archive/refs/heads/main.zip",
@@ -40,9 +40,9 @@
       "repo": "affaan-m/ECC",
       "name": "ECC",
       "language": "JavaScript",
-      "stars": 262221,
-      "weekly_stars": 5877,
-      "score": 90,
+      "stars": 263081,
+      "weekly_stars": 6265,
+      "score": 91,
       "github_url": "https://github.com/affaan-m/ECC",
       "download_url": "https://github.com/affaan-m/ECC/archive/refs/heads/main.zip",
       "clone": "git clone https://github.com/affaan-m/ECC.git",
@@ -68,43 +68,12 @@
     },
     {
       "rank": 3,
-      "repo": "bilawalsidhu/gods-eye-view",
-      "name": "gods-eye-view",
-      "language": "JavaScript",
-      "stars": 37976,
-      "weekly_stars": 11683,
-      "score": 73,
-      "github_url": "https://github.com/bilawalsidhu/gods-eye-view",
-      "download_url": "https://github.com/bilawalsidhu/gods-eye-view/archive/refs/heads/main.zip",
-      "clone": "git clone https://github.com/bilawalsidhu/gods-eye-view.git",
-      "summary": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
-      "category": [
-        "开源工具"
-      ],
-      "difficulty": "中等",
-      "problem": "请查看项目 README 了解它解决的具体问题。",
-      "why_now": "近 7 天新增约 10,510 Star。",
-      "core_features": [
-        "项目详情以官方 README 为准"
-      ],
-      "audience": [
-        "开源项目使用者"
-      ],
-      "use_cases": [
-        "评估是否适合自己的工作流"
-      ],
-      "recommendation_reason": "进入本周高增长候选，并与 AI / Agent / 自动化等方向有一定匹配。",
-      "install": null,
-      "release_url": null
-    },
-    {
-      "rank": 4,
       "repo": "Panniantong/Agent-Reach",
       "name": "Agent-Reach",
       "language": "Python",
-      "stars": 83192,
-      "weekly_stars": 3766,
-      "score": 70,
+      "stars": 83550,
+      "weekly_stars": 3914,
+      "score": 71,
       "github_url": "https://github.com/Panniantong/Agent-Reach",
       "download_url": "https://github.com/Panniantong/Agent-Reach/archive/refs/heads/main.zip",
       "clone": "git clone https://github.com/Panniantong/Agent-Reach.git",
@@ -129,23 +98,23 @@
       "release_url": null
     },
     {
-      "rank": 5,
-      "repo": "ayghri/i-have-adhd",
-      "name": "i-have-adhd",
-      "language": "Python",
-      "stars": 48216,
-      "weekly_stars": 7869,
-      "score": 68,
-      "github_url": "https://github.com/ayghri/i-have-adhd",
-      "download_url": "https://github.com/ayghri/i-have-adhd/archive/refs/heads/main.zip",
-      "clone": "git clone https://github.com/ayghri/i-have-adhd.git",
-      "summary": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+      "rank": 4,
+      "repo": "bilawalsidhu/gods-eye-view",
+      "name": "gods-eye-view",
+      "language": "JavaScript",
+      "stars": 38773,
+      "weekly_stars": 10207,
+      "score": 67,
+      "github_url": "https://github.com/bilawalsidhu/gods-eye-view",
+      "download_url": "https://github.com/bilawalsidhu/gods-eye-view/archive/refs/heads/main.zip",
+      "clone": "git clone https://github.com/bilawalsidhu/gods-eye-view.git",
+      "summary": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
       "category": [
         "开源工具"
       ],
       "difficulty": "中等",
       "problem": "请查看项目 README 了解它解决的具体问题。",
-      "why_now": "近 7 天新增约 6,581 Star。",
+      "why_now": "近 7 天新增约 10,510 Star。",
       "core_features": [
         "项目详情以官方 README 为准"
       ],
@@ -160,13 +129,13 @@
       "release_url": null
     },
     {
-      "rank": 6,
+      "rank": 5,
       "repo": "mksglu/context-mode",
       "name": "context-mode",
       "language": "TypeScript",
-      "stars": 23564,
-      "weekly_stars": 1398,
-      "score": 67,
+      "stars": 23700,
+      "weekly_stars": 1359,
+      "score": 66,
       "github_url": "https://github.com/mksglu/context-mode",
       "download_url": "https://github.com/mksglu/context-mode/archive/refs/heads/main.zip",
       "clone": "git clone https://github.com/mksglu/context-mode.git",
@@ -191,13 +160,13 @@
       "release_url": null
     },
     {
-      "rank": 7,
+      "rank": 6,
       "repo": "stablyai/orca",
       "name": "orca",
       "language": "TypeScript",
-      "stars": 72106,
-      "weekly_stars": 5272,
-      "score": 64,
+      "stars": 72868,
+      "weekly_stars": 5404,
+      "score": 65,
       "github_url": "https://github.com/stablyai/orca",
       "download_url": "https://github.com/stablyai/orca/archive/refs/heads/main.zip",
       "clone": "git clone https://github.com/stablyai/orca.git",
@@ -222,12 +191,43 @@
       "release_url": null
     },
     {
+      "rank": 7,
+      "repo": "addyosmani/agent-skills",
+      "name": "agent-skills",
+      "language": "JavaScript",
+      "stars": 97195,
+      "weekly_stars": 3445,
+      "score": 65,
+      "github_url": "https://github.com/addyosmani/agent-skills",
+      "download_url": "https://github.com/addyosmani/agent-skills/archive/refs/heads/main.zip",
+      "clone": "git clone https://github.com/addyosmani/agent-skills.git",
+      "summary": "Production-grade engineering skills for AI coding agents.",
+      "category": [
+        "开源工具"
+      ],
+      "difficulty": "中等",
+      "problem": "请查看项目 README 了解它解决的具体问题。",
+      "why_now": "近 7 天新增约 2,119 Star。",
+      "core_features": [
+        "项目详情以官方 README 为准"
+      ],
+      "audience": [
+        "开源项目使用者"
+      ],
+      "use_cases": [
+        "评估是否适合自己的工作流"
+      ],
+      "recommendation_reason": "进入本周高增长候选，并与 AI / Agent / 自动化等方向有一定匹配。",
+      "install": null,
+      "release_url": null
+    },
+    {
       "rank": 8,
       "repo": "blader/humanizer",
       "name": "humanizer",
       "language": "Python",
-      "stars": 50000,
-      "weekly_stars": 3118,
+      "stars": 50345,
+      "weekly_stars": 3024,
       "score": 63,
       "github_url": "https://github.com/blader/humanizer",
       "download_url": "https://github.com/blader/humanizer/archive/refs/heads/main.zip",
@@ -254,22 +254,22 @@
     },
     {
       "rank": 9,
-      "repo": "addyosmani/agent-skills",
-      "name": "agent-skills",
-      "language": "JavaScript",
-      "stars": 96511,
-      "weekly_stars": 3051,
-      "score": 63,
-      "github_url": "https://github.com/addyosmani/agent-skills",
-      "download_url": "https://github.com/addyosmani/agent-skills/archive/refs/heads/main.zip",
-      "clone": "git clone https://github.com/addyosmani/agent-skills.git",
-      "summary": "Production-grade engineering skills for AI coding agents.",
+      "repo": "ayghri/i-have-adhd",
+      "name": "i-have-adhd",
+      "language": "Python",
+      "stars": 48837,
+      "weekly_stars": 5589,
+      "score": 59,
+      "github_url": "https://github.com/ayghri/i-have-adhd",
+      "download_url": "https://github.com/ayghri/i-have-adhd/archive/refs/heads/main.zip",
+      "clone": "git clone https://github.com/ayghri/i-have-adhd.git",
+      "summary": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
       "category": [
         "开源工具"
       ],
       "difficulty": "中等",
       "problem": "请查看项目 README 了解它解决的具体问题。",
-      "why_now": "近 7 天新增约 2,119 Star。",
+      "why_now": "近 7 天新增约 6,581 Star。",
       "core_features": [
         "项目详情以官方 README 为准"
       ],
@@ -288,8 +288,8 @@
       "repo": "heygen-com/hyperframes",
       "name": "hyperframes",
       "language": "TypeScript",
-      "stars": 51451,
-      "weekly_stars": 2401,
+      "stars": 51708,
+      "weekly_stars": 2498,
       "score": 58,
       "github_url": "https://github.com/heygen-com/hyperframes",
       "download_url": "https://github.com/heygen-com/hyperframes/archive/refs/heads/main.zip",
