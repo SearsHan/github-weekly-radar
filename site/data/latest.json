@@ -1,6 +1,6 @@
 {
   "period": "2026-W39",
-  "updated_at": "2026-09-21T06:16:41+00:00",
+  "updated_at": "2026-09-22T06:09:21+00:00",
   "source": "GitHub Trending · This week",
   "analyzed_count": 21,
   "items": [
@@ -9,8 +9,8 @@
       "repo": "alibaba/open-code-review",
       "name": "open-code-review",
       "language": "Go",
-      "stars": 38620,
-      "weekly_stars": 15504,
+      "stars": 39355,
+      "weekly_stars": 14499,
       "score": 100,
       "github_url": "https://github.com/alibaba/open-code-review",
       "download_url": "https://github.com/alibaba/open-code-review/archive/refs/heads/main.zip",
@@ -37,12 +37,43 @@
     },
     {
       "rank": 2,
+      "repo": "cloudflare/security-audit-skill",
+      "name": "security-audit-skill",
+      "language": "JavaScript",
+      "stars": 19236,
+      "weekly_stars": 15675,
+      "score": 97,
+      "github_url": "https://github.com/cloudflare/security-audit-skill",
+      "download_url": "https://github.com/cloudflare/security-audit-skill/archive/refs/heads/main.zip",
+      "clone": "git clone https://github.com/cloudflare/security-audit-skill.git",
+      "summary": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "category": [
+        "开源工具"
+      ],
+      "difficulty": "中等",
+      "problem": "请查看项目 README 了解它解决的具体问题。",
+      "why_now": "近 7 天新增约 15,675 Star。",
+      "core_features": [
+        "项目详情以官方 README 为准"
+      ],
+      "audience": [
+        "开源项目使用者"
+      ],
+      "use_cases": [
+        "评估是否适合自己的工作流"
+      ],
+      "recommendation_reason": "进入本周高增长候选，并与 AI / Agent / 自动化等方向有一定匹配。",
+      "install": null,
+      "release_url": null
+    },
+    {
+      "rank": 3,
       "repo": "affaan-m/ECC",
       "name": "ECC",
       "language": "JavaScript",
-      "stars": 264003,
-      "weekly_stars": 6453,
-      "score": 92,
+      "stars": 264871,
+      "weekly_stars": 6865,
+      "score": 93,
       "github_url": "https://github.com/affaan-m/ECC",
       "download_url": "https://github.com/affaan-m/ECC/archive/refs/heads/main.zip",
       "clone": "git clone https://github.com/affaan-m/ECC.git",
@@ -67,13 +98,13 @@
       "release_url": null
     },
     {
-      "rank": 3,
+      "rank": 4,
       "repo": "Panniantong/Agent-Reach",
       "name": "Agent-Reach",
       "language": "Python",
-      "stars": 83981,
-      "weekly_stars": 3690,
-      "score": 70,
+      "stars": 84489,
+      "weekly_stars": 3526,
+      "score": 69,
       "github_url": "https://github.com/Panniantong/Agent-Reach",
       "download_url": "https://github.com/Panniantong/Agent-Reach/archive/refs/heads/main.zip",
       "clone": "git clone https://github.com/Panniantong/Agent-Reach.git",
@@ -98,44 +129,13 @@
       "release_url": null
     },
     {
-      "rank": 4,
-      "repo": "addyosmani/agent-skills",
-      "name": "agent-skills",
-      "language": "JavaScript",
-      "stars": 97825,
-      "weekly_stars": 3986,
-      "score": 67,
-      "github_url": "https://github.com/addyosmani/agent-skills",
-      "download_url": "https://github.com/addyosmani/agent-skills/archive/refs/heads/main.zip",
-      "clone": "git clone https://github.com/addyosmani/agent-skills.git",
-      "summary": "Production-grade engineering skills for AI coding agents.",
-      "category": [
-        "开源工具"
-      ],
-      "difficulty": "中等",
-      "problem": "请查看项目 README 了解它解决的具体问题。",
-      "why_now": "近 7 天新增约 2,119 Star。",
-      "core_features": [
-        "项目详情以官方 README 为准"
-      ],
-      "audience": [
-        "开源项目使用者"
-      ],
-      "use_cases": [
-        "评估是否适合自己的工作流"
-      ],
-      "recommendation_reason": "进入本周高增长候选，并与 AI / Agent / 自动化等方向有一定匹配。",
-      "install": null,
-      "release_url": null
-    },
-    {
       "rank": 5,
       "repo": "stablyai/orca",
       "name": "orca",
       "language": "TypeScript",
-      "stars": 73887,
-      "weekly_stars": 5841,
-      "score": 66,
+      "stars": 74908,
+      "weekly_stars": 6125,
+      "score": 68,
       "github_url": "https://github.com/stablyai/orca",
       "download_url": "https://github.com/stablyai/orca/archive/refs/heads/main.zip",
       "clone": "git clone https://github.com/stablyai/orca.git",
@@ -161,12 +161,43 @@
     },
     {
       "rank": 6,
+      "repo": "addyosmani/agent-skills",
+      "name": "agent-skills",
+      "language": "JavaScript",
+      "stars": 98210,
+      "weekly_stars": 4197,
+      "score": 68,
+      "github_url": "https://github.com/addyosmani/agent-skills",
+      "download_url": "https://github.com/addyosmani/agent-skills/archive/refs/heads/main.zip",
+      "clone": "git clone https://github.com/addyosmani/agent-skills.git",
+      "summary": "Production-grade engineering skills for AI coding agents.",
+      "category": [
+        "开源工具"
+      ],
+      "difficulty": "中等",
+      "problem": "请查看项目 README 了解它解决的具体问题。",
+      "why_now": "近 7 天新增约 2,119 Star。",
+      "core_features": [
+        "项目详情以官方 README 为准"
+      ],
+      "audience": [
+        "开源项目使用者"
+      ],
+      "use_cases": [
+        "评估是否适合自己的工作流"
+      ],
+      "recommendation_reason": "进入本周高增长候选，并与 AI / Agent / 自动化等方向有一定匹配。",
+      "install": null,
+      "release_url": null
+    },
+    {
+      "rank": 7,
       "repo": "mksglu/context-mode",
       "name": "context-mode",
       "language": "TypeScript",
-      "stars": 23799,
-      "weekly_stars": 1242,
-      "score": 66,
+      "stars": 23903,
+      "weekly_stars": 1089,
+      "score": 65,
       "github_url": "https://github.com/mksglu/context-mode",
       "download_url": "https://github.com/mksglu/context-mode/archive/refs/heads/main.zip",
       "clone": "git clone https://github.com/mksglu/context-mode.git",
@@ -191,12 +222,12 @@
       "release_url": null
     },
     {
-      "rank": 7,
+      "rank": 8,
       "repo": "blader/humanizer",
       "name": "humanizer",
       "language": "Python",
-      "stars": 50745,
-      "weekly_stars": 3045,
+      "stars": 51158,
+      "weekly_stars": 3023,
       "score": 63,
       "github_url": "https://github.com/blader/humanizer",
       "download_url": "https://github.com/blader/humanizer/archive/refs/heads/main.zip",
@@ -222,13 +253,13 @@
       "release_url": null
     },
     {
-      "rank": 8,
+      "rank": 9,
       "repo": "Tencent/WeKnora",
       "name": "WeKnora",
       "language": "Go",
-      "stars": 28190,
-      "weekly_stars": 5242,
-      "score": 59,
+      "stars": 28637,
+      "weekly_stars": 5455,
+      "score": 60,
       "github_url": "https://github.com/Tencent/WeKnora",
       "download_url": "https://github.com/Tencent/WeKnora/archive/refs/heads/main.zip",
       "clone": "git clone https://github.com/Tencent/WeKnora.git",
@@ -253,54 +284,23 @@
       "release_url": null
     },
     {
-      "rank": 9,
-      "repo": "bilawalsidhu/gods-eye-view",
-      "name": "gods-eye-view",
-      "language": "JavaScript",
-      "stars": 39873,
-      "weekly_stars": 8111,
-      "score": 58,
-      "github_url": "https://github.com/bilawalsidhu/gods-eye-view",
-      "download_url": "https://github.com/bilawalsidhu/gods-eye-view/archive/refs/heads/main.zip",
-      "clone": "git clone https://github.com/bilawalsidhu/gods-eye-view.git",
-      "summary": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
-      "category": [
-        "开源工具"
-      ],
-      "difficulty": "中等",
-      "problem": "请查看项目 README 了解它解决的具体问题。",
-      "why_now": "近 7 天新增约 10,510 Star。",
-      "core_features": [
-        "项目详情以官方 README 为准"
-      ],
-      "audience": [
-        "开源项目使用者"
-      ],
-      "use_cases": [
-        "评估是否适合自己的工作流"
-      ],
-      "recommendation_reason": "进入本周高增长候选，并与 AI / Agent / 自动化等方向有一定匹配。",
-      "install": null,
-      "release_url": null
-    },
-    {
       "rank": 10,
-      "repo": "ayghri/i-have-adhd",
-      "name": "i-have-adhd",
-      "language": "Python",
-      "stars": 49381,
-      "weekly_stars": 5249,
-      "score": 58,
-      "github_url": "https://github.com/ayghri/i-have-adhd",
-      "download_url": "https://github.com/ayghri/i-have-adhd/archive/refs/heads/main.zip",
-      "clone": "git clone https://github.com/ayghri/i-have-adhd.git",
-      "summary": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+      "repo": "danny-avila/LibreChat",
+      "name": "LibreChat",
+      "language": "TypeScript",
+      "stars": 44599,
+      "weekly_stars": 1401,
+      "score": 57,
+      "github_url": "https://github.com/danny-avila/LibreChat",
+      "download_url": "https://github.com/danny-avila/LibreChat/archive/refs/heads/main.zip",
+      "clone": "git clone https://github.com/danny-avila/LibreChat.git",
+      "summary": "Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active",
       "category": [
         "开源工具"
       ],
       "difficulty": "中等",
       "problem": "请查看项目 README 了解它解决的具体问题。",
-      "why_now": "近 7 天新增约 6,581 Star。",
+      "why_now": "近 7 天新增约 1,401 Star。",
       "core_features": [
         "项目详情以官方 README 为准"
       ],
