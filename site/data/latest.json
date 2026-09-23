@@ -1,47 +1,16 @@
 {
   "period": "2026-W39",
-  "updated_at": "2026-09-22T06:09:21+00:00",
+  "updated_at": "2026-09-23T05:55:25+00:00",
   "source": "GitHub Trending · This week",
-  "analyzed_count": 21,
+  "analyzed_count": 20,
   "items": [
     {
       "rank": 1,
-      "repo": "alibaba/open-code-review",
-      "name": "open-code-review",
-      "language": "Go",
-      "stars": 39355,
-      "weekly_stars": 14499,
-      "score": 100,
-      "github_url": "https://github.com/alibaba/open-code-review",
-      "download_url": "https://github.com/alibaba/open-code-review/archive/refs/heads/main.zip",
-      "clone": "git clone https://github.com/alibaba/open-code-review.git",
-      "summary": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
-      "category": [
-        "开源工具"
-      ],
-      "difficulty": "中等",
-      "problem": "请查看项目 README 了解它解决的具体问题。",
-      "why_now": "近 7 天新增约 5,169 Star。",
-      "core_features": [
-        "项目详情以官方 README 为准"
-      ],
-      "audience": [
-        "开源项目使用者"
-      ],
-      "use_cases": [
-        "评估是否适合自己的工作流"
-      ],
-      "recommendation_reason": "进入本周高增长候选，并与 AI / Agent / 自动化等方向有一定匹配。",
-      "install": null,
-      "release_url": null
-    },
-    {
-      "rank": 2,
       "repo": "cloudflare/security-audit-skill",
       "name": "security-audit-skill",
       "language": "JavaScript",
-      "stars": 19236,
-      "weekly_stars": 15675,
+      "stars": 20336,
+      "weekly_stars": 15381,
       "score": 97,
       "github_url": "https://github.com/cloudflare/security-audit-skill",
       "download_url": "https://github.com/cloudflare/security-audit-skill/archive/refs/heads/main.zip",
@@ -67,13 +36,44 @@
       "release_url": null
     },
     {
+      "rank": 2,
+      "repo": "alibaba/open-code-review",
+      "name": "open-code-review",
+      "language": "Go",
+      "stars": 39857,
+      "weekly_stars": 12590,
+      "score": 96,
+      "github_url": "https://github.com/alibaba/open-code-review",
+      "download_url": "https://github.com/alibaba/open-code-review/archive/refs/heads/main.zip",
+      "clone": "git clone https://github.com/alibaba/open-code-review.git",
+      "summary": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "category": [
+        "开源工具"
+      ],
+      "difficulty": "中等",
+      "problem": "请查看项目 README 了解它解决的具体问题。",
+      "why_now": "近 7 天新增约 5,169 Star。",
+      "core_features": [
+        "项目详情以官方 README 为准"
+      ],
+      "audience": [
+        "开源项目使用者"
+      ],
+      "use_cases": [
+        "评估是否适合自己的工作流"
+      ],
+      "recommendation_reason": "进入本周高增长候选，并与 AI / Agent / 自动化等方向有一定匹配。",
+      "install": null,
+      "release_url": null
+    },
+    {
       "rank": 3,
       "repo": "affaan-m/ECC",
       "name": "ECC",
       "language": "JavaScript",
-      "stars": 264871,
-      "weekly_stars": 6865,
-      "score": 93,
+      "stars": 265597,
+      "weekly_stars": 6904,
+      "score": 94,
       "github_url": "https://github.com/affaan-m/ECC",
       "download_url": "https://github.com/affaan-m/ECC/archive/refs/heads/main.zip",
       "clone": "git clone https://github.com/affaan-m/ECC.git",
@@ -99,42 +99,11 @@
     },
     {
       "rank": 4,
-      "repo": "Panniantong/Agent-Reach",
-      "name": "Agent-Reach",
-      "language": "Python",
-      "stars": 84489,
-      "weekly_stars": 3526,
-      "score": 69,
-      "github_url": "https://github.com/Panniantong/Agent-Reach",
-      "download_url": "https://github.com/Panniantong/Agent-Reach/archive/refs/heads/main.zip",
-      "clone": "git clone https://github.com/Panniantong/Agent-Reach.git",
-      "summary": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
-      "category": [
-        "开源工具"
-      ],
-      "difficulty": "中等",
-      "problem": "请查看项目 README 了解它解决的具体问题。",
-      "why_now": "近 7 天新增约 3,670 Star。",
-      "core_features": [
-        "项目详情以官方 README 为准"
-      ],
-      "audience": [
-        "开源项目使用者"
-      ],
-      "use_cases": [
-        "评估是否适合自己的工作流"
-      ],
-      "recommendation_reason": "进入本周高增长候选，并与 AI / Agent / 自动化等方向有一定匹配。",
-      "install": null,
-      "release_url": null
-    },
-    {
-      "rank": 5,
       "repo": "stablyai/orca",
       "name": "orca",
       "language": "TypeScript",
-      "stars": 74908,
-      "weekly_stars": 6125,
+      "stars": 75876,
+      "weekly_stars": 6205,
       "score": 68,
       "github_url": "https://github.com/stablyai/orca",
       "download_url": "https://github.com/stablyai/orca/archive/refs/heads/main.zip",
@@ -160,12 +129,12 @@
       "release_url": null
     },
     {
-      "rank": 6,
+      "rank": 5,
       "repo": "addyosmani/agent-skills",
       "name": "agent-skills",
       "language": "JavaScript",
-      "stars": 98210,
-      "weekly_stars": 4197,
+      "stars": 98512,
+      "weekly_stars": 4224,
       "score": 68,
       "github_url": "https://github.com/addyosmani/agent-skills",
       "download_url": "https://github.com/addyosmani/agent-skills/archive/refs/heads/main.zip",
@@ -191,23 +160,54 @@
       "release_url": null
     },
     {
-      "rank": 7,
-      "repo": "mksglu/context-mode",
-      "name": "context-mode",
-      "language": "TypeScript",
-      "stars": 23903,
-      "weekly_stars": 1089,
-      "score": 65,
-      "github_url": "https://github.com/mksglu/context-mode",
-      "download_url": "https://github.com/mksglu/context-mode/archive/refs/heads/main.zip",
-      "clone": "git clone https://github.com/mksglu/context-mode.git",
-      "summary": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and   enforces routing across 17 platforms via MCP + hooks.",
+      "rank": 6,
+      "repo": "Panniantong/Agent-Reach",
+      "name": "Agent-Reach",
+      "language": "Python",
+      "stars": 84909,
+      "weekly_stars": 2985,
+      "score": 67,
+      "github_url": "https://github.com/Panniantong/Agent-Reach",
+      "download_url": "https://github.com/Panniantong/Agent-Reach/archive/refs/heads/main.zip",
+      "clone": "git clone https://github.com/Panniantong/Agent-Reach.git",
+      "summary": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
       "category": [
         "开源工具"
       ],
       "difficulty": "中等",
       "problem": "请查看项目 README 了解它解决的具体问题。",
-      "why_now": "近 7 天新增约 935 Star。",
+      "why_now": "近 7 天新增约 3,670 Star。",
+      "core_features": [
+        "项目详情以官方 README 为准"
+      ],
+      "audience": [
+        "开源项目使用者"
+      ],
+      "use_cases": [
+        "评估是否适合自己的工作流"
+      ],
+      "recommendation_reason": "进入本周高增长候选，并与 AI / Agent / 自动化等方向有一定匹配。",
+      "install": null,
+      "release_url": null
+    },
+    {
+      "rank": 7,
+      "repo": "Tencent/BrowserSkill",
+      "name": "BrowserSkill",
+      "language": "TypeScript",
+      "stars": 6721,
+      "weekly_stars": 4553,
+      "score": 64,
+      "github_url": "https://github.com/Tencent/BrowserSkill",
+      "download_url": "https://github.com/Tencent/BrowserSkill/archive/refs/heads/main.zip",
+      "clone": "git clone https://github.com/Tencent/BrowserSkill.git",
+      "summary": "Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for browser automation across any shell-capable AI agent.",
+      "category": [
+        "开源工具"
+      ],
+      "difficulty": "中等",
+      "problem": "请查看项目 README 了解它解决的具体问题。",
+      "why_now": "近 7 天新增约 4,553 Star。",
       "core_features": [
         "项目详情以官方 README 为准"
       ],
@@ -223,43 +223,12 @@
     },
     {
       "rank": 8,
-      "repo": "blader/humanizer",
-      "name": "humanizer",
-      "language": "Python",
-      "stars": 51158,
-      "weekly_stars": 3023,
-      "score": 63,
-      "github_url": "https://github.com/blader/humanizer",
-      "download_url": "https://github.com/blader/humanizer/archive/refs/heads/main.zip",
-      "clone": "git clone https://github.com/blader/humanizer.git",
-      "summary": "Agent skill that removes signs of AI-generated writing from text",
-      "category": [
-        "开源工具"
-      ],
-      "difficulty": "中等",
-      "problem": "请查看项目 README 了解它解决的具体问题。",
-      "why_now": "近 7 天新增约 5,790 Star。",
-      "core_features": [
-        "项目详情以官方 README 为准"
-      ],
-      "audience": [
-        "开源项目使用者"
-      ],
-      "use_cases": [
-        "评估是否适合自己的工作流"
-      ],
-      "recommendation_reason": "进入本周高增长候选，并与 AI / Agent / 自动化等方向有一定匹配。",
-      "install": null,
-      "release_url": null
-    },
-    {
-      "rank": 9,
       "repo": "Tencent/WeKnora",
       "name": "WeKnora",
       "language": "Go",
-      "stars": 28637,
-      "weekly_stars": 5455,
-      "score": 60,
+      "stars": 29078,
+      "weekly_stars": 5303,
+      "score": 59,
       "github_url": "https://github.com/Tencent/WeKnora",
       "download_url": "https://github.com/Tencent/WeKnora/archive/refs/heads/main.zip",
       "clone": "git clone https://github.com/Tencent/WeKnora.git",
@@ -284,13 +253,13 @@
       "release_url": null
     },
     {
-      "rank": 10,
+      "rank": 9,
       "repo": "danny-avila/LibreChat",
       "name": "LibreChat",
       "language": "TypeScript",
-      "stars": 44599,
-      "weekly_stars": 1401,
-      "score": 57,
+      "stars": 44716,
+      "weekly_stars": 1262,
+      "score": 56,
       "github_url": "https://github.com/danny-avila/LibreChat",
       "download_url": "https://github.com/danny-avila/LibreChat/archive/refs/heads/main.zip",
       "clone": "git clone https://github.com/danny-avila/LibreChat.git",
@@ -301,6 +270,37 @@
       "difficulty": "中等",
       "problem": "请查看项目 README 了解它解决的具体问题。",
       "why_now": "近 7 天新增约 1,401 Star。",
+      "core_features": [
+        "项目详情以官方 README 为准"
+      ],
+      "audience": [
+        "开源项目使用者"
+      ],
+      "use_cases": [
+        "评估是否适合自己的工作流"
+      ],
+      "recommendation_reason": "进入本周高增长候选，并与 AI / Agent / 自动化等方向有一定匹配。",
+      "install": null,
+      "release_url": null
+    },
+    {
+      "rank": 10,
+      "repo": "anthropics/claude-code",
+      "name": "claude-code",
+      "language": "TypeScript",
+      "stars": 147695,
+      "weekly_stars": 2754,
+      "score": 44,
+      "github_url": "https://github.com/anthropics/claude-code",
+      "download_url": "https://github.com/anthropics/claude-code/archive/refs/heads/main.zip",
+      "clone": "git clone https://github.com/anthropics/claude-code.git",
+      "summary": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "category": [
+        "开源工具"
+      ],
+      "difficulty": "中等",
+      "problem": "请查看项目 README 了解它解决的具体问题。",
+      "why_now": "近 7 天新增约 2,754 Star。",
       "core_features": [
         "项目详情以官方 README 为准"
       ],
