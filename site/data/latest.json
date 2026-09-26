@@ -1,17 +1,17 @@
 {
   "period": "2026-W39",
-  "updated_at": "2026-09-25T06:08:37+00:00",
+  "updated_at": "2026-09-26T06:07:41+00:00",
   "source": "GitHub Trending · This week",
-  "analyzed_count": 20,
+  "analyzed_count": 21,
   "items": [
     {
       "rank": 1,
       "repo": "affaan-m/ECC",
       "name": "ECC",
       "language": "JavaScript",
-      "stars": 267051,
-      "weekly_stars": 6193,
-      "score": 91,
+      "stars": 267597,
+      "weekly_stars": 6037,
+      "score": 90,
       "github_url": "https://github.com/affaan-m/ECC",
       "download_url": "https://github.com/affaan-m/ECC/archive/refs/heads/main.zip",
       "clone": "git clone https://github.com/affaan-m/ECC.git",
@@ -37,22 +37,22 @@
     },
     {
       "rank": 2,
-      "repo": "alibaba/open-code-review",
-      "name": "open-code-review",
-      "language": "Go",
-      "stars": 40936,
-      "weekly_stars": 6920,
-      "score": 74,
-      "github_url": "https://github.com/alibaba/open-code-review",
-      "download_url": "https://github.com/alibaba/open-code-review/archive/refs/heads/main.zip",
-      "clone": "git clone https://github.com/alibaba/open-code-review.git",
-      "summary": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "repo": "cloudflare/security-audit-skill",
+      "name": "security-audit-skill",
+      "language": "JavaScript",
+      "stars": 21715,
+      "weekly_stars": 9547,
+      "score": 75,
+      "github_url": "https://github.com/cloudflare/security-audit-skill",
+      "download_url": "https://github.com/cloudflare/security-audit-skill/archive/refs/heads/main.zip",
+      "clone": "git clone https://github.com/cloudflare/security-audit-skill.git",
+      "summary": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "category": [
         "开源工具"
       ],
       "difficulty": "中等",
       "problem": "请查看项目 README 了解它解决的具体问题。",
-      "why_now": "近 7 天新增约 5,169 Star。",
+      "why_now": "近 7 天新增约 9,547 Star。",
       "core_features": [
         "项目详情以官方 README 为准"
       ],
@@ -71,8 +71,8 @@
       "repo": "stablyai/orca",
       "name": "orca",
       "language": "TypeScript",
-      "stars": 77692,
-      "weekly_stars": 6547,
+      "stars": 78481,
+      "weekly_stars": 6537,
       "score": 69,
       "github_url": "https://github.com/stablyai/orca",
       "download_url": "https://github.com/stablyai/orca/archive/refs/heads/main.zip",
@@ -99,12 +99,43 @@
     },
     {
       "rank": 4,
+      "repo": "alibaba/open-code-review",
+      "name": "open-code-review",
+      "language": "Go",
+      "stars": 41409,
+      "weekly_stars": 5030,
+      "score": 66,
+      "github_url": "https://github.com/alibaba/open-code-review",
+      "download_url": "https://github.com/alibaba/open-code-review/archive/refs/heads/main.zip",
+      "clone": "git clone https://github.com/alibaba/open-code-review.git",
+      "summary": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "category": [
+        "开源工具"
+      ],
+      "difficulty": "中等",
+      "problem": "请查看项目 README 了解它解决的具体问题。",
+      "why_now": "近 7 天新增约 5,169 Star。",
+      "core_features": [
+        "项目详情以官方 README 为准"
+      ],
+      "audience": [
+        "开源项目使用者"
+      ],
+      "use_cases": [
+        "评估是否适合自己的工作流"
+      ],
+      "recommendation_reason": "进入本周高增长候选，并与 AI / Agent / 自动化等方向有一定匹配。",
+      "install": null,
+      "release_url": null
+    },
+    {
+      "rank": 5,
       "repo": "addyosmani/agent-skills",
       "name": "agent-skills",
       "language": "JavaScript",
-      "stars": 98930,
-      "weekly_stars": 3345,
-      "score": 64,
+      "stars": 99128,
+      "weekly_stars": 2911,
+      "score": 63,
       "github_url": "https://github.com/addyosmani/agent-skills",
       "download_url": "https://github.com/addyosmani/agent-skills/archive/refs/heads/main.zip",
       "clone": "git clone https://github.com/addyosmani/agent-skills.git",
@@ -129,54 +160,23 @@
       "release_url": null
     },
     {
-      "rank": 5,
-      "repo": "LibreChat-AI/LibreChat",
-      "name": "LibreChat",
-      "language": "TypeScript",
-      "stars": 44921,
-      "weekly_stars": 743,
-      "score": 54,
-      "github_url": "https://github.com/LibreChat-AI/LibreChat",
-      "download_url": "https://github.com/LibreChat-AI/LibreChat/archive/refs/heads/main.zip",
-      "clone": "git clone https://github.com/LibreChat-AI/LibreChat.git",
-      "summary": "Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active",
-      "category": [
-        "开源工具"
-      ],
-      "difficulty": "中等",
-      "problem": "请查看项目 README 了解它解决的具体问题。",
-      "why_now": "近 7 天新增约 949 Star。",
-      "core_features": [
-        "项目详情以官方 README 为准"
-      ],
-      "audience": [
-        "开源项目使用者"
-      ],
-      "use_cases": [
-        "评估是否适合自己的工作流"
-      ],
-      "recommendation_reason": "进入本周高增长候选，并与 AI / Agent / 自动化等方向有一定匹配。",
-      "install": null,
-      "release_url": null
-    },
-    {
       "rank": 6,
-      "repo": "Tencent/WeKnora",
-      "name": "WeKnora",
-      "language": "Go",
-      "stars": 29810,
-      "weekly_stars": 3749,
-      "score": 53,
-      "github_url": "https://github.com/Tencent/WeKnora",
-      "download_url": "https://github.com/Tencent/WeKnora/archive/refs/heads/main.zip",
-      "clone": "git clone https://github.com/Tencent/WeKnora.git",
-      "summary": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+      "repo": "bojieli/ai-agent-book",
+      "name": "ai-agent-book",
+      "language": "Python",
+      "stars": 51046,
+      "weekly_stars": 2485,
+      "score": 58,
+      "github_url": "https://github.com/bojieli/ai-agent-book",
+      "download_url": "https://github.com/bojieli/ai-agent-book/archive/refs/heads/main.zip",
+      "clone": "git clone https://github.com/bojieli/ai-agent-book.git",
+      "summary": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
       "category": [
         "开源工具"
       ],
       "difficulty": "中等",
       "problem": "请查看项目 README 了解它解决的具体问题。",
-      "why_now": "近 7 天新增约 5,242 Star。",
+      "why_now": "近 7 天新增约 2,485 Star。",
       "core_features": [
         "项目详情以官方 README 为准"
       ],
@@ -195,9 +195,9 @@
       "repo": "vectorize-io/hindsight",
       "name": "hindsight",
       "language": "Python",
-      "stars": 28171,
-      "weekly_stars": 3363,
-      "score": 46,
+      "stars": 30161,
+      "weekly_stars": 4869,
+      "score": 52,
       "github_url": "https://github.com/vectorize-io/hindsight",
       "download_url": "https://github.com/vectorize-io/hindsight/archive/refs/heads/main.zip",
       "clone": "git clone https://github.com/vectorize-io/hindsight.git",
@@ -223,12 +223,43 @@
     },
     {
       "rank": 8,
+      "repo": "Tencent/WeKnora",
+      "name": "WeKnora",
+      "language": "Go",
+      "stars": 30151,
+      "weekly_stars": 3189,
+      "score": 51,
+      "github_url": "https://github.com/Tencent/WeKnora",
+      "download_url": "https://github.com/Tencent/WeKnora/archive/refs/heads/main.zip",
+      "clone": "git clone https://github.com/Tencent/WeKnora.git",
+      "summary": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+      "category": [
+        "开源工具"
+      ],
+      "difficulty": "中等",
+      "problem": "请查看项目 README 了解它解决的具体问题。",
+      "why_now": "近 7 天新增约 5,242 Star。",
+      "core_features": [
+        "项目详情以官方 README 为准"
+      ],
+      "audience": [
+        "开源项目使用者"
+      ],
+      "use_cases": [
+        "评估是否适合自己的工作流"
+      ],
+      "recommendation_reason": "进入本周高增长候选，并与 AI / Agent / 自动化等方向有一定匹配。",
+      "install": null,
+      "release_url": null
+    },
+    {
+      "rank": 9,
       "repo": "superdesigndev/treg",
       "name": "treg",
       "language": "Python",
-      "stars": 3231,
-      "weekly_stars": 1406,
-      "score": 45,
+      "stars": 3415,
+      "weekly_stars": 1687,
+      "score": 46,
       "github_url": "https://github.com/superdesigndev/treg",
       "download_url": "https://github.com/superdesigndev/treg/archive/refs/heads/main.zip",
       "clone": "git clone https://github.com/superdesigndev/treg.git",
@@ -253,13 +284,13 @@
       "release_url": null
     },
     {
-      "rank": 9,
+      "rank": 10,
       "repo": "anthropics/claude-code",
       "name": "claude-code",
       "language": "TypeScript",
-      "stars": 147998,
-      "weekly_stars": 2384,
-      "score": 43,
+      "stars": 148127,
+      "weekly_stars": 2102,
+      "score": 41,
       "github_url": "https://github.com/anthropics/claude-code",
       "download_url": "https://github.com/anthropics/claude-code/archive/refs/heads/main.zip",
       "clone": "git clone https://github.com/anthropics/claude-code.git",
@@ -270,37 +301,6 @@
       "difficulty": "中等",
       "problem": "请查看项目 README 了解它解决的具体问题。",
       "why_now": "近 7 天新增约 2,754 Star。",
-      "core_features": [
-        "项目详情以官方 README 为准"
-      ],
-      "audience": [
-        "开源项目使用者"
-      ],
-      "use_cases": [
-        "评估是否适合自己的工作流"
-      ],
-      "recommendation_reason": "进入本周高增长候选，并与 AI / Agent / 自动化等方向有一定匹配。",
-      "install": null,
-      "release_url": null
-    },
-    {
-      "rank": 10,
-      "repo": "TencentCloud/Octop",
-      "name": "Octop",
-      "language": "Python",
-      "stars": 4892,
-      "weekly_stars": 1608,
-      "score": 39,
-      "github_url": "https://github.com/TencentCloud/Octop",
-      "download_url": "https://github.com/TencentCloud/Octop/archive/refs/heads/main.zip",
-      "clone": "git clone https://github.com/TencentCloud/Octop.git",
-      "summary": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
-      "category": [
-        "开源工具"
-      ],
-      "difficulty": "中等",
-      "problem": "请查看项目 README 了解它解决的具体问题。",
-      "why_now": "近 7 天新增约 1,608 Star。",
       "core_features": [
         "项目详情以官方 README 为准"
       ],
