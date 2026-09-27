@@ -1,17 +1,17 @@
 {
   "period": "2026-W39",
-  "updated_at": "2026-09-26T06:07:41+00:00",
+  "updated_at": "2026-09-27T06:35:00+00:00",
   "source": "GitHub Trending · This week",
-  "analyzed_count": 21,
+  "analyzed_count": 18,
   "items": [
     {
       "rank": 1,
       "repo": "affaan-m/ECC",
       "name": "ECC",
       "language": "JavaScript",
-      "stars": 267597,
-      "weekly_stars": 6037,
-      "score": 90,
+      "stars": 268028,
+      "weekly_stars": 5522,
+      "score": 88,
       "github_url": "https://github.com/affaan-m/ECC",
       "download_url": "https://github.com/affaan-m/ECC/archive/refs/heads/main.zip",
       "clone": "git clone https://github.com/affaan-m/ECC.git",
@@ -37,42 +37,11 @@
     },
     {
       "rank": 2,
-      "repo": "cloudflare/security-audit-skill",
-      "name": "security-audit-skill",
-      "language": "JavaScript",
-      "stars": 21715,
-      "weekly_stars": 9547,
-      "score": 75,
-      "github_url": "https://github.com/cloudflare/security-audit-skill",
-      "download_url": "https://github.com/cloudflare/security-audit-skill/archive/refs/heads/main.zip",
-      "clone": "git clone https://github.com/cloudflare/security-audit-skill.git",
-      "summary": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
-      "category": [
-        "开源工具"
-      ],
-      "difficulty": "中等",
-      "problem": "请查看项目 README 了解它解决的具体问题。",
-      "why_now": "近 7 天新增约 9,547 Star。",
-      "core_features": [
-        "项目详情以官方 README 为准"
-      ],
-      "audience": [
-        "开源项目使用者"
-      ],
-      "use_cases": [
-        "评估是否适合自己的工作流"
-      ],
-      "recommendation_reason": "进入本周高增长候选，并与 AI / Agent / 自动化等方向有一定匹配。",
-      "install": null,
-      "release_url": null
-    },
-    {
-      "rank": 3,
       "repo": "stablyai/orca",
       "name": "orca",
       "language": "TypeScript",
-      "stars": 78481,
-      "weekly_stars": 6537,
+      "stars": 79066,
+      "weekly_stars": 6503,
       "score": 69,
       "github_url": "https://github.com/stablyai/orca",
       "download_url": "https://github.com/stablyai/orca/archive/refs/heads/main.zip",
@@ -98,13 +67,44 @@
       "release_url": null
     },
     {
+      "rank": 3,
+      "repo": "cloudflare/security-audit-skill",
+      "name": "security-audit-skill",
+      "language": "JavaScript",
+      "stars": 22089,
+      "weekly_stars": 6474,
+      "score": 63,
+      "github_url": "https://github.com/cloudflare/security-audit-skill",
+      "download_url": "https://github.com/cloudflare/security-audit-skill/archive/refs/heads/main.zip",
+      "clone": "git clone https://github.com/cloudflare/security-audit-skill.git",
+      "summary": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "category": [
+        "开源工具"
+      ],
+      "difficulty": "中等",
+      "problem": "请查看项目 README 了解它解决的具体问题。",
+      "why_now": "近 7 天新增约 9,547 Star。",
+      "core_features": [
+        "项目详情以官方 README 为准"
+      ],
+      "audience": [
+        "开源项目使用者"
+      ],
+      "use_cases": [
+        "评估是否适合自己的工作流"
+      ],
+      "recommendation_reason": "进入本周高增长候选，并与 AI / Agent / 自动化等方向有一定匹配。",
+      "install": null,
+      "release_url": null
+    },
+    {
       "rank": 4,
       "repo": "alibaba/open-code-review",
       "name": "open-code-review",
       "language": "Go",
-      "stars": 41409,
-      "weekly_stars": 5030,
-      "score": 66,
+      "stars": 41679,
+      "weekly_stars": 4310,
+      "score": 63,
       "github_url": "https://github.com/alibaba/open-code-review",
       "download_url": "https://github.com/alibaba/open-code-review/archive/refs/heads/main.zip",
       "clone": "git clone https://github.com/alibaba/open-code-review.git",
@@ -130,74 +130,12 @@
     },
     {
       "rank": 5,
-      "repo": "addyosmani/agent-skills",
-      "name": "agent-skills",
-      "language": "JavaScript",
-      "stars": 99128,
-      "weekly_stars": 2911,
-      "score": 63,
-      "github_url": "https://github.com/addyosmani/agent-skills",
-      "download_url": "https://github.com/addyosmani/agent-skills/archive/refs/heads/main.zip",
-      "clone": "git clone https://github.com/addyosmani/agent-skills.git",
-      "summary": "Production-grade engineering skills for AI coding agents.",
-      "category": [
-        "开源工具"
-      ],
-      "difficulty": "中等",
-      "problem": "请查看项目 README 了解它解决的具体问题。",
-      "why_now": "近 7 天新增约 2,119 Star。",
-      "core_features": [
-        "项目详情以官方 README 为准"
-      ],
-      "audience": [
-        "开源项目使用者"
-      ],
-      "use_cases": [
-        "评估是否适合自己的工作流"
-      ],
-      "recommendation_reason": "进入本周高增长候选，并与 AI / Agent / 自动化等方向有一定匹配。",
-      "install": null,
-      "release_url": null
-    },
-    {
-      "rank": 6,
-      "repo": "bojieli/ai-agent-book",
-      "name": "ai-agent-book",
-      "language": "Python",
-      "stars": 51046,
-      "weekly_stars": 2485,
-      "score": 58,
-      "github_url": "https://github.com/bojieli/ai-agent-book",
-      "download_url": "https://github.com/bojieli/ai-agent-book/archive/refs/heads/main.zip",
-      "clone": "git clone https://github.com/bojieli/ai-agent-book.git",
-      "summary": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
-      "category": [
-        "开源工具"
-      ],
-      "difficulty": "中等",
-      "problem": "请查看项目 README 了解它解决的具体问题。",
-      "why_now": "近 7 天新增约 2,485 Star。",
-      "core_features": [
-        "项目详情以官方 README 为准"
-      ],
-      "audience": [
-        "开源项目使用者"
-      ],
-      "use_cases": [
-        "评估是否适合自己的工作流"
-      ],
-      "recommendation_reason": "进入本周高增长候选，并与 AI / Agent / 自动化等方向有一定匹配。",
-      "install": null,
-      "release_url": null
-    },
-    {
-      "rank": 7,
       "repo": "vectorize-io/hindsight",
       "name": "hindsight",
       "language": "Python",
-      "stars": 30161,
-      "weekly_stars": 4869,
-      "score": 52,
+      "stars": 33642,
+      "weekly_stars": 7282,
+      "score": 62,
       "github_url": "https://github.com/vectorize-io/hindsight",
       "download_url": "https://github.com/vectorize-io/hindsight/archive/refs/heads/main.zip",
       "clone": "git clone https://github.com/vectorize-io/hindsight.git",
@@ -222,13 +160,106 @@
       "release_url": null
     },
     {
+      "rank": 6,
+      "repo": "addyosmani/agent-skills",
+      "name": "agent-skills",
+      "language": "JavaScript",
+      "stars": 99328,
+      "weekly_stars": 2510,
+      "score": 61,
+      "github_url": "https://github.com/addyosmani/agent-skills",
+      "download_url": "https://github.com/addyosmani/agent-skills/archive/refs/heads/main.zip",
+      "clone": "git clone https://github.com/addyosmani/agent-skills.git",
+      "summary": "Production-grade engineering skills for AI coding agents.",
+      "category": [
+        "开源工具"
+      ],
+      "difficulty": "中等",
+      "problem": "请查看项目 README 了解它解决的具体问题。",
+      "why_now": "近 7 天新增约 2,119 Star。",
+      "core_features": [
+        "项目详情以官方 README 为准"
+      ],
+      "audience": [
+        "开源项目使用者"
+      ],
+      "use_cases": [
+        "评估是否适合自己的工作流"
+      ],
+      "recommendation_reason": "进入本周高增长候选，并与 AI / Agent / 自动化等方向有一定匹配。",
+      "install": null,
+      "release_url": null
+    },
+    {
+      "rank": 7,
+      "repo": "dream-num/univer",
+      "name": "univer",
+      "language": "TypeScript",
+      "stars": 19711,
+      "weekly_stars": 4660,
+      "score": 52,
+      "github_url": "https://github.com/dream-num/univer",
+      "download_url": "https://github.com/dream-num/univer/archive/refs/heads/dev.zip",
+      "clone": "git clone https://github.com/dream-num/univer.git",
+      "summary": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
+      "category": [
+        "开源工具"
+      ],
+      "difficulty": "中等",
+      "problem": "请查看项目 README 了解它解决的具体问题。",
+      "why_now": "近 7 天新增约 4,660 Star。",
+      "core_features": [
+        "项目详情以官方 README 为准"
+      ],
+      "audience": [
+        "开源项目使用者"
+      ],
+      "use_cases": [
+        "评估是否适合自己的工作流"
+      ],
+      "recommendation_reason": "进入本周高增长候选，并与 AI / Agent / 自动化等方向有一定匹配。",
+      "install": null,
+      "release_url": null
+    },
+    {
       "rank": 8,
+      "repo": "paperclipai/paperclip",
+      "name": "paperclip",
+      "language": "TypeScript",
+      "stars": 87876,
+      "weekly_stars": 5376,
+      "score": 51,
+      "github_url": "https://github.com/paperclipai/paperclip",
+      "download_url": "https://github.com/paperclipai/paperclip/archive/refs/heads/master.zip",
+      "clone": "git clone https://github.com/paperclipai/paperclip.git",
+      "summary": "The open-source app everyone uses to manage agents at work",
+      "category": [
+        "开源工具"
+      ],
+      "difficulty": "中等",
+      "problem": "请查看项目 README 了解它解决的具体问题。",
+      "why_now": "近 7 天新增约 5,376 Star。",
+      "core_features": [
+        "项目详情以官方 README 为准"
+      ],
+      "audience": [
+        "开源项目使用者"
+      ],
+      "use_cases": [
+        "评估是否适合自己的工作流"
+      ],
+      "recommendation_reason": "进入本周高增长候选，并与 AI / Agent / 自动化等方向有一定匹配。",
+      "install": null,
+      "release_url": null
+    },
+    {
+      "rank": 9,
       "repo": "Tencent/WeKnora",
       "name": "WeKnora",
       "language": "Go",
-      "stars": 30151,
-      "weekly_stars": 3189,
-      "score": 51,
+      "stars": 30395,
+      "weekly_stars": 3015,
+      "score": 50,
       "github_url": "https://github.com/Tencent/WeKnora",
       "download_url": "https://github.com/Tencent/WeKnora/archive/refs/heads/main.zip",
       "clone": "git clone https://github.com/Tencent/WeKnora.git",
@@ -253,12 +284,12 @@
       "release_url": null
     },
     {
-      "rank": 9,
+      "rank": 10,
       "repo": "superdesigndev/treg",
       "name": "treg",
       "language": "Python",
-      "stars": 3415,
-      "weekly_stars": 1687,
+      "stars": 3524,
+      "weekly_stars": 1773,
       "score": 46,
       "github_url": "https://github.com/superdesigndev/treg",
       "download_url": "https://github.com/superdesigndev/treg/archive/refs/heads/main.zip",
@@ -270,37 +301,6 @@
       "difficulty": "中等",
       "problem": "请查看项目 README 了解它解决的具体问题。",
       "why_now": "近 7 天新增约 1,067 Star。",
-      "core_features": [
-        "项目详情以官方 README 为准"
-      ],
-      "audience": [
-        "开源项目使用者"
-      ],
-      "use_cases": [
-        "评估是否适合自己的工作流"
-      ],
-      "recommendation_reason": "进入本周高增长候选，并与 AI / Agent / 自动化等方向有一定匹配。",
-      "install": null,
-      "release_url": null
-    },
-    {
-      "rank": 10,
-      "repo": "anthropics/claude-code",
-      "name": "claude-code",
-      "language": "TypeScript",
-      "stars": 148127,
-      "weekly_stars": 2102,
-      "score": 41,
-      "github_url": "https://github.com/anthropics/claude-code",
-      "download_url": "https://github.com/anthropics/claude-code/archive/refs/heads/main.zip",
-      "clone": "git clone https://github.com/anthropics/claude-code.git",
-      "summary": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
-      "category": [
-        "开源工具"
-      ],
-      "difficulty": "中等",
-      "problem": "请查看项目 README 了解它解决的具体问题。",
-      "why_now": "近 7 天新增约 2,754 Star。",
       "core_features": [
         "项目详情以官方 README 为准"
       ],
