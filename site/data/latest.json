@@ -1,6 +1,6 @@
 {
-  "period": "2026-W39",
-  "updated_at": "2026-09-27T06:35:00+00:00",
+  "period": "2026-W40",
+  "updated_at": "2026-09-28T06:48:05+00:00",
   "source": "GitHub Trending · This week",
   "analyzed_count": 18,
   "items": [
@@ -9,9 +9,9 @@
       "repo": "affaan-m/ECC",
       "name": "ECC",
       "language": "JavaScript",
-      "stars": 268028,
-      "weekly_stars": 5522,
-      "score": 88,
+      "stars": 268552,
+      "weekly_stars": 5175,
+      "score": 87,
       "github_url": "https://github.com/affaan-m/ECC",
       "download_url": "https://github.com/affaan-m/ECC/archive/refs/heads/main.zip",
       "clone": "git clone https://github.com/affaan-m/ECC.git",
@@ -37,105 +37,12 @@
     },
     {
       "rank": 2,
-      "repo": "stablyai/orca",
-      "name": "orca",
-      "language": "TypeScript",
-      "stars": 79066,
-      "weekly_stars": 6503,
-      "score": 69,
-      "github_url": "https://github.com/stablyai/orca",
-      "download_url": "https://github.com/stablyai/orca/archive/refs/heads/main.zip",
-      "clone": "git clone https://github.com/stablyai/orca.git",
-      "summary": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
-      "category": [
-        "开源工具"
-      ],
-      "difficulty": "中等",
-      "problem": "请查看项目 README 了解它解决的具体问题。",
-      "why_now": "近 7 天新增约 5,305 Star。",
-      "core_features": [
-        "项目详情以官方 README 为准"
-      ],
-      "audience": [
-        "开源项目使用者"
-      ],
-      "use_cases": [
-        "评估是否适合自己的工作流"
-      ],
-      "recommendation_reason": "进入本周高增长候选，并与 AI / Agent / 自动化等方向有一定匹配。",
-      "install": null,
-      "release_url": null
-    },
-    {
-      "rank": 3,
-      "repo": "cloudflare/security-audit-skill",
-      "name": "security-audit-skill",
-      "language": "JavaScript",
-      "stars": 22089,
-      "weekly_stars": 6474,
-      "score": 63,
-      "github_url": "https://github.com/cloudflare/security-audit-skill",
-      "download_url": "https://github.com/cloudflare/security-audit-skill/archive/refs/heads/main.zip",
-      "clone": "git clone https://github.com/cloudflare/security-audit-skill.git",
-      "summary": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
-      "category": [
-        "开源工具"
-      ],
-      "difficulty": "中等",
-      "problem": "请查看项目 README 了解它解决的具体问题。",
-      "why_now": "近 7 天新增约 9,547 Star。",
-      "core_features": [
-        "项目详情以官方 README 为准"
-      ],
-      "audience": [
-        "开源项目使用者"
-      ],
-      "use_cases": [
-        "评估是否适合自己的工作流"
-      ],
-      "recommendation_reason": "进入本周高增长候选，并与 AI / Agent / 自动化等方向有一定匹配。",
-      "install": null,
-      "release_url": null
-    },
-    {
-      "rank": 4,
-      "repo": "alibaba/open-code-review",
-      "name": "open-code-review",
-      "language": "Go",
-      "stars": 41679,
-      "weekly_stars": 4310,
-      "score": 63,
-      "github_url": "https://github.com/alibaba/open-code-review",
-      "download_url": "https://github.com/alibaba/open-code-review/archive/refs/heads/main.zip",
-      "clone": "git clone https://github.com/alibaba/open-code-review.git",
-      "summary": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
-      "category": [
-        "开源工具"
-      ],
-      "difficulty": "中等",
-      "problem": "请查看项目 README 了解它解决的具体问题。",
-      "why_now": "近 7 天新增约 5,169 Star。",
-      "core_features": [
-        "项目详情以官方 README 为准"
-      ],
-      "audience": [
-        "开源项目使用者"
-      ],
-      "use_cases": [
-        "评估是否适合自己的工作流"
-      ],
-      "recommendation_reason": "进入本周高增长候选，并与 AI / Agent / 自动化等方向有一定匹配。",
-      "install": null,
-      "release_url": null
-    },
-    {
-      "rank": 5,
       "repo": "vectorize-io/hindsight",
       "name": "hindsight",
       "language": "Python",
-      "stars": 33642,
-      "weekly_stars": 7282,
-      "score": 62,
+      "stars": 38407,
+      "weekly_stars": 11089,
+      "score": 77,
       "github_url": "https://github.com/vectorize-io/hindsight",
       "download_url": "https://github.com/vectorize-io/hindsight/archive/refs/heads/main.zip",
       "clone": "git clone https://github.com/vectorize-io/hindsight.git",
@@ -160,54 +67,23 @@
       "release_url": null
     },
     {
-      "rank": 6,
-      "repo": "addyosmani/agent-skills",
-      "name": "agent-skills",
-      "language": "JavaScript",
-      "stars": 99328,
-      "weekly_stars": 2510,
-      "score": 61,
-      "github_url": "https://github.com/addyosmani/agent-skills",
-      "download_url": "https://github.com/addyosmani/agent-skills/archive/refs/heads/main.zip",
-      "clone": "git clone https://github.com/addyosmani/agent-skills.git",
-      "summary": "Production-grade engineering skills for AI coding agents.",
-      "category": [
-        "开源工具"
-      ],
-      "difficulty": "中等",
-      "problem": "请查看项目 README 了解它解决的具体问题。",
-      "why_now": "近 7 天新增约 2,119 Star。",
-      "core_features": [
-        "项目详情以官方 README 为准"
-      ],
-      "audience": [
-        "开源项目使用者"
-      ],
-      "use_cases": [
-        "评估是否适合自己的工作流"
-      ],
-      "recommendation_reason": "进入本周高增长候选，并与 AI / Agent / 自动化等方向有一定匹配。",
-      "install": null,
-      "release_url": null
-    },
-    {
-      "rank": 7,
-      "repo": "dream-num/univer",
-      "name": "univer",
+      "rank": 3,
+      "repo": "stablyai/orca",
+      "name": "orca",
       "language": "TypeScript",
-      "stars": 19711,
-      "weekly_stars": 4660,
-      "score": 52,
-      "github_url": "https://github.com/dream-num/univer",
-      "download_url": "https://github.com/dream-num/univer/archive/refs/heads/dev.zip",
-      "clone": "git clone https://github.com/dream-num/univer.git",
-      "summary": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
+      "stars": 79945,
+      "weekly_stars": 6227,
+      "score": 68,
+      "github_url": "https://github.com/stablyai/orca",
+      "download_url": "https://github.com/stablyai/orca/archive/refs/heads/main.zip",
+      "clone": "git clone https://github.com/stablyai/orca.git",
+      "summary": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
       "category": [
         "开源工具"
       ],
       "difficulty": "中等",
       "problem": "请查看项目 README 了解它解决的具体问题。",
-      "why_now": "近 7 天新增约 4,660 Star。",
+      "why_now": "近 7 天新增约 5,305 Star。",
       "core_features": [
         "项目详情以官方 README 为准"
       ],
@@ -222,13 +98,75 @@
       "release_url": null
     },
     {
-      "rank": 8,
+      "rank": 4,
+      "repo": "rohitg00/ai-engineering-from-scratch",
+      "name": "ai-engineering-from-scratch",
+      "language": "Python",
+      "stars": 59720,
+      "weekly_stars": 3850,
+      "score": 63,
+      "github_url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "download_url": "https://github.com/rohitg00/ai-engineering-from-scratch/archive/refs/heads/main.zip",
+      "clone": "git clone https://github.com/rohitg00/ai-engineering-from-scratch.git",
+      "summary": "Learn it. Build it. Ship it for others.",
+      "category": [
+        "开源工具"
+      ],
+      "difficulty": "中等",
+      "problem": "请查看项目 README 了解它解决的具体问题。",
+      "why_now": "近 7 天新增约 3,850 Star。",
+      "core_features": [
+        "项目详情以官方 README 为准"
+      ],
+      "audience": [
+        "开源项目使用者"
+      ],
+      "use_cases": [
+        "评估是否适合自己的工作流"
+      ],
+      "recommendation_reason": "进入本周高增长候选，并与 AI / Agent / 自动化等方向有一定匹配。",
+      "install": null,
+      "release_url": null
+    },
+    {
+      "rank": 5,
+      "repo": "alibaba/open-code-review",
+      "name": "open-code-review",
+      "language": "Go",
+      "stars": 42038,
+      "weekly_stars": 3727,
+      "score": 61,
+      "github_url": "https://github.com/alibaba/open-code-review",
+      "download_url": "https://github.com/alibaba/open-code-review/archive/refs/heads/main.zip",
+      "clone": "git clone https://github.com/alibaba/open-code-review.git",
+      "summary": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "category": [
+        "开源工具"
+      ],
+      "difficulty": "中等",
+      "problem": "请查看项目 README 了解它解决的具体问题。",
+      "why_now": "近 7 天新增约 5,169 Star。",
+      "core_features": [
+        "项目详情以官方 README 为准"
+      ],
+      "audience": [
+        "开源项目使用者"
+      ],
+      "use_cases": [
+        "评估是否适合自己的工作流"
+      ],
+      "recommendation_reason": "进入本周高增长候选，并与 AI / Agent / 自动化等方向有一定匹配。",
+      "install": null,
+      "release_url": null
+    },
+    {
+      "rank": 6,
       "repo": "paperclipai/paperclip",
       "name": "paperclip",
       "language": "TypeScript",
-      "stars": 87876,
-      "weekly_stars": 5376,
-      "score": 51,
+      "stars": 90765,
+      "weekly_stars": 7364,
+      "score": 58,
       "github_url": "https://github.com/paperclipai/paperclip",
       "download_url": "https://github.com/paperclipai/paperclip/archive/refs/heads/master.zip",
       "clone": "git clone https://github.com/paperclipai/paperclip.git",
@@ -253,13 +191,44 @@
       "release_url": null
     },
     {
-      "rank": 9,
+      "rank": 7,
+      "repo": "cloudflare/security-audit-skill",
+      "name": "security-audit-skill",
+      "language": "JavaScript",
+      "stars": 22440,
+      "weekly_stars": 4805,
+      "score": 56,
+      "github_url": "https://github.com/cloudflare/security-audit-skill",
+      "download_url": "https://github.com/cloudflare/security-audit-skill/archive/refs/heads/main.zip",
+      "clone": "git clone https://github.com/cloudflare/security-audit-skill.git",
+      "summary": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "category": [
+        "开源工具"
+      ],
+      "difficulty": "中等",
+      "problem": "请查看项目 README 了解它解决的具体问题。",
+      "why_now": "近 7 天新增约 9,547 Star。",
+      "core_features": [
+        "项目详情以官方 README 为准"
+      ],
+      "audience": [
+        "开源项目使用者"
+      ],
+      "use_cases": [
+        "评估是否适合自己的工作流"
+      ],
+      "recommendation_reason": "进入本周高增长候选，并与 AI / Agent / 自动化等方向有一定匹配。",
+      "install": null,
+      "release_url": null
+    },
+    {
+      "rank": 8,
       "repo": "Tencent/WeKnora",
       "name": "WeKnora",
       "language": "Go",
-      "stars": 30395,
-      "weekly_stars": 3015,
-      "score": 50,
+      "stars": 30736,
+      "weekly_stars": 2705,
+      "score": 49,
       "github_url": "https://github.com/Tencent/WeKnora",
       "download_url": "https://github.com/Tencent/WeKnora/archive/refs/heads/main.zip",
       "clone": "git clone https://github.com/Tencent/WeKnora.git",
@@ -284,23 +253,54 @@
       "release_url": null
     },
     {
-      "rank": 10,
-      "repo": "superdesigndev/treg",
-      "name": "treg",
-      "language": "Python",
-      "stars": 3524,
-      "weekly_stars": 1773,
-      "score": 46,
-      "github_url": "https://github.com/superdesigndev/treg",
-      "download_url": "https://github.com/superdesigndev/treg/archive/refs/heads/main.zip",
-      "clone": "git clone https://github.com/superdesigndev/treg.git",
-      "summary": "OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn",
+      "rank": 9,
+      "repo": "anthropics/claude-code",
+      "name": "claude-code",
+      "language": "TypeScript",
+      "stars": 148385,
+      "weekly_stars": 1493,
+      "score": 39,
+      "github_url": "https://github.com/anthropics/claude-code",
+      "download_url": "https://github.com/anthropics/claude-code/archive/refs/heads/main.zip",
+      "clone": "git clone https://github.com/anthropics/claude-code.git",
+      "summary": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
       "category": [
         "开源工具"
       ],
       "difficulty": "中等",
       "problem": "请查看项目 README 了解它解决的具体问题。",
-      "why_now": "近 7 天新增约 1,067 Star。",
+      "why_now": "近 7 天新增约 1,493 Star。",
+      "core_features": [
+        "项目详情以官方 README 为准"
+      ],
+      "audience": [
+        "开源项目使用者"
+      ],
+      "use_cases": [
+        "评估是否适合自己的工作流"
+      ],
+      "recommendation_reason": "进入本周高增长候选，并与 AI / Agent / 自动化等方向有一定匹配。",
+      "install": null,
+      "release_url": null
+    },
+    {
+      "rank": 10,
+      "repo": "TencentCloud/Octop",
+      "name": "Octop",
+      "language": "Python",
+      "stars": 5373,
+      "weekly_stars": 869,
+      "score": 36,
+      "github_url": "https://github.com/TencentCloud/Octop",
+      "download_url": "https://github.com/TencentCloud/Octop/archive/refs/heads/main.zip",
+      "clone": "git clone https://github.com/TencentCloud/Octop.git",
+      "summary": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
+      "category": [
+        "开源工具"
+      ],
+      "difficulty": "中等",
+      "problem": "请查看项目 README 了解它解决的具体问题。",
+      "why_now": "近 7 天新增约 869 Star。",
       "core_features": [
         "项目详情以官方 README 为准"
       ],
