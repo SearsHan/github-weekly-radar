@@ -12,6 +12,28 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'scripts'))
 from daily_update import analyze, build_candidate, load_cache, run, SCHEMA
 from promote_data import check_sources
+from check_model import main as check_model, failure_reason
+
+
+class CredentialDiagnosticsTests(unittest.TestCase):
+    def test_quota_cause_is_reported_without_error_message_or_key(self):
+        response = Mock(ok=False, status_code=429)
+        response.json.return_value = {'error': {'code': 'credit_balance_exhausted',
+            'type': 'insufficient_quota', 'message': 'private diagnostic data'}}
+        with patch.dict(os.environ, {'OPENAI_API_KEY': 'test-only-private'}), \
+                patch('check_model.requests.post', return_value=response):
+            with self.assertRaises(ValueError) as caught:
+                check_model()
+        message = str(caught.exception)
+        self.assertIn('credit_balance_exhausted', message)
+        self.assertNotIn('private', message)
+
+    def test_unknown_or_non_json_errors_are_not_logged(self):
+        response = Mock()
+        response.json.return_value = {'error': {'code': 'private diagnostic data'}}
+        self.assertEqual(failure_reason(response), '未识别错误类型')
+        response.json.side_effect = ValueError('private response')
+        self.assertEqual(failure_reason(response), '未识别错误类型')
 
 
 class DailyUpdateTests(unittest.TestCase):
