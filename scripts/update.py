@@ -178,7 +178,9 @@ def model_analyze(projects):
                 time.sleep(10 * (attempt + 1))
                 continue
             r.raise_for_status()
-            content = (r.json()["choices"][0]["message"].get("content") or "").strip()
+            print("MODEL_HTTP", r.status_code, r.headers.get("content-type"), repr(r.text[:500]))
+            parsed_response = json.loads(r.text.lstrip("\\ufeff"))
+            content = (parsed_response["choices"][0]["message"].get("content") or "").strip()
             # GitHub Models may wrap JSON in markdown fences even when JSON mode is requested.
             if content.startswith("\`\`\`"):
                 content = re.sub(r"^\`\`\`(?:json)?\\s*", "", content, flags=re.I)
