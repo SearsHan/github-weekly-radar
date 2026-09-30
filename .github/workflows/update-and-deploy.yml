@@ -32,7 +32,6 @@ jobs:
           GITHUB_MODEL: openai/gpt-4.1
         run: python scripts/update.py
       - name: Commit refreshed data
-        if: github.event_name != 'push'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
