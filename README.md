@@ -1,63 +1,51 @@
 # GitHub Weekly Radar
 
-每周只精选 **10 个**真正值得研究、下载和使用的 GitHub 项目。
+面向中文用户的 GitHub 本周精选榜：十个项目，完整中文介绍、功能、场景、推荐理由和官方来源。
 
-## 已实现
+## 更新与发布
 
-- GitHub Trending `This week` 自动抓取
-- 固定 Top 10
-- 近 7 天新增 Star、总 Star、Radar Score
-- 中文详细介绍、核心功能、解决问题、为什么本周值得关注
-- 针对 Codex / MCP / AI 设计 / 自动化 / 内容生产的推荐理由
-- GitHub、ZIP 下载、Latest Release、Git Clone、安装命令
-- 分类筛选、排序、浏览器本地收藏
-- 历史周榜归档
-- 手机 / 桌面响应式网页
-- GitHub Actions 每天 09:15（中国标准时间）更新
-- GitHub Pages 自动发布
+- 每日 09:15（Asia/Shanghai）由本项目关联的 ChatGPT / Codex 定时任务阅读榜单与 README，生成中文内容。任务在桌面应用中运行；电脑和应用需要保持运行、GitHub 连接需要有仓库写入权限。
+- GitHub Actions **不抓取、不调用模型、不生成或提交数据**。仅 `main` 上 `site/data/latest.json` 的变动触发校验与 Pages 部署，没有定时或手动抓取入口。
+- 任意一个项目缺少中文介绍、必填字段、README 来源或正确安装证据时，整批拒绝更新。采集或生成失败保留上一版；Actions 校验失败不会部署；部署失败保留上一次成功部署的 Pages。
+- 无英文兜底、占位文案、部分成功发布，也不需要 GitHub Models 或 OpenAI API 密钥。
+
+## 每日任务的固定流程
+
+详细操作与失败规则见 [docs/daily-update.md](docs/daily-update.md)。
+
+```bash
+python3 -m venv .venv
+.venv/bin/pip install -r requirements.txt
+.venv/bin/python scripts/collect_sources.py --output work/daily
+# ChatGPT 逐个阅读 work/daily/sources.json 中的 README，生成 work/daily/candidate.json。
+python3 scripts/validate_data.py work/daily/candidate.json
+python3 scripts/promote_data.py work/daily/candidate.json --sources work/daily/sources.json
+```
+
+采集脚本只输出完整证据，不会修改网站数据。`promote_data.py` 检查十个项目、全部字段和采集证据后原子替换文件；提交后仍需核对同一提交的 Actions 和线上 JSON。
+
+## 精选规则
+
+读取 `https://github.com/trending?since=weekly`，最多取前 35 个候选。沿用 `radar-score-v1`：近七天 Star 增长（最高 60 分），叠加元数据中 MCP、Agent、Codex、Skills、自动化、设计、音视频、RAG 等方向的匹配分和基础 20 分，总分最高 100。按分数、本周 Star、Trending 原排名排序选十个。README 优先中文翻译，其次默认 README；来源固定到仓库 commit 并记录内容哈希。
 
 ## 目录
 
 ```text
-site/                 # GitHub Pages 网站
-  index.html
-  styles.css
-  app.js
-  data/latest.json
-  data/archive/
-scripts/update.py     # 抓取、评分、AI 分析
-.github/workflows/    # 定时更新 + Pages 部署
+site/                         # 网页和经校验的 latest.json
+scripts/collect_sources.py    # 只读采集榜单、元数据、完整 README
+scripts/validate_data.py      # 完整中文内容与结构校验（标准库）
+scripts/promote_data.py       # 对照采集证据、原子更新
+tests/                        # 失败保留上一版等回归检查
+docs/daily-update.md          # ChatGPT 每日操作规范
+.github/workflows/deploy-pages.yml  # 仅校验和部署
 ```
 
-## 部署
-
-1. 在 GitHub 新建公开仓库 `github-weekly-radar`。
-2. 把本项目全部文件上传到仓库根目录。
-3. `Settings → Pages → Build and deployment → Source` 选择 **GitHub Actions**。
-4. 打开 `Actions`，运行一次 **Update and deploy GitHub Weekly Radar**。
-5. Pages 地址通常是：`https://<username>.github.io/github-weekly-radar/`。
-
-## AI 中文分析（推荐开启）
-
-不配置 AI 密钥时，更新脚本仍可自动刷新 GitHub 排名和项目元数据；新进入榜单的项目会使用保守的官方描述兜底。
-
-如要让新项目也自动生成完整中文介绍：
-
-1. 仓库 `Settings → Secrets and variables → Actions → Secrets`
-2. 添加 `OPENAI_API_KEY`
-3. 可在 `Variables` 添加 `OPENAI_MODEL`；默认使用 `gpt-5.6-luna`
-
-密钥只存在 GitHub Actions Secrets 中，不要写进仓库文件。
-
-## 手动刷新
-
-`Actions → Update and deploy GitHub Weekly Radar → Run workflow`
-
-## 本地预览
+## 验证与预览
 
 ```bash
-cd site
-python3 -m http.server 8080
+python3 -m unittest discover -s tests -v
+python3 scripts/validate_data.py site/data/latest.json
+python3 -m http.server 8080 --directory site
 ```
 
-打开 `http://localhost:8080`。
+Pages 设置保留 GitHub Actions 作为发布来源。修改应用代码时，将已核验的数据随同提交（包括实际重新采集的更新时间），再触发部署；普通代码或说明修改不会触发数据更新。
