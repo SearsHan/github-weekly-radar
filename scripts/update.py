@@ -178,8 +178,18 @@ def model_analyze(projects):
                 time.sleep(10 * (attempt + 1))
                 continue
             r.raise_for_status()
-            content = r.json()["choices"][0]["message"]["content"]
-            data = json.loads(content)
+            content = (r.json()["choices"][0]["message"].get("content") or "").strip()
+            # GitHub Models may wrap JSON in markdown fences even when JSON mode is requested.
+            if content.startswith("\`\`\`"):
+                content = re.sub(r"^\`\`\`(?:json)?\\s*", "", content, flags=re.I)
+                content = re.sub(r"\\s*\`\`\`$", "", content)
+            try:
+                data = json.loads(content)
+            except json.JSONDecodeError:
+                match = re.search(r"\\{.*\\}", content, re.S)
+                if not match:
+                    raise ValueError("model returned no JSON object: " + repr(content[:300]))
+                data = json.loads(match.group(0))
             return {x["repo"]: x for x in data.get("projects", []) if x.get("repo")}
         except Exception as e:
             print("GitHub Models analysis failed:", e)
