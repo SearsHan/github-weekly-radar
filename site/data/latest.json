@@ -1,318 +1,352 @@
 {
   "period": "2026-W40",
-  "updated_at": "2026-09-29T06:51:33+00:00",
+  "updated_at": "2026-09-30T06:14:39+00:00",
   "source": "GitHub Trending · This week",
   "analyzed_count": 18,
   "items": [
     {
+      "summary": "hindsight 是一个近期在 GitHub 上增长较快的开源项目。当前自动中文分析暂时不可用；官方描述为：Hindsight: Agent Memory That Learns",
+      "problem": "自动中文分析暂时未完成，下一次更新会继续重试。",
+      "why_context": "近期 GitHub 社区关注度明显上升。",
+      "core_features": [
+        "自动中文分析暂时未完成，请先参考官方 README"
+      ],
+      "audience": [
+        "希望研究该项目的开发者"
+      ],
+      "use_cases": [
+        "先通过官方 README 与示例评估是否适合自己的工作流"
+      ],
+      "difficulty": "中等",
+      "category": [
+        "Agent",
+        "AI"
+      ],
+      "recommendation_reason": "进入近 7 天高增长候选，并与关注方向有一定匹配。",
+      "install": null,
+      "analysis_version": 1,
       "rank": 1,
       "repo": "vectorize-io/hindsight",
       "name": "hindsight",
       "language": "Python",
-      "stars": 41537,
-      "weekly_stars": 15537,
-      "score": 93,
+      "stars": 43161,
+      "weekly_stars": 17365,
+      "score": 99,
       "github_url": "https://github.com/vectorize-io/hindsight",
       "download_url": "https://github.com/vectorize-io/hindsight/archive/refs/heads/main.zip",
       "clone": "git clone https://github.com/vectorize-io/hindsight.git",
-      "summary": "Hindsight: Agent Memory That Learns",
-      "category": [
-        "开源工具"
-      ],
-      "difficulty": "中等",
-      "problem": "请查看项目 README 了解它解决的具体问题。",
-      "why_now": "近 7 天新增约 3,363 Star。",
-      "core_features": [
-        "项目详情以官方 README 为准"
-      ],
-      "audience": [
-        "开源项目使用者"
-      ],
-      "use_cases": [
-        "评估是否适合自己的工作流"
-      ],
-      "recommendation_reason": "进入本周高增长候选，并与 AI / Agent / 自动化等方向有一定匹配。",
-      "install": null,
-      "release_url": null
+      "release_url": "https://github.com/vectorize-io/hindsight/releases/tag/v0.10.2",
+      "why_now": "近 7 天新增约 17,365 Star。近期 GitHub 社区关注度明显上升。"
     },
     {
+      "summary": "VoiceStudio 是一个近期在 GitHub 上增长较快的开源项目。当前自动中文分析暂时不可用；官方描述为：VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "problem": "自动中文分析暂时未完成，下一次更新会继续重试。",
+      "why_context": "近期 GitHub 社区关注度明显上升。",
+      "core_features": [
+        "自动中文分析暂时未完成，请先参考官方 README"
+      ],
+      "audience": [
+        "希望研究该项目的开发者"
+      ],
+      "use_cases": [
+        "先通过官方 README 与示例评估是否适合自己的工作流"
+      ],
+      "difficulty": "中等",
+      "category": [
+        "AI 设计",
+        "音视频",
+        "AI"
+      ],
+      "recommendation_reason": "进入近 7 天高增长候选，并与关注方向有一定匹配。",
+      "install": null,
+      "analysis_version": 1,
       "rank": 2,
       "repo": "debpalash/VoiceStudio",
       "name": "VoiceStudio",
       "language": "Python",
-      "stars": 45205,
-      "weekly_stars": 7972,
-      "score": 73,
+      "stars": 48821,
+      "weekly_stars": 12722,
+      "score": 92,
       "github_url": "https://github.com/debpalash/VoiceStudio",
       "download_url": "https://github.com/debpalash/VoiceStudio/archive/refs/heads/main.zip",
       "clone": "git clone https://github.com/debpalash/VoiceStudio.git",
-      "summary": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
-      "category": [
-        "开源工具"
-      ],
-      "difficulty": "中等",
-      "problem": "请查看项目 README 了解它解决的具体问题。",
-      "why_now": "近 7 天新增约 7,972 Star。",
-      "core_features": [
-        "项目详情以官方 README 为准"
-      ],
-      "audience": [
-        "开源项目使用者"
-      ],
-      "use_cases": [
-        "评估是否适合自己的工作流"
-      ],
-      "recommendation_reason": "进入本周高增长候选，并与 AI / Agent / 自动化等方向有一定匹配。",
-      "install": null,
-      "release_url": null
+      "release_url": "https://github.com/debpalash/VoiceStudio/releases/tag/v0.5.6",
+      "why_now": "近 7 天新增约 12,722 Star。近期 GitHub 社区关注度明显上升。"
     },
     {
+      "summary": "paperclip 是一个近期在 GitHub 上增长较快的开源项目。当前自动中文分析暂时不可用；官方描述为：The open-source app everyone uses to manage agents at work",
+      "problem": "自动中文分析暂时未完成，下一次更新会继续重试。",
+      "why_context": "近期 GitHub 社区关注度明显上升。",
+      "core_features": [
+        "自动中文分析暂时未完成，请先参考官方 README"
+      ],
+      "audience": [
+        "希望研究该项目的开发者"
+      ],
+      "use_cases": [
+        "先通过官方 README 与示例评估是否适合自己的工作流"
+      ],
+      "difficulty": "中等",
+      "category": [
+        "Agent"
+      ],
+      "recommendation_reason": "进入近 7 天高增长候选，并与关注方向有一定匹配。",
+      "install": null,
+      "analysis_version": 1,
       "rank": 3,
       "repo": "paperclipai/paperclip",
       "name": "paperclip",
       "language": "TypeScript",
-      "stars": 93389,
-      "weekly_stars": 10518,
-      "score": 71,
+      "stars": 94728,
+      "weekly_stars": 12941,
+      "score": 81,
       "github_url": "https://github.com/paperclipai/paperclip",
       "download_url": "https://github.com/paperclipai/paperclip/archive/refs/heads/master.zip",
       "clone": "git clone https://github.com/paperclipai/paperclip.git",
-      "summary": "The open-source app everyone uses to manage agents at work",
-      "category": [
-        "开源工具"
-      ],
-      "difficulty": "中等",
-      "problem": "请查看项目 README 了解它解决的具体问题。",
-      "why_now": "近 7 天新增约 5,376 Star。",
-      "core_features": [
-        "项目详情以官方 README 为准"
-      ],
-      "audience": [
-        "开源项目使用者"
-      ],
-      "use_cases": [
-        "评估是否适合自己的工作流"
-      ],
-      "recommendation_reason": "进入本周高增长候选，并与 AI / Agent / 自动化等方向有一定匹配。",
-      "install": null,
-      "release_url": null
+      "release_url": "https://github.com/paperclipai/paperclip/releases/tag/v2026.916.1",
+      "why_now": "近 7 天新增约 12,941 Star。近期 GitHub 社区关注度明显上升。"
     },
     {
+      "summary": "ai-engineering-from-scratch 是一个近期在 GitHub 上增长较快的开源项目。当前自动中文分析暂时不可用；官方描述为：Learn it. Build it. Ship it for others.",
+      "problem": "自动中文分析暂时未完成，下一次更新会继续重试。",
+      "why_context": "近期 GitHub 社区关注度明显上升。",
+      "core_features": [
+        "自动中文分析暂时未完成，请先参考官方 README"
+      ],
+      "audience": [
+        "希望研究该项目的开发者"
+      ],
+      "use_cases": [
+        "先通过官方 README 与示例评估是否适合自己的工作流"
+      ],
+      "difficulty": "中等",
+      "category": [
+        "MCP",
+        "Agent",
+        "AI"
+      ],
+      "recommendation_reason": "进入近 7 天高增长候选，并与关注方向有一定匹配。",
+      "install": null,
+      "analysis_version": 1,
       "rank": 4,
+      "repo": "rohitg00/ai-engineering-from-scratch",
+      "name": "ai-engineering-from-scratch",
+      "language": "Python",
+      "stars": 61678,
+      "weekly_stars": 5830,
+      "score": 71,
+      "github_url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "download_url": "https://github.com/rohitg00/ai-engineering-from-scratch/archive/refs/heads/main.zip",
+      "clone": "git clone https://github.com/rohitg00/ai-engineering-from-scratch.git",
+      "release_url": "https://github.com/rohitg00/ai-engineering-from-scratch/releases/tag/v2026.10",
+      "why_now": "近 7 天新增约 5,830 Star。近期 GitHub 社区关注度明显上升。"
+    },
+    {
+      "summary": "orca 是一个近期在 GitHub 上增长较快的开源项目。当前自动中文分析暂时不可用；官方描述为：Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+      "problem": "自动中文分析暂时未完成，下一次更新会继续重试。",
+      "why_context": "近期 GitHub 社区关注度明显上升。",
+      "core_features": [
+        "自动中文分析暂时未完成，请先参考官方 README"
+      ],
+      "audience": [
+        "希望研究该项目的开发者"
+      ],
+      "use_cases": [
+        "先通过官方 README 与示例评估是否适合自己的工作流"
+      ],
+      "difficulty": "中等",
+      "category": [
+        "Codex / Skills",
+        "Agent",
+        "开发工具"
+      ],
+      "recommendation_reason": "进入近 7 天高增长候选，并与关注方向有一定匹配。",
+      "install": null,
+      "analysis_version": 1,
+      "rank": 5,
       "repo": "stablyai/orca",
       "name": "orca",
       "language": "TypeScript",
-      "stars": 80974,
-      "weekly_stars": 6151,
+      "stars": 81825,
+      "weekly_stars": 6242,
       "score": 68,
       "github_url": "https://github.com/stablyai/orca",
       "download_url": "https://github.com/stablyai/orca/archive/refs/heads/main.zip",
       "clone": "git clone https://github.com/stablyai/orca.git",
-      "summary": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
-      "category": [
-        "开源工具"
-      ],
-      "difficulty": "中等",
-      "problem": "请查看项目 README 了解它解决的具体问题。",
-      "why_now": "近 7 天新增约 5,305 Star。",
-      "core_features": [
-        "项目详情以官方 README 为准"
-      ],
-      "audience": [
-        "开源项目使用者"
-      ],
-      "use_cases": [
-        "评估是否适合自己的工作流"
-      ],
-      "recommendation_reason": "进入本周高增长候选，并与 AI / Agent / 自动化等方向有一定匹配。",
-      "install": null,
-      "release_url": null
+      "release_url": "https://github.com/stablyai/orca/releases/tag/v1.4.217",
+      "why_now": "近 7 天新增约 6,242 Star。近期 GitHub 社区关注度明显上升。"
     },
     {
-      "rank": 5,
-      "repo": "rohitg00/ai-engineering-from-scratch",
-      "name": "ai-engineering-from-scratch",
-      "language": "Python",
-      "stars": 60605,
-      "weekly_stars": 5004,
-      "score": 68,
-      "github_url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "download_url": "https://github.com/rohitg00/ai-engineering-from-scratch/archive/refs/heads/main.zip",
-      "clone": "git clone https://github.com/rohitg00/ai-engineering-from-scratch.git",
-      "summary": "Learn it. Build it. Ship it for others.",
-      "category": [
-        "开源工具"
-      ],
-      "difficulty": "中等",
-      "problem": "请查看项目 README 了解它解决的具体问题。",
-      "why_now": "近 7 天新增约 3,850 Star。",
+      "summary": "WeKnora 是一个近期在 GitHub 上增长较快的开源项目。当前自动中文分析暂时不可用；官方描述为：Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+      "problem": "自动中文分析暂时未完成，下一次更新会继续重试。",
+      "why_context": "近期 GitHub 社区关注度明显上升。",
       "core_features": [
-        "项目详情以官方 README 为准"
+        "自动中文分析暂时未完成，请先参考官方 README"
       ],
       "audience": [
-        "开源项目使用者"
+        "希望研究该项目的开发者"
       ],
       "use_cases": [
-        "评估是否适合自己的工作流"
+        "先通过官方 README 与示例评估是否适合自己的工作流"
       ],
-      "recommendation_reason": "进入本周高增长候选，并与 AI / Agent / 自动化等方向有一定匹配。",
+      "difficulty": "中等",
+      "category": [
+        "Agent",
+        "数据 / RAG",
+        "AI"
+      ],
+      "recommendation_reason": "进入近 7 天高增长候选，并与关注方向有一定匹配。",
       "install": null,
-      "release_url": null
-    },
-    {
+      "analysis_version": 1,
       "rank": 6,
-      "repo": "cloudflare/security-audit-skill",
-      "name": "security-audit-skill",
-      "language": "JavaScript",
-      "stars": 22868,
-      "weekly_stars": 3962,
-      "score": 53,
-      "github_url": "https://github.com/cloudflare/security-audit-skill",
-      "download_url": "https://github.com/cloudflare/security-audit-skill/archive/refs/heads/main.zip",
-      "clone": "git clone https://github.com/cloudflare/security-audit-skill.git",
-      "summary": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
-      "category": [
-        "开源工具"
-      ],
-      "difficulty": "中等",
-      "problem": "请查看项目 README 了解它解决的具体问题。",
-      "why_now": "近 7 天新增约 9,547 Star。",
-      "core_features": [
-        "项目详情以官方 README 为准"
-      ],
-      "audience": [
-        "开源项目使用者"
-      ],
-      "use_cases": [
-        "评估是否适合自己的工作流"
-      ],
-      "recommendation_reason": "进入本周高增长候选，并与 AI / Agent / 自动化等方向有一定匹配。",
-      "install": null,
-      "release_url": null
-    },
-    {
-      "rank": 7,
       "repo": "Tencent/WeKnora",
       "name": "WeKnora",
       "language": "Go",
-      "stars": 31072,
-      "weekly_stars": 2509,
-      "score": 48,
+      "stars": 31329,
+      "weekly_stars": 2397,
+      "score": 54,
       "github_url": "https://github.com/Tencent/WeKnora",
       "download_url": "https://github.com/Tencent/WeKnora/archive/refs/heads/main.zip",
       "clone": "git clone https://github.com/Tencent/WeKnora.git",
-      "summary": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
-      "category": [
-        "开源工具"
-      ],
-      "difficulty": "中等",
-      "problem": "请查看项目 README 了解它解决的具体问题。",
-      "why_now": "近 7 天新增约 5,242 Star。",
-      "core_features": [
-        "项目详情以官方 README 为准"
-      ],
-      "audience": [
-        "开源项目使用者"
-      ],
-      "use_cases": [
-        "评估是否适合自己的工作流"
-      ],
-      "recommendation_reason": "进入本周高增长候选，并与 AI / Agent / 自动化等方向有一定匹配。",
-      "install": null,
-      "release_url": null
+      "release_url": "https://github.com/Tencent/WeKnora/releases/tag/v0.8.2",
+      "why_now": "近 7 天新增约 2,397 Star。近期 GitHub 社区关注度明显上升。"
     },
     {
+      "summary": "security-audit-skill 是一个近期在 GitHub 上增长较快的开源项目。当前自动中文分析暂时不可用；官方描述为：A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "problem": "自动中文分析暂时未完成，下一次更新会继续重试。",
+      "why_context": "近期 GitHub 社区关注度明显上升。",
+      "core_features": [
+        "自动中文分析暂时未完成，请先参考官方 README"
+      ],
+      "audience": [
+        "希望研究该项目的开发者"
+      ],
+      "use_cases": [
+        "先通过官方 README 与示例评估是否适合自己的工作流"
+      ],
+      "difficulty": "中等",
+      "category": [
+        "Codex / Skills",
+        "Agent"
+      ],
+      "recommendation_reason": "进入近 7 天高增长候选，并与关注方向有一定匹配。",
+      "install": null,
+      "analysis_version": 1,
+      "rank": 7,
+      "repo": "cloudflare/security-audit-skill",
+      "name": "security-audit-skill",
+      "language": "JavaScript",
+      "stars": 23255,
+      "weekly_stars": 3311,
+      "score": 50,
+      "github_url": "https://github.com/cloudflare/security-audit-skill",
+      "download_url": "https://github.com/cloudflare/security-audit-skill/archive/refs/heads/main.zip",
+      "clone": "git clone https://github.com/cloudflare/security-audit-skill.git",
+      "release_url": null,
+      "why_now": "近 7 天新增约 3,311 Star。近期 GitHub 社区关注度明显上升。"
+    },
+    {
+      "summary": "cua 是一个近期在 GitHub 上增长较快的开源项目。当前自动中文分析暂时不可用；官方描述为：Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.",
+      "problem": "自动中文分析暂时未完成，下一次更新会继续重试。",
+      "why_context": "近期 GitHub 社区关注度明显上升。",
+      "core_features": [
+        "自动中文分析暂时未完成，请先参考官方 README"
+      ],
+      "audience": [
+        "希望研究该项目的开发者"
+      ],
+      "use_cases": [
+        "先通过官方 README 与示例评估是否适合自己的工作流"
+      ],
+      "difficulty": "中等",
+      "category": [
+        "Agent",
+        "自动化",
+        "AI"
+      ],
+      "recommendation_reason": "进入近 7 天高增长候选，并与关注方向有一定匹配。",
+      "install": null,
+      "analysis_version": 1,
       "rank": 8,
       "repo": "trycua/cua",
       "name": "cua",
       "language": "HTML",
-      "stars": 26909,
-      "weekly_stars": 1293,
+      "stars": 27414,
+      "weekly_stars": 1211,
       "score": 45,
       "github_url": "https://github.com/trycua/cua",
       "download_url": "https://github.com/trycua/cua/archive/refs/heads/main.zip",
       "clone": "git clone https://github.com/trycua/cua.git",
-      "summary": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.",
-      "category": [
-        "开源工具"
-      ],
-      "difficulty": "中等",
-      "problem": "请查看项目 README 了解它解决的具体问题。",
-      "why_now": "近 7 天新增约 1,293 Star。",
-      "core_features": [
-        "项目详情以官方 README 为准"
-      ],
-      "audience": [
-        "开源项目使用者"
-      ],
-      "use_cases": [
-        "评估是否适合自己的工作流"
-      ],
-      "recommendation_reason": "进入本周高增长候选，并与 AI / Agent / 自动化等方向有一定匹配。",
-      "install": null,
-      "release_url": null
+      "release_url": "https://github.com/trycua/cua/releases/tag/sandbox-v0.8.0",
+      "why_now": "近 7 天新增约 1,211 Star。近期 GitHub 社区关注度明显上升。"
     },
     {
+      "summary": "Octop 是一个近期在 GitHub 上增长较快的开源项目。当前自动中文分析暂时不可用；官方描述为：A smarter, self-hosted AI assistant — multi-user, multi-agent.",
+      "problem": "自动中文分析暂时未完成，下一次更新会继续重试。",
+      "why_context": "近期 GitHub 社区关注度明显上升。",
+      "core_features": [
+        "自动中文分析暂时未完成，请先参考官方 README"
+      ],
+      "audience": [
+        "希望研究该项目的开发者"
+      ],
+      "use_cases": [
+        "先通过官方 README 与示例评估是否适合自己的工作流"
+      ],
+      "difficulty": "中等",
+      "category": [
+        "Agent",
+        "AI"
+      ],
+      "recommendation_reason": "进入近 7 天高增长候选，并与关注方向有一定匹配。",
+      "install": null,
+      "analysis_version": 1,
       "rank": 9,
       "repo": "TencentCloud/Octop",
       "name": "Octop",
       "language": "Python",
-      "stars": 5616,
-      "weekly_stars": 970,
-      "score": 37,
+      "stars": 5914,
+      "weekly_stars": 1128,
+      "score": 44,
       "github_url": "https://github.com/TencentCloud/Octop",
       "download_url": "https://github.com/TencentCloud/Octop/archive/refs/heads/main.zip",
       "clone": "git clone https://github.com/TencentCloud/Octop.git",
-      "summary": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
-      "category": [
-        "开源工具"
-      ],
-      "difficulty": "中等",
-      "problem": "请查看项目 README 了解它解决的具体问题。",
-      "why_now": "近 7 天新增约 869 Star。",
-      "core_features": [
-        "项目详情以官方 README 为准"
-      ],
-      "audience": [
-        "开源项目使用者"
-      ],
-      "use_cases": [
-        "评估是否适合自己的工作流"
-      ],
-      "recommendation_reason": "进入本周高增长候选，并与 AI / Agent / 自动化等方向有一定匹配。",
-      "install": null,
-      "release_url": null
+      "release_url": "https://github.com/TencentCloud/Octop/releases/tag/v1.0.2b5",
+      "why_now": "近 7 天新增约 1,128 Star。近期 GitHub 社区关注度明显上升。"
     },
     {
-      "rank": 10,
-      "repo": "HKUDS/CLI-Anything",
-      "name": "CLI-Anything",
-      "language": "Python",
-      "stars": 50928,
-      "weekly_stars": 1227,
-      "score": 34,
-      "github_url": "https://github.com/HKUDS/CLI-Anything",
-      "download_url": "https://github.com/HKUDS/CLI-Anything/archive/refs/heads/main.zip",
-      "clone": "git clone https://github.com/HKUDS/CLI-Anything.git",
-      "summary": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
-      "category": [
-        "开源工具"
-      ],
-      "difficulty": "中等",
-      "problem": "请查看项目 README 了解它解决的具体问题。",
-      "why_now": "近 7 天新增约 1,227 Star。",
+      "summary": "impeccable 是一个近期在 GitHub 上增长较快的开源项目。当前自动中文分析暂时不可用；官方描述为：The design language that makes your AI harness better at design.",
+      "problem": "自动中文分析暂时未完成，下一次更新会继续重试。",
+      "why_context": "近期 GitHub 社区关注度明显上升。",
       "core_features": [
-        "项目详情以官方 README 为准"
+        "自动中文分析暂时未完成，请先参考官方 README"
       ],
       "audience": [
-        "开源项目使用者"
+        "希望研究该项目的开发者"
       ],
       "use_cases": [
-        "评估是否适合自己的工作流"
+        "先通过官方 README 与示例评估是否适合自己的工作流"
       ],
-      "recommendation_reason": "进入本周高增长候选，并与 AI / Agent / 自动化等方向有一定匹配。",
+      "difficulty": "中等",
+      "category": [
+        "AI 设计",
+        "AI"
+      ],
+      "recommendation_reason": "进入近 7 天高增长候选，并与关注方向有一定匹配。",
       "install": null,
-      "release_url": null
+      "analysis_version": 1,
+      "rank": 10,
+      "repo": "pbakaus/impeccable",
+      "name": "impeccable",
+      "language": "JavaScript",
+      "stars": 72676,
+      "weekly_stars": 2644,
+      "score": 42,
+      "github_url": "https://github.com/pbakaus/impeccable",
+      "download_url": "https://github.com/pbakaus/impeccable/archive/refs/heads/main.zip",
+      "clone": "git clone https://github.com/pbakaus/impeccable.git",
+      "release_url": "https://github.com/pbakaus/impeccable/releases/tag/engine-v0.1.8",
+      "why_now": "近 7 天新增约 2,644 Star。近期 GitHub 社区关注度明显上升。"
     }
   ]
 }
