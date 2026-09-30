@@ -11,6 +11,7 @@ permissions:
   contents: write
   pages: write
   id-token: write
+  models: read
 
 concurrency:
   group: pages
@@ -25,7 +26,10 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -r requirements.txt
-      - name: Refresh Top 10
+      - name: Refresh Top 10 and generate Chinese introductions
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_MODEL: openai/gpt-4.1
         run: python scripts/update.py
       - name: Commit refreshed data
         if: github.event_name != 'push'
