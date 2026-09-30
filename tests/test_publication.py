@@ -104,15 +104,17 @@ class PublicationTests(unittest.TestCase):
         self.assertEqual(self.target.read_bytes(), self.before)
         self.assertEqual(list(self.target.parent.glob('.latest-*')), [])
 
-    def test_workflow_has_no_schedule_model_or_data_writer(self):
+    def test_cloud_workflow_gates_commit_deployment_and_restore(self):
         paths = list((ROOT / '.github/workflows').glob('*.yml'))
-        self.assertEqual([p.name for p in paths], ['deploy-pages.yml'])
+        self.assertEqual([p.name for p in paths], ['daily-radar.yml'])
         workflow = paths[0].read_text()
-        for forbidden in ['schedule:', 'workflow_dispatch:', 'models:', 'contents: write',
-                          'collect_sources.py', 'promote_data.py', 'git push', 'update.py']:
+        for forbidden in ['models.github.ai', 'models: read', 'git push --force']:
             self.assertNotIn(forbidden, workflow)
-        self.assertIn('paths: [site/data/latest.json]', workflow)
-        self.assertIn('needs: validate', workflow)
+        self.assertIn("cron: '15 1 * * *'", workflow)
+        self.assertIn('needs: prepare', workflow)
+        self.assertIn('python scripts/verify_pages.py', workflow)
+        self.assertLess(workflow.index('Require ten complete Chinese projects'), workflow.index('git commit'))
+        self.assertIn('test "$current" = "$EXPECTED_COMMIT"', workflow)
 
 
 if __name__ == '__main__':

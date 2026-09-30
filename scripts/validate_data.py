@@ -54,56 +54,63 @@ def validate(payload):
     require(isinstance(items, list) and len(items) == 10, '必须完整包含十个项目')
     seen = set()
     for rank, item in enumerate(items, 1):
-        label = f'第 {rank} 个项目'
-        require(isinstance(item, dict), f'{label}: 类型错误')
-        repo = item.get('repo')
-        require(isinstance(repo, str) and re.fullmatch(r'[\w.-]+/[\w.-]+', repo), f'{label}: repo 无效')
-        require(repo.lower() not in seen, f'{label}: 重复项目')
-        seen.add(repo.lower())
-        require(type(item.get('rank')) is int and item['rank'] == rank, f'{repo}: 排名不连续')
-        require(item.get('analysis_version') == 3, f'{repo}: 必须重新阅读 README')
-        require(item.get('name') == repo.split('/')[1], f'{repo}: 名称不符')
-        require(isinstance(item.get('language'), str) and item['language'].strip(), f'{repo}: language 缺失')
-        for field, minimum in [('summary', 65), ('problem', 25), ('why_context', 20),
-                               ('why_now', 20), ('recommendation_reason', 20)]:
-            chinese(item.get(field), minimum, f'{repo}.{field}')
-        for field, low, high, minimum in [('core_features', 3, 5, 5),
-                                         ('audience', 2, 4, 4), ('use_cases', 2, 4, 6)]:
-            values = item.get(field)
-            require(isinstance(values, list) and low <= len(values) <= high, f'{repo}.{field}: 条数不符')
-            for value in values:
-                chinese(value, minimum, f'{repo}.{field}')
-            require(len(set(values)) == len(values), f'{repo}.{field}: 内容重复')
-        require(item.get('difficulty') in ('入门', '中等', '较高'), f'{repo}: difficulty 无效')
-        cats = item.get('category')
-        require(isinstance(cats, list) and 1 <= len(cats) <= 3 and
-                all(isinstance(c, str) and c in CATEGORIES for c in cats), f'{repo}: category 无效')
-        for field in ('stars', 'weekly_stars', 'score'):
-            require(type(item.get(field)) is int and item[field] >= 0, f'{repo}.{field}: 数值无效')
-        require(item['score'] <= 100, f'{repo}: score 超出范围')
-        require(item['github_url'] == f'https://github.com/{repo}', f'{repo}: GitHub 链接不符')
-        require(item['clone'] == f'git clone https://github.com/{repo}.git', f'{repo}: clone 不符')
-        download = item.get('download_url', '')
-        require(isinstance(download, str) and download.startswith(f'https://github.com/{repo}/archive/refs/heads/')
-                and download.endswith('.zip'), f'{repo}: 下载链接不符')
-        release = item.get('release_url')
-        require(release is None or (isinstance(release, str) and
-                release.startswith(f'https://github.com/{repo}/releases/')), f'{repo}: release 不符')
-        source = item.get('readme_source', {})
-        require(isinstance(source, dict), f'{repo}: README 来源无效')
-        sha, path = source.get('commit'), source.get('path')
-        require(isinstance(sha, str) and re.fullmatch(r'[0-9a-f]{40}', sha), f'{repo}: README commit 无效')
-        require(isinstance(path, str) and 'readme' in path.lower(), f'{repo}: README path 无效')
-        require(source.get('url') == f'https://github.com/{repo}/blob/{sha}/{path}', f'{repo}: README URL 不符')
-        require(source.get('language') in ('zh', 'en'), f'{repo}: README 语言无效')
-        require(isinstance(source.get('sha256'), str) and re.fullmatch(r'[0-9a-f]{64}', source['sha256']), f'{repo}: README 哈希无效')
-        timestamp(source.get('fetched_at'), f'{repo}.readme_source.fetched_at')
-        install = item.get('install')
-        require('install' in item and (install is None or isinstance(install, str) and install.strip()), f'{repo}: install 必须为命令或 null')
-        if install is not None:
-            excerpt = item.get('install_source_excerpt')
-            require(isinstance(excerpt, str) and install in excerpt, f'{repo}: 安装命令缺少原文证据')
+        validate_item(item, rank, seen)
     return payload
+
+
+def validate_item(item, rank, seen=None):
+    if seen is None:
+        seen = set()
+    label = f'第 {rank} 个项目'
+    require(isinstance(item, dict), f'{label}: 类型错误')
+    repo = item.get('repo')
+    require(isinstance(repo, str) and re.fullmatch(r'[\w.-]+/[\w.-]+', repo), f'{label}: repo 无效')
+    require(repo.lower() not in seen, f'{label}: 重复项目')
+    seen.add(repo.lower())
+    require(type(item.get('rank')) is int and item['rank'] == rank, f'{repo}: 排名不连续')
+    require(item.get('analysis_version') == 3, f'{repo}: 中文分析版本无效')
+    require(item.get('name') == repo.split('/')[1], f'{repo}: 名称不符')
+    require(isinstance(item.get('language'), str) and item['language'].strip(), f'{repo}: language 缺失')
+    for field, minimum in [('summary', 65), ('problem', 25), ('why_context', 20),
+                           ('why_now', 20), ('recommendation_reason', 20)]:
+        chinese(item.get(field), minimum, f'{repo}.{field}')
+    for field, low, high, minimum in [('core_features', 3, 5, 5),
+                                     ('audience', 2, 4, 4), ('use_cases', 2, 4, 6)]:
+        values = item.get(field)
+        require(isinstance(values, list) and low <= len(values) <= high, f'{repo}.{field}: 条数不符')
+        for value in values:
+            chinese(value, minimum, f'{repo}.{field}')
+        require(len(set(values)) == len(values), f'{repo}.{field}: 内容重复')
+    require(item.get('difficulty') in ('入门', '中等', '较高'), f'{repo}: difficulty 无效')
+    cats = item.get('category')
+    require(isinstance(cats, list) and 1 <= len(cats) <= 3 and
+            all(isinstance(c, str) and c in CATEGORIES for c in cats), f'{repo}: category 无效')
+    for field in ('stars', 'weekly_stars', 'score'):
+        require(type(item.get(field)) is int and item[field] >= 0, f'{repo}.{field}: 数值无效')
+    require(item['score'] <= 100, f'{repo}: score 超出范围')
+    require(item['github_url'] == f'https://github.com/{repo}', f'{repo}: GitHub 链接不符')
+    require(item['clone'] == f'git clone https://github.com/{repo}.git', f'{repo}: clone 不符')
+    download = item.get('download_url', '')
+    require(isinstance(download, str) and download.startswith(f'https://github.com/{repo}/archive/refs/heads/')
+            and download.endswith('.zip'), f'{repo}: 下载链接不符')
+    release = item.get('release_url')
+    require(release is None or (isinstance(release, str) and
+            release.startswith(f'https://github.com/{repo}/releases/')), f'{repo}: release 不符')
+    source = item.get('readme_source', {})
+    require(isinstance(source, dict), f'{repo}: README 来源无效')
+    sha, path = source.get('commit'), source.get('path')
+    require(isinstance(sha, str) and re.fullmatch(r'[0-9a-f]{40}', sha), f'{repo}: README commit 无效')
+    require(isinstance(path, str) and 'readme' in path.lower(), f'{repo}: README path 无效')
+    require(source.get('url') == f'https://github.com/{repo}/blob/{sha}/{path}', f'{repo}: README URL 不符')
+    require(source.get('language') in ('zh', 'en'), f'{repo}: README 语言无效')
+    require(isinstance(source.get('sha256'), str) and re.fullmatch(r'[0-9a-f]{64}', source['sha256']), f'{repo}: README 哈希无效')
+    timestamp(source.get('fetched_at'), f'{repo}.readme_source.fetched_at')
+    install = item.get('install')
+    require('install' in item and (install is None or isinstance(install, str) and install.strip()), f'{repo}: install 必须为命令或 null')
+    if install is not None:
+        excerpt = item.get('install_source_excerpt')
+        require(isinstance(excerpt, str) and install in excerpt, f'{repo}: 安装命令缺少原文证据')
+    return item
 
 
 def read_validated(path):

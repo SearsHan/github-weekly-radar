@@ -1,0 +1,167 @@
+name: Daily Chinese radar and Pages
+
+on:
+  schedule:
+    - cron: '15 1 * * *' # 09:15 Asia/Shanghai; GitHub may delay scheduled runs
+  workflow_dispatch:
+    inputs:
+      check_model:
+        description: Check model credentials once (tiny API request)
+        type: boolean
+        default: false
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/daily-radar.yml
+      - scripts/**
+      - tests/**
+      - requirements.txt
+      - site/**
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    permissions:
+      contents: write
+    outputs:
+      commit: ${{ steps.commit.outputs.sha }}
+      changed: ${{ steps.commit.outputs.changed }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - name: Verify publication safeguards
+        run: |
+          python -m unittest discover -s tests -v
+          python scripts/validate_data.py site/data/latest.json
+      - name: Verify configured model credentials once
+        if: inputs.check_model == true || contains(github.event.head_commit.message, '[check-model]')
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: ${{ vars.OPENAI_MODEL || 'gpt-4.1-mini' }}
+        run: python scripts/check_model.py
+      - name: Save the previous version
+        run: |
+          mkdir -p work/previous
+          cp -a site work/previous/site
+      - uses: actions/upload-artifact@v4
+        with:
+          name: previous-site
+          path: work/previous/site
+          include-hidden-files: true
+          retention-days: 2
+      - name: Collect weekly ranking; generate Chinese only for unseen projects
+        if: github.event_name != 'push' || contains(github.event.head_commit.message, '[refresh]')
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: ${{ vars.OPENAI_MODEL || 'gpt-4.1-mini' }}
+        run: python scripts/daily_update.py
+      - name: Require ten complete Chinese projects
+        run: python scripts/validate_data.py site/data/latest.json
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: site
+      - name: Commit only the validated data
+        id: commit
+        env:
+          EXPECTED_BASE: ${{ github.sha }}
+        run: |
+          set -euo pipefail
+          current=$(git ls-remote origin refs/heads/main | cut -f1)
+          test "$current" = "$EXPECTED_BASE" || { echo 'Main changed; refusing stale publication'; exit 1; }
+          git add site/data/latest.json
+          if test -f site/data/analysis-cache.json; then git add site/data/analysis-cache.json; fi
+          if git diff --cached --quiet; then
+            echo 'changed=false' >> "$GITHUB_OUTPUT"
+          else
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git commit -m 'chore: publish validated Chinese weekly radar'
+            git push origin HEAD:main
+            echo 'changed=true' >> "$GITHUB_OUTPUT"
+          fi
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+  deploy:
+    needs: prepare
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ needs.prepare.outputs.commit }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Deploy validated data
+        id: deployment
+        uses: actions/deploy-pages@v4
+      - name: Verify the actual served JSON
+        run: python scripts/verify_pages.py
+
+  restore:
+    needs: [prepare, deploy]
+    if: ${{ always() && needs.prepare.result == 'success' && needs.deploy.result == 'failure' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ needs.prepare.outputs.commit }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/download-artifact@v4
+        with:
+          name: previous-site
+          path: work/previous/site
+      - name: Restore only if this run still owns main
+        env:
+          EXPECTED_COMMIT: ${{ needs.prepare.outputs.commit }}
+        run: |
+          set -euo pipefail
+          current=$(git ls-remote origin refs/heads/main | cut -f1)
+          test "$current" = "$EXPECTED_COMMIT" || { echo 'Newer changes exist; refusing to overwrite them'; exit 1; }
+          python scripts/validate_data.py work/previous/site/data/latest.json
+          rm -rf site
+          cp -a work/previous/site site
+          git add -A site
+          if ! git diff --cached --quiet; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git commit -m 'fix: restore last good radar after deployment failure'
+            git push origin HEAD:main
+          fi
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          name: rollback-pages
+          path: site
+      - name: Publish the previous version
+        uses: actions/deploy-pages@v4
+        with:
+          artifact_name: rollback-pages
+      - name: Verify the restored website
+        run: python scripts/verify_pages.py

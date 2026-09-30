@@ -1,51 +1,50 @@
 # GitHub Weekly Radar
 
-面向中文用户的 GitHub 本周精选榜：十个项目，完整中文介绍、功能、场景、推荐理由和官方来源。
+GitHub 本周精选十个项目，提供完整中文介绍、功能、使用场景、推荐理由与官方 README 来源。
 
-## 更新与发布
+## 云端每日更新
 
-- 每日 09:15（Asia/Shanghai）由本项目关联的 ChatGPT / Codex 定时任务阅读榜单与 README，生成中文内容。任务在桌面应用中运行；电脑和应用需要保持运行、GitHub 连接需要有仓库写入权限。
-- GitHub Actions **不抓取、不调用模型、不生成或提交数据**。仅 `main` 上 `site/data/latest.json` 的变动触发校验与 Pages 部署，没有定时或手动抓取入口。
-- 任意一个项目缺少中文介绍、必填字段、README 来源或正确安装证据时，整批拒绝更新。采集或生成失败保留上一版；Actions 校验失败不会部署；部署失败保留上一次成功部署的 Pages。
-- 无英文兜底、占位文案、部分成功发布，也不需要 GitHub Models 或 OpenAI API 密钥。
+**GitHub Actions 每天自动跑 → 新项目才生成中文介绍 → 十项校验通过才提交与发布 → 失败保留或恢复旧版。**
 
-## 每日任务的固定流程
+每天北京时间 09:15（UTC 01:15）在 GitHub 云端执行，可能因 GitHub 排队而延迟。无需保持电脑开机或运行 Codex，也不使用 Codex 定时任务。
 
-详细操作与失败规则见 [docs/daily-update.md](docs/daily-update.md)。
+- 沿用 radar-score-v1，从 GitHub Trending 本周榜筛选十个项目，刷新排名、Star 和链接。
+- 已有合格中文介绍写入持久缓存；离榜后重新上榜仍复用，不重复调用模型。
+- 只有未进入缓存的新项目，才读取 README（优先中文，否则英文）并调用 OpenAI API 生成结构化中文介绍。缓存保留原始 README commit、哈希与生成时的证据，不冒充每日重新阅读。
+- 十个项目的介绍、功能、受众、场景、分类、难度与来源全部校验通过，才提交 latest.json 和缓存。没有英文、占位或部分成功兜底。
+- 同一次 Actions 中直接部署并核对线上 JSON。抓取、模型或校验失败时不提交、不部署；部署或线上核验失败时，在没有后续提交的前提下恢复旧数据并重新发布。恢复也失败时工作流保持失败，不能宣称已恢复。
+
+## 配置模型密钥
+
+1. 到 https://platform.openai.com/api-keys 创建 API Key，并确保该 API 项目可正常使用模型。
+2. 仓库 Settings → Secrets and variables → Actions → New repository secret。
+3. Name 填 `OPENAI_API_KEY`，Secret 粘贴密钥，点击 Add secret。不要写入仓库、日志或聊天。
+4. 默认模型 `gpt-4.1-mini`。可在 Actions Variables 中设置 `OPENAI_MODEL` 使用其他支持 Structured Outputs 的 OpenAI 模型。
+5. Actions → **Daily Chinese radar and Pages** → Run workflow，可立即运行验证。
+
+未配置密钥时，全部项目都有缓存仍可刷新；一旦出现新项目，整批更新停止并保留旧版。ChatGPT/Codex 登录凭据不会注入 GitHub Actions，API 调用使用独立 API 项目。
+
+## 文件
+
+```text
+site/data/latest.json          # 线上十个完整中文项目
+site/data/analysis-cache.json  # 已阅读项目的中文介绍与原始证据缓存
+scripts/collect_sources.py    # 采集榜单和元数据，仅新项目读取 README
+scripts/daily_update.py       # 复用旧介绍、生成新介绍、整批校验
+scripts/validate_data.py      # 中文与结构校验
+scripts/promote_data.py       # 与采集或缓存证据核对，原子替换候选
+scripts/verify_pages.py       # 比对实际线上数据与提交内容
+.github/workflows/daily-radar.yml  # 每日更新、提交、部署、失败恢复
+```
+
+完整运行规则见 [docs/daily-update.md](docs/daily-update.md)。
+
+## 本地检查
 
 ```bash
 python3 -m venv .venv
 .venv/bin/pip install -r requirements.txt
-.venv/bin/python scripts/collect_sources.py --output work/daily
-# ChatGPT 逐个阅读 work/daily/sources.json 中的 README，生成 work/daily/candidate.json。
-python3 scripts/validate_data.py work/daily/candidate.json
-python3 scripts/promote_data.py work/daily/candidate.json --sources work/daily/sources.json
-```
-
-采集脚本只输出完整证据，不会修改网站数据。`promote_data.py` 检查十个项目、全部字段和采集证据后原子替换文件；提交后仍需核对同一提交的 Actions 和线上 JSON。
-
-## 精选规则
-
-读取 `https://github.com/trending?since=weekly`，最多取前 35 个候选。沿用 `radar-score-v1`：近七天 Star 增长（最高 60 分），叠加元数据中 MCP、Agent、Codex、Skills、自动化、设计、音视频、RAG 等方向的匹配分和基础 20 分，总分最高 100。按分数、本周 Star、Trending 原排名排序选十个。README 优先中文翻译，其次默认 README；来源固定到仓库 commit 并记录内容哈希。
-
-## 目录
-
-```text
-site/                         # 网页和经校验的 latest.json
-scripts/collect_sources.py    # 只读采集榜单、元数据、完整 README
-scripts/validate_data.py      # 完整中文内容与结构校验（标准库）
-scripts/promote_data.py       # 对照采集证据、原子更新
-tests/                        # 失败保留上一版等回归检查
-docs/daily-update.md          # ChatGPT 每日操作规范
-.github/workflows/deploy-pages.yml  # 仅校验和部署
-```
-
-## 验证与预览
-
-```bash
-python3 -m unittest discover -s tests -v
+.venv/bin/python -m unittest discover -s tests -v
 python3 scripts/validate_data.py site/data/latest.json
 python3 -m http.server 8080 --directory site
 ```
-
-Pages 设置保留 GitHub Actions 作为发布来源。修改应用代码时，将已核验的数据随同提交（包括实际重新采集的更新时间），再触发部署；普通代码或说明修改不会触发数据更新。

@@ -7,7 +7,7 @@ import tempfile
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
-from validate_data import read_validated, require, timestamp
+from validate_data import read_validated, require, timestamp, validate_item
 
 
 def check_sources(payload, packet):
@@ -22,6 +22,14 @@ def check_sources(payload, packet):
         for field in ('repo', 'name', 'rank', 'language', 'stars', 'weekly_stars', 'score',
                       'github_url', 'download_url', 'clone', 'release_url', 'readme_source'):
             require(item[field] == source[field], f'{item["repo"]}.{field}: 与采集证据不符')
+        cached = source.get('cached_item')
+        if cached is not None:
+            validate_item(cached, cached.get('rank'))
+            for field in ('summary', 'problem', 'why_context', 'core_features', 'audience',
+                          'use_cases', 'difficulty', 'category', 'recommendation_reason',
+                          'install', 'install_source_excerpt', 'analysis_version', 'readme_source'):
+                require(item.get(field) == cached.get(field), f'{item["repo"]}.{field}: 不得覆盖缓存的中文介绍')
+            continue
         require(isinstance(source.get('readme'), str) and len(source['readme'].strip()) >= 200, '缺少完整 README')
         if item['install'] is not None:
             require(item['install_source_excerpt'] in source['readme'], f'{item["repo"]}: 安装命令非 README 原文')

@@ -85,7 +85,8 @@ def readme(repo, branch):
     raise ValueError(f'{repo}: 无法读取足够完整的 README')
 
 
-def collect(destination):
+def collect(destination, cache=None):
+    cache = cache or {}
     html = get(TRENDING).text
     rows = parse_trending(html)
     fetched = now()
@@ -107,7 +108,11 @@ def collect(destination):
     selected = []
     for rank, project in enumerate(candidates[:10], 1):
         repo = project['repo']
-        text, source = readme(repo, project['default_branch'])
+        cached = cache.get(repo.lower())
+        if cached is not None:
+            text, source = None, cached['readme_source']
+        else:
+            text, source = readme(repo, project['default_branch'])
         release = SESSION.get(f'https://api.github.com/repos/{repo}/releases/latest', timeout=45)
         if release.status_code == 404:
             release_url = None
@@ -117,8 +122,8 @@ def collect(destination):
         selected.append({**project, 'rank': rank, 'readme': text, 'readme_source': source,
                          'clone': f'git clone https://github.com/{repo}.git',
                          'download_url': f'https://github.com/{repo}/archive/refs/heads/{project["default_branch"]}.zip',
-                         'release_url': release_url})
-        print(f'已读取 {rank}/10：{repo} ({source["language"]}, {source["path"]})', flush=True)
+                         'release_url': release_url, 'cached_item': cached})
+        print(f'{rank}/10：{repo} — ' + ('复用已校验中文介绍' if cached else f'已读取 README ({source["language"]})'), flush=True)
     packet = {'selection': {'url': TRENDING, 'fetched_at': fetched, 'method': 'radar-score-v1',
                             'snapshot_sha256': hashlib.sha256(html.encode()).hexdigest()},
               'analyzed_count': len(candidates), 'candidates': candidates, 'projects': selected}
@@ -126,6 +131,7 @@ def collect(destination):
     (destination / 'sources.json').write_text(json.dumps(packet, ensure_ascii=False, indent=2), encoding='utf-8')
     (destination / 'trending.html').write_text(html, encoding='utf-8')
     print(f'证据保存至 {destination}/sources.json；线上数据未修改。')
+    return packet
 
 
 if __name__ == '__main__':
