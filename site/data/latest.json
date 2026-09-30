@@ -1,30 +1,41 @@
 {
   "period": "2026-W40",
-  "updated_at": "2026-09-30T06:18:23+00:00",
+  "updated_at": "2026-09-30T06:21:43.989Z",
   "source": "GitHub Trending · This week",
   "analyzed_count": 18,
   "items": [
     {
-      "summary": "hindsight 是一个近期在 GitHub 上增长较快的开源项目。当前自动中文分析暂时不可用；官方描述为：Hindsight: Agent Memory That Learns",
-      "problem": "自动中文分析暂时未完成，下一次更新会继续重试。",
-      "why_context": "近期 GitHub 社区关注度明显上升。",
+      "summary": "Hindsight 是面向 AI Agent 的长期记忆系统，重点不是简单保存聊天历史，而是让 Agent 能够随着使用持续学习。它提供 Retain、Recall、Reflect 三类记忆操作，可通过 Python、Node.js、Go、CLI、REST API 和 MCP 接入现有 Agent，并支持自托管、云端及多种 LLM 提供商。",
+      "problem": "很多 Agent 只能依赖上下文窗口、RAG 或简单会话历史，长期使用后很难形成稳定的用户偏好、事实记忆和可复用经验。Hindsight 试图把长期记忆与反思能力独立成基础设施，让 Agent 能跨会话记住信息并基于过去经验调整后续行为。",
+      "why_context": "项目把长期记忆、Agent 学习、MCP/SDK 接入和自托管能力结合在一起，正好对应当前 Agent 基础设施中非常热门的“长期记忆”方向。",
       "core_features": [
-        "自动中文分析暂时未完成，请先参考官方 README"
+        "Retain / Recall / Reflect 三类长期记忆操作",
+        "可接入现有 LLM 与 Agent，支持 MCP、REST API 和多语言 SDK",
+        "支持 25+ LLM 提供商以及本地模型/兼容 OpenAI 的端点",
+        "支持 Docker、pip、Kubernetes、自托管和托管云部署",
+        "README 提供长期记忆基准、集成文档和生产部署方案"
       ],
       "audience": [
-        "希望研究该项目的开发者"
+        "AI Agent 开发者",
+        "需要长期记忆能力的 AI 应用团队",
+        "Codex / Claude Code / Cursor 等智能编程工具用户",
+        "希望自托管 Agent 记忆服务的开发者"
       ],
       "use_cases": [
-        "先通过官方 README 与示例评估是否适合自己的工作流"
+        "给个人 AI 助手增加跨会话长期记忆",
+        "为客服、研究或业务 Agent 保存用户偏好和历史事实",
+        "通过 MCP 把长期记忆能力接入编码 Agent",
+        "构建能够从历史交互中持续学习的多 Agent 系统"
       ],
       "difficulty": "中等",
       "category": [
         "Agent",
+        "MCP",
         "AI"
       ],
-      "recommendation_reason": "进入近 7 天高增长候选，并与关注方向有一定匹配。",
-      "install": null,
-      "analysis_version": 1,
+      "recommendation_reason": "如果后续要做更长期运行的 Codex / Agent 自动化，记忆层会是非常关键的一块。这个项目接口完整、支持 MCP 和自托管，值得重点研究。",
+      "install": "pip install hindsight-api",
+      "analysis_version": 2,
       "rank": 1,
       "repo": "vectorize-io/hindsight",
       "name": "hindsight",
@@ -36,30 +47,40 @@
       "download_url": "https://github.com/vectorize-io/hindsight/archive/refs/heads/main.zip",
       "clone": "git clone https://github.com/vectorize-io/hindsight.git",
       "release_url": "https://github.com/vectorize-io/hindsight/releases/tag/v0.10.2",
-      "why_now": "近 7 天新增约 17,365 Star。近期 GitHub 社区关注度明显上升。"
+      "why_now": "近 7 天新增约 17,365 Star。项目把长期记忆、Agent 学习、MCP/SDK 接入和自托管能力结合在一起，正好对应当前 Agent 基础设施中非常热门的“长期记忆”方向。"
     },
     {
-      "summary": "VoiceStudio 是一个近期在 GitHub 上增长较快的开源项目。当前自动中文分析暂时不可用；官方描述为：VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
-      "problem": "自动中文分析暂时未完成，下一次更新会继续重试。",
-      "why_context": "近期 GitHub 社区关注度明显上升。",
+      "summary": "VoiceStudio 是一套开源、本地优先的 AI 语音工作站，把声音克隆、声音设计、视频配音、语音输入、转写、长音频和有声书制作整合到一个桌面应用中。它支持多种本地语音引擎、macOS/Windows/Linux，并提供本地 API 与 MCP，核心工作流可以完全在自己的设备上运行。",
+      "problem": "声音克隆、TTS、ASR、视频配音通常需要在多个工具或付费云服务之间切换，还会涉及隐私、调用额度和订阅费用。VoiceStudio 把这些能力集中到一个本地桌面工作流中，让用户可以自行管理模型、声音、项目和输出。",
+      "why_context": "本地 AI 语音、声音克隆和 Agent 调用语音工具都在快速发展，VoiceStudio 同时覆盖桌面使用、API 和 MCP，使用场景比单一 TTS 项目更完整。",
       "core_features": [
-        "自动中文分析暂时未完成，请先参考官方 README"
+        "本地声音克隆与声音设计",
+        "视频配音、语音输入、转写、故事与有声书批量生成",
+        "支持多种 TTS / ASR 引擎并可在本地切换模型",
+        "提供本地 REST API 和 MCP，方便 Agent 调用",
+        "支持 macOS、Windows、Linux，并提供发行版下载"
       ],
       "audience": [
-        "希望研究该项目的开发者"
+        "AI 音视频创作者",
+        "需要声音克隆或配音的内容团队",
+        "希望本地运行语音模型的用户",
+        "需要让 Agent 调用语音能力的开发者"
       ],
       "use_cases": [
-        "先通过官方 README 与示例评估是否适合自己的工作流"
+        "中文视频转英文并保持相似声音风格",
+        "批量制作短视频旁白、配音和有声内容",
+        "本地语音转文字与会议/素材转写",
+        "把语音生成能力接入 Codex、Claude Code 等 Agent"
       ],
-      "difficulty": "中等",
+      "difficulty": "入门",
       "category": [
-        "AI 设计",
         "音视频",
-        "AI"
+        "AI",
+        "MCP"
       ],
-      "recommendation_reason": "进入近 7 天高增长候选，并与关注方向有一定匹配。",
-      "install": null,
-      "analysis_version": 1,
+      "recommendation_reason": "它和设计、短视频、配音工作流非常贴近，而且支持本地运行与 MCP。相比只提供模型代码的语音项目，它更接近可以直接使用的生产工具。",
+      "install": "curl -fsSL https://voicestudio.sh/install | sh",
+      "analysis_version": 2,
       "rank": 2,
       "repo": "debpalash/VoiceStudio",
       "name": "VoiceStudio",
@@ -71,28 +92,40 @@
       "download_url": "https://github.com/debpalash/VoiceStudio/archive/refs/heads/main.zip",
       "clone": "git clone https://github.com/debpalash/VoiceStudio.git",
       "release_url": "https://github.com/debpalash/VoiceStudio/releases/tag/v0.5.6",
-      "why_now": "近 7 天新增约 12,722 Star。近期 GitHub 社区关注度明显上升。"
+      "why_now": "近 7 天新增约 12,722 Star。本地 AI 语音、声音克隆和 Agent 调用语音工具都在快速发展，VoiceStudio 同时覆盖桌面使用、API 和 MCP，使用场景比单一 TTS 项目更完整。"
     },
     {
-      "summary": "paperclip 是一个近期在 GitHub 上增长较快的开源项目。当前自动中文分析暂时不可用；官方描述为：The open-source app everyone uses to manage agents at work",
-      "problem": "自动中文分析暂时未完成，下一次更新会继续重试。",
-      "why_context": "近期 GitHub 社区关注度明显上升。",
+      "summary": "Paperclip 是一个用于管理“AI Agent 团队”的开源编排平台，由 Node.js 服务端和 React 管理界面组成。它把多个不同来源的 Agent 当成公司里的员工来管理：可以设定业务目标、组织结构、任务、预算和审批规则，并在一个仪表盘里追踪工作进度与成本。",
+      "problem": "当同时运行多个 Codex、Claude Code、Cursor 或其他 Agent 时，真正困难的往往不是启动 Agent，而是知道谁在做什么、目标是否一致、花了多少成本、任务是否需要人工审批。Paperclip 给多 Agent 工作增加了类似公司管理和项目管理的控制层。",
+      "why_context": "多 Agent 从“单个终端助手”走向长期自治团队后，任务协调、预算、治理和可审计性开始成为核心问题，Paperclip 正好切入这一层。",
       "core_features": [
-        "自动中文分析暂时未完成，请先参考官方 README"
+        "统一管理多个不同提供商和类型的 AI Agent",
+        "以目标、任务和组织结构协调 Agent 团队",
+        "追踪 Agent 工作进度、成本和预算",
+        "支持人工审核、治理和持续运行",
+        "兼容 OpenClaw、Claude Code、Codex、Cursor、Bash 与 HTTP Agent"
       ],
       "audience": [
-        "希望研究该项目的开发者"
+        "同时使用多个 AI Agent 的开发者",
+        "希望搭建自治 Agent 团队的创业者或技术团队",
+        "需要管理 Agent 成本和任务状态的负责人",
+        "研究多 Agent 协作与治理的用户"
       ],
       "use_cases": [
-        "先通过官方 README 与示例评估是否适合自己的工作流"
+        "把多个 Codex / Claude Code Agent 分工到同一个项目",
+        "搭建持续运行的 AI 公司或虚拟团队",
+        "统一追踪 Agent 的任务、预算和执行进度",
+        "为需要人工审批的 Agent 工作流增加治理层"
       ],
       "difficulty": "中等",
       "category": [
-        "Agent"
+        "Agent",
+        "自动化",
+        "效率工具"
       ],
-      "recommendation_reason": "进入近 7 天高增长候选，并与关注方向有一定匹配。",
+      "recommendation_reason": "如果以后把 Codex 自动化从“单个脚本”升级成多个 Agent 并行工作，Paperclip 这种管理层会很有价值，尤其适合观察多 Agent 的任务和成本。",
       "install": null,
-      "analysis_version": 1,
+      "analysis_version": 2,
       "rank": 3,
       "repo": "paperclipai/paperclip",
       "name": "paperclip",
@@ -104,30 +137,40 @@
       "download_url": "https://github.com/paperclipai/paperclip/archive/refs/heads/master.zip",
       "clone": "git clone https://github.com/paperclipai/paperclip.git",
       "release_url": "https://github.com/paperclipai/paperclip/releases/tag/v2026.916.1",
-      "why_now": "近 7 天新增约 12,941 Star。近期 GitHub 社区关注度明显上升。"
+      "why_now": "近 7 天新增约 12,941 Star。多 Agent 从“单个终端助手”走向长期自治团队后，任务协调、预算、治理和可审计性开始成为核心问题，Paperclip 正好切入这一层。"
     },
     {
-      "summary": "ai-engineering-from-scratch 是一个近期在 GitHub 上增长较快的开源项目。当前自动中文分析暂时不可用；官方描述为：Learn it. Build it. Ship it for others.",
-      "problem": "自动中文分析暂时未完成，下一次更新会继续重试。",
-      "why_context": "近期 GitHub 社区关注度明显上升。",
+      "summary": "AI Engineering from Scratch 是一套完全开源的 AI 工程学习体系，不是单一软件。项目包含 20 个阶段、500 多节课程，覆盖数学与机器学习基础、LLM 工程、工具协议、MCP、Agent Engineering、Agent Skills 等方向，并强调每节课程都要实际产出可复用的 prompt、skill、agent 或 MCP Server。",
+      "problem": "很多 AI 教程只讲概念或只教调用 API，学完后仍然无法独立构建真实 AI 系统。这个项目通过长路径课程和可运行的工程练习，把“理解原理、动手实现、留下可复用成果”结合起来。",
+      "why_context": "Agent、MCP、Skills 和生产级 LLM 应用已经成为 AI 工程的重要组成部分，这套课程近期持续扩充这些内容，因此对希望系统补齐 AI 工程能力的人很有吸引力。",
       "core_features": [
-        "自动中文分析暂时未完成，请先参考官方 README"
+        "20 个阶段、500+ 节 AI 工程课程",
+        "覆盖 Python、TypeScript、Rust、Julia 等技术栈",
+        "包含 LLM Engineering、Agent Engineering、MCP、Agent Skills 专门路线",
+        "每节课程要求形成可复用工程产物而不只是阅读",
+        "提供简体中文入口和不同目标的学习路径"
       ],
       "audience": [
-        "希望研究该项目的开发者"
+        "想系统学习 AI 工程的开发者",
+        "已经会 Python、希望进入 LLM / Agent 方向的用户",
+        "需要补齐 MCP 与 Agent Skills 知识的人",
+        "希望从教程走向真实项目实践的学习者"
       ],
       "use_cases": [
-        "先通过官方 README 与示例评估是否适合自己的工作流"
+        "从零建立 AI 工程知识体系",
+        "专项学习 Agent、MCP 或 Coding Agent",
+        "按照路线完成可展示的 AI 工程作品",
+        "作为长期查阅的 AI Engineering 教材"
       ],
       "difficulty": "中等",
       "category": [
-        "MCP",
+        "AI",
         "Agent",
-        "AI"
+        "MCP"
       ],
-      "recommendation_reason": "进入近 7 天高增长候选，并与关注方向有一定匹配。",
+      "recommendation_reason": "它不是一个装完就用的工具，而是一套很完整的学习资料库。尤其是 MCP、Agent Skills 和 Coding Agent 路线，与现在正在做的自动化方向高度相关。",
       "install": null,
-      "analysis_version": 1,
+      "analysis_version": 2,
       "rank": 4,
       "repo": "rohitg00/ai-engineering-from-scratch",
       "name": "ai-engineering-from-scratch",
@@ -139,30 +182,40 @@
       "download_url": "https://github.com/rohitg00/ai-engineering-from-scratch/archive/refs/heads/main.zip",
       "clone": "git clone https://github.com/rohitg00/ai-engineering-from-scratch.git",
       "release_url": "https://github.com/rohitg00/ai-engineering-from-scratch/releases/tag/v2026.10",
-      "why_now": "近 7 天新增约 5,830 Star。近期 GitHub 社区关注度明显上升。"
+      "why_now": "近 7 天新增约 5,830 Star。Agent、MCP、Skills 和生产级 LLM 应用已经成为 AI 工程的重要组成部分，这套课程近期持续扩充这些内容，因此对希望系统补齐 AI 工程能力的人很有吸引力。"
     },
     {
-      "summary": "orca 是一个近期在 GitHub 上增长较快的开源项目。当前自动中文分析暂时不可用；官方描述为：Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
-      "problem": "自动中文分析暂时未完成，下一次更新会继续重试。",
-      "why_context": "近期 GitHub 社区关注度明显上升。",
+      "summary": "Orca 是一款面向 AI 编程 Agent 的桌面编排环境，可以让 Codex、Claude Code、OpenCode、Pi 等多个 Agent 并行工作，并把每个 Agent 放进独立 Git worktree 中隔离代码改动。它还提供多终端分屏、移动端远程查看与控制、嵌入式浏览器和 Design Mode，用一个界面管理多条并行开发任务。",
+      "problem": "多个 Coding Agent 同时开发时容易出现代码冲突、终端混乱、任务状态难追踪和无法随时干预的问题。Orca 用独立 worktree、统一界面和移动端伴侣把多个 Agent 的执行环境组织起来。",
+      "why_context": "Coding Agent 正从“一次只开一个”走向多 Agent 并行开发，如何隔离工作区并统一观察、比较和接管结果正在成为新的开发工具需求。",
       "core_features": [
-        "自动中文分析暂时未完成，请先参考官方 README"
+        "Codex、Claude Code、OpenCode、Pi 等 Agent 并行运行",
+        "每个 Agent 使用独立 Git worktree，降低代码冲突",
+        "支持一个提示词分发给多个 Agent 并比较结果",
+        "移动端查看进度、接收完成通知并继续下指令",
+        "内置浏览器 Design Mode，可把页面元素 HTML/CSS/截图直接送给 Agent"
       ],
       "audience": [
-        "希望研究该项目的开发者"
+        "高频使用 Coding Agent 的开发者",
+        "需要同时跑多个 Codex / Claude Code 任务的人",
+        "希望用 Agent 做前端与设计迭代的开发者",
+        "需要远程查看 Agent 执行进度的用户"
       ],
       "use_cases": [
-        "先通过官方 README 与示例评估是否适合自己的工作流"
+        "同一需求让多个 Agent 并行实现后选择最佳方案",
+        "同时处理多个代码任务且互不干扰",
+        "用浏览器 Design Mode 辅助前端视觉修改",
+        "离开电脑后通过手机继续查看或控制 Agent"
       ],
-      "difficulty": "中等",
+      "difficulty": "入门",
       "category": [
         "Codex / Skills",
         "Agent",
         "开发工具"
       ],
-      "recommendation_reason": "进入近 7 天高增长候选，并与关注方向有一定匹配。",
+      "recommendation_reason": "这个项目与 Codex 的实际日常使用非常接近，尤其是并行 worktree 和 Design Mode，对同时做代码与视觉页面修改的人很实用。",
       "install": null,
-      "analysis_version": 1,
+      "analysis_version": 2,
       "rank": 5,
       "repo": "stablyai/orca",
       "name": "orca",
@@ -174,30 +227,40 @@
       "download_url": "https://github.com/stablyai/orca/archive/refs/heads/main.zip",
       "clone": "git clone https://github.com/stablyai/orca.git",
       "release_url": "https://github.com/stablyai/orca/releases/tag/v1.4.217",
-      "why_now": "近 7 天新增约 6,242 Star。近期 GitHub 社区关注度明显上升。"
+      "why_now": "近 7 天新增约 6,242 Star。Coding Agent 正从“一次只开一个”走向多 Agent 并行开发，如何隔离工作区并统一观察、比较和接管结果正在成为新的开发工具需求。"
     },
     {
-      "summary": "WeKnora 是一个近期在 GitHub 上增长较快的开源项目。当前自动中文分析暂时不可用；官方描述为：Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
-      "problem": "自动中文分析暂时未完成，下一次更新会继续重试。",
-      "why_context": "近期 GitHub 社区关注度明显上升。",
+      "summary": "WeKnora 是腾讯开源的 LLM 知识平台，面向企业和团队的文档理解、语义检索与推理。它把 RAG 检索、多步 Agent 和自动维护 Wiki 建在同一套知识库上，并支持同步飞书、Confluence、GitLab、Notion、语雀等数据源，还可通过 MCP、API 和企业 IM 对外提供知识问答能力。",
+      "problem": "团队知识通常散落在 PDF、Word、飞书、Notion、GitLab 等不同来源，传统搜索只能找到文档，无法跨资料进行推理和持续整理。WeKnora 将文档解析、知识检索、Agent 推理和 Wiki 维护合并到统一知识基础设施中。",
+      "why_context": "企业知识库正在从简单 RAG 问答升级为带 Agent、多数据源同步、权限和可维护 Wiki 的完整知识平台，WeKnora 的功能已经覆盖到这一阶段。",
       "core_features": [
-        "自动中文分析暂时未完成，请先参考官方 README"
+        "同一知识库支持 RAG 查询、Agent 多步推理和 Wiki 组织",
+        "支持 PDF、Word、Excel、图片、XMind 等多种文档格式",
+        "可同步飞书、Confluence、GitLab、Notion、语雀等数据源",
+        "支持 MCP Server、API 和企业 IM 集成",
+        "支持 RBAC、多工作区、自托管以及可替换模型/向量数据库/存储"
       ],
       "audience": [
-        "希望研究该项目的开发者"
+        "需要搭建企业知识库的团队",
+        "希望自托管 RAG / Agent 平台的开发者",
+        "企业内部文档和知识管理负责人",
+        "需要把私有知识接入 MCP 或 AI 助手的用户"
       ],
       "use_cases": [
-        "先通过官方 README 与示例评估是否适合自己的工作流"
+        "搭建公司内部 AI 知识问答",
+        "让 Agent 基于企业资料执行多步研究任务",
+        "自动整理并维护团队 Wiki",
+        "把飞书/Notion/文档库接入 Codex、Claude 等 AI 工具"
       ],
       "difficulty": "中等",
       "category": [
-        "Agent",
         "数据 / RAG",
-        "AI"
+        "Agent",
+        "MCP"
       ],
-      "recommendation_reason": "进入近 7 天高增长候选，并与关注方向有一定匹配。",
+      "recommendation_reason": "这是比较完整的企业级知识平台，不只是一个 RAG Demo。后续如果要把公司的资料、数据表、流程文档接入 Agent，它很值得作为方案参考。",
       "install": null,
-      "analysis_version": 1,
+      "analysis_version": 2,
       "rank": 6,
       "repo": "Tencent/WeKnora",
       "name": "WeKnora",
@@ -209,29 +272,40 @@
       "download_url": "https://github.com/Tencent/WeKnora/archive/refs/heads/main.zip",
       "clone": "git clone https://github.com/Tencent/WeKnora.git",
       "release_url": "https://github.com/Tencent/WeKnora/releases/tag/v0.8.2",
-      "why_now": "近 7 天新增约 2,397 Star。近期 GitHub 社区关注度明显上升。"
+      "why_now": "近 7 天新增约 2,397 Star。企业知识库正在从简单 RAG 问答升级为带 Agent、多数据源同步、权限和可维护 Wiki 的完整知识平台，WeKnora 的功能已经覆盖到这一阶段。"
     },
     {
-      "summary": "security-audit-skill 是一个近期在 GitHub 上增长较快的开源项目。当前自动中文分析暂时不可用；官方描述为：A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
-      "problem": "自动中文分析暂时未完成，下一次更新会继续重试。",
-      "why_context": "近期 GitHub 社区关注度明显上升。",
+      "summary": "security-audit-skill 是 Cloudflare 开源的 Coding Agent 安全审计 Skill，用来把普通编码 Agent 组织成结构化的代码安全审计流程。它不是简单让模型“找漏洞”，而是把侦察、覆盖度驱动的漏洞搜索、候选漏洞验证、结构化记录、独立复核和最终报告拆成六个阶段，并配套机器可验证的 JSON 结果和校验脚本。",
+      "problem": "直接让 Agent 审计代码容易出现漏扫、重复检查、凭感觉报告漏洞以及无法验证结论的问题。该 Skill 通过覆盖账本、独立验证 Agent、明确的 confirmed / needs_validation / rejected 状态和自动校验器，让审计过程更可追踪、更可复核。",
+      "why_context": "Agent Skills 正在从简单提示词扩展到完整专业工作流，而安全审计尤其需要可验证和可追踪的流程；Cloudflare 把内部漏洞发现框架的一部分整理成公开 Skill，因此关注度较高。",
       "core_features": [
-        "自动中文分析暂时未完成，请先参考官方 README"
+        "六阶段 Agent 安全审计工作流",
+        "用 coverage-ledger 记录审计覆盖范围和遗漏",
+        "每个候选漏洞交给独立 Agent 重新验证",
+        "输出结构化 findings.json 并用 JSON Schema / 脚本校验",
+        "针对 Web、LLM、供应链、云、客户端、协议等多类攻击面提供专门指导"
       ],
       "audience": [
-        "希望研究该项目的开发者"
+        "使用 Codex / Claude Code 做代码审查的开发者",
+        "应用安全和代码安全人员",
+        "希望构建自动化安全审计 Agent 的团队",
+        "Agent Skill 开发者"
       ],
       "use_cases": [
-        "先通过官方 README 与示例评估是否适合自己的工作流"
+        "对代码仓库执行结构化安全审计",
+        "让 Coding Agent 按覆盖清单搜索漏洞",
+        "生成可复核的安全发现与审计报告",
+        "研究如何把专业安全流程封装成 Agent Skill"
       ],
       "difficulty": "中等",
       "category": [
         "Codex / Skills",
-        "Agent"
+        "Agent",
+        "自动化"
       ],
-      "recommendation_reason": "进入近 7 天高增长候选，并与关注方向有一定匹配。",
-      "install": null,
-      "analysis_version": 1,
+      "recommendation_reason": "这是很典型的高质量 Agent Skill：不只给提示词，而是把完整专业流程、验证规则和产物格式都封装好。很适合参考它的 Skill 设计方式。",
+      "install": "npx skills add https://github.com/cloudflare/security-audit-skill --skill security-audit",
+      "analysis_version": 2,
       "rank": 7,
       "repo": "cloudflare/security-audit-skill",
       "name": "security-audit-skill",
@@ -243,30 +317,40 @@
       "download_url": "https://github.com/cloudflare/security-audit-skill/archive/refs/heads/main.zip",
       "clone": "git clone https://github.com/cloudflare/security-audit-skill.git",
       "release_url": null,
-      "why_now": "近 7 天新增约 3,311 Star。近期 GitHub 社区关注度明显上升。"
+      "why_now": "近 7 天新增约 3,311 Star。Agent Skills 正在从简单提示词扩展到完整专业工作流，而安全审计尤其需要可验证和可追踪的流程；Cloudflare 把内部漏洞发现框架的一部分整理成公开 Skill，因此关注度较高。"
     },
     {
-      "summary": "cua 是一个近期在 GitHub 上增长较快的开源项目。当前自动中文分析暂时不可用；官方描述为：Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.",
-      "problem": "自动中文分析暂时未完成，下一次更新会继续重试。",
-      "why_context": "近期 GitHub 社区关注度明显上升。",
+      "summary": "Cua 是一套面向 Computer Use Agent 的开源基础设施，目标是给 AI Agent 提供真正可以操作的“电脑”。项目包括桌面自动化 Driver、隔离的云桌面 Fleet、本地 macOS 虚拟机、面向电脑操作决策的小模型以及评测框架，可通过 CLI、MCP 或 SDK 让 Agent 操作浏览器和原生桌面应用。",
+      "problem": "让 Agent 操作真实电脑不只是模拟点击，还需要隔离环境、跨操作系统控制、截图与应用交互、并发桌面资源以及可靠评测。Cua 把这些底层能力组合成一套可开发、训练和评估 Computer Use Agent 的工具链。",
+      "why_context": "Computer Use 正在从浏览器点击扩展到代码、API 和 GUI 混合执行，Cua 同时覆盖驱动、沙箱、云桌面和评测，因此在 Agent 自动操作电脑方向具有较高参考价值。",
       "core_features": [
-        "自动中文分析暂时未完成，请先参考官方 README"
+        "跨 macOS、Windows、Linux 的桌面与浏览器自动化 Driver",
+        "提供隔离云桌面 Fleet 和本地虚拟机环境",
+        "支持 CLI、MCP 和类型化 SDK 接入 Agent",
+        "提供 CUA-S1 专用电脑操作决策模型",
+        "提供 Cua Bench 用于构建和验证 Computer Use 任务"
       ],
       "audience": [
-        "希望研究该项目的开发者"
+        "Computer Use / GUI Agent 开发者",
+        "浏览器与桌面自动化开发者",
+        "需要隔离桌面执行环境的 Agent 团队",
+        "研究 Agent 评测和数据生成的用户"
       ],
       "use_cases": [
-        "先通过官方 README 与示例评估是否适合自己的工作流"
+        "让 AI Agent 操作桌面软件和浏览器",
+        "为自动化任务批量启动隔离云桌面",
+        "构建自己的 Computer Use Agent",
+        "建立电脑操作 Agent 的训练与评测环境"
       ],
-      "difficulty": "中等",
+      "difficulty": "较高",
       "category": [
         "Agent",
         "自动化",
-        "AI"
+        "MCP"
       ],
-      "recommendation_reason": "进入近 7 天高增长候选，并与关注方向有一定匹配。",
-      "install": null,
-      "analysis_version": 1,
+      "recommendation_reason": "它和“让 AI 真正操作网页与电脑”这条路线非常相关。未来如果要把后台录入、网页操作升级成通用 Computer Use 自动化，Cua 是值得重点研究的底层方案。",
+      "install": "/bin/bash -c \"$(curl -fsSL https://cua.ai/driver/install.sh)\"",
+      "analysis_version": 2,
       "rank": 8,
       "repo": "trycua/cua",
       "name": "cua",
@@ -278,29 +362,40 @@
       "download_url": "https://github.com/trycua/cua/archive/refs/heads/main.zip",
       "clone": "git clone https://github.com/trycua/cua.git",
       "release_url": "https://github.com/trycua/cua/releases/tag/sandbox-v0.8.0",
-      "why_now": "近 7 天新增约 1,211 Star。近期 GitHub 社区关注度明显上升。"
+      "why_now": "近 7 天新增约 1,211 Star。Computer Use 正在从浏览器点击扩展到代码、API 和 GUI 混合执行，Cua 同时覆盖驱动、沙箱、云桌面和评测，因此在 Agent 自动操作电脑方向具有较高参考价值。"
     },
     {
-      "summary": "Octop 是一个近期在 GitHub 上增长较快的开源项目。当前自动中文分析暂时不可用；官方描述为：A smarter, self-hosted AI assistant — multi-user, multi-agent.",
-      "problem": "自动中文分析暂时未完成，下一次更新会继续重试。",
-      "why_context": "近期 GitHub 社区关注度明显上升。",
+      "summary": "Octop 是腾讯云开源的自托管、多用户、多 Agent AI 助手平台。它把 Web 控制台、CLI、企业微信/飞书/钉钉/QQ/Telegram 等聊天渠道、AgentTeams、知识库 RAG、浏览器自动化和远程桌面整合在一个本地运行环境中，并支持专家角色、插件、MCP Connector 与持久记忆。",
+      "problem": "个人或小团队要搭建长期运行的 AI 助手，往往需要分别解决多用户隔离、Agent 分工、聊天渠道、知识库、自动化、权限和隐私问题。Octop 把这些能力放在可自托管的平台中，并让数据与凭据尽量保留在自己的机器上。",
+      "why_context": "自托管个人 AI、Agent Teams、MCP 和浏览器自动化正在快速融合，Octop 同时覆盖个人助理、家庭共享、小团队协作与开发者场景，功能范围很完整。",
       "core_features": [
-        "自动中文分析暂时未完成，请先参考官方 README"
+        "多用户、多专家与 AgentTeams 协作",
+        "支持企业微信、飞书、钉钉、QQ、Telegram、Discord 等渠道",
+        "内置知识库 RAG、持久记忆和专家市场",
+        "支持 MCP/OAuth Connector、ACP 和插件扩展",
+        "包含浏览器自动化、Terminal AI、远程桌面与定时任务"
       ],
       "audience": [
-        "希望研究该项目的开发者"
+        "希望自托管个人 AI 助手的用户",
+        "家庭或小团队共享 AI 助手的场景",
+        "需要企业微信/飞书等 IM Agent 的团队",
+        "希望研究多 Agent 与自动化平台的开发者"
       ],
       "use_cases": [
-        "先通过官方 README 与示例评估是否适合自己的工作流"
+        "搭建私有个人 AI 助手",
+        "在企业微信/飞书群里部署专用 Agent",
+        "让多个专家 Agent 协作处理复杂任务",
+        "执行网页自动化、定时任务和远程桌面操作"
       ],
       "difficulty": "中等",
       "category": [
         "Agent",
-        "AI"
+        "自动化",
+        "MCP"
       ],
-      "recommendation_reason": "进入近 7 天高增长候选，并与关注方向有一定匹配。",
-      "install": null,
-      "analysis_version": 1,
+      "recommendation_reason": "Octop 和企业微信、自动化、知识库、浏览器操作这些需求有很强交集。它适合拿来研究“一个长期运行的私人/团队 Agent 平台”应该怎样组织。",
+      "install": "curl -fsSL https://finnie-1258344699.cos.ap-guangzhou.myqcloud.com/octop/install.sh | bash",
+      "analysis_version": 2,
       "rank": 9,
       "repo": "TencentCloud/Octop",
       "name": "Octop",
@@ -312,29 +407,40 @@
       "download_url": "https://github.com/TencentCloud/Octop/archive/refs/heads/main.zip",
       "clone": "git clone https://github.com/TencentCloud/Octop.git",
       "release_url": "https://github.com/TencentCloud/Octop/releases/tag/v1.0.2b5",
-      "why_now": "近 7 天新增约 1,128 Star。近期 GitHub 社区关注度明显上升。"
+      "why_now": "近 7 天新增约 1,128 Star。自托管个人 AI、Agent Teams、MCP 和浏览器自动化正在快速融合，Octop 同时覆盖个人助理、家庭共享、小团队协作与开发者场景，功能范围很完整。"
     },
     {
-      "summary": "impeccable 是一个近期在 GitHub 上增长较快的开源项目。当前自动中文分析暂时不可用；官方描述为：The design language that makes your AI harness better at design.",
-      "problem": "自动中文分析暂时未完成，下一次更新会继续重试。",
-      "why_context": "近期 GitHub 社区关注度明显上升。",
+      "summary": "Impeccable 是专门给 AI Coding Agent 使用的前端设计 Skill，目标是减少 AI 生成界面常见的模板化审美。它提供 1 个设计 Skill、24 个设计指令、浏览器实时迭代模式和 61 条确定性检测规则，让 Agent 能执行 critique、audit、polish、layout、typeset、animate、colorize 等系统化视觉优化。",
+      "problem": "Coding Agent 虽然能快速生成前端页面，但很容易出现相似字体、渐变、卡片套卡片、层级单调等“AI 味”设计。Impeccable 用产品上下文、设计系统、明确的设计指令和可机器检测的反模式规则，让 Agent 在修改 UI 时有更稳定的设计判断标准。",
+      "why_context": "越来越多人直接让 Coding Agent 生成前端，如何提高视觉质量、减少模板化 AI 风格成为新的痛点。Impeccable 把设计指导做成可安装 Skill，并加入浏览器实时迭代，因此非常贴近当前 AI 设计工作流。",
       "core_features": [
-        "自动中文分析暂时未完成，请先参考官方 README"
+        "24 个针对 UI/UX 的 Agent 设计指令",
+        "61 条无需 LLM 即可运行的确定性前端检测规则",
+        "用 PRODUCT.md 保存稳定的产品上下文",
+        "支持 critique、audit、polish、layout、typeset、animate 等完整设计流程",
+        "提供 Live Browser 模式，让 Agent 在浏览器中持续做视觉变体和迭代"
       ],
       "audience": [
-        "希望研究该项目的开发者"
+        "使用 Codex / Claude Code 做前端的设计师与开发者",
+        "希望提升 AI 生成页面视觉质量的人",
+        "产品设计师和独立开发者",
+        "Agent Skill 与设计工作流研究者"
       ],
       "use_cases": [
-        "先通过官方 README 与示例评估是否适合自己的工作流"
+        "让 Coding Agent 对现有网页做专业视觉优化",
+        "检查 AI 生成页面的常见设计反模式",
+        "在浏览器中快速生成并比较 UI 变体",
+        "建立可持续复用的 AI 前端设计规范"
       ],
-      "difficulty": "中等",
+      "difficulty": "入门",
       "category": [
         "AI 设计",
-        "AI"
+        "Codex / Skills",
+        "开发工具"
       ],
-      "recommendation_reason": "进入近 7 天高增长候选，并与关注方向有一定匹配。",
-      "install": null,
-      "analysis_version": 1,
+      "recommendation_reason": "这个项目与视觉设计 + Codex 的组合非常契合。它不是另一个生成网页工具，而是给 Coding Agent 补上设计判断和可重复的视觉优化流程，值得优先试用。",
+      "install": "npx impeccable install",
+      "analysis_version": 2,
       "rank": 10,
       "repo": "pbakaus/impeccable",
       "name": "impeccable",
@@ -346,7 +452,7 @@
       "download_url": "https://github.com/pbakaus/impeccable/archive/refs/heads/main.zip",
       "clone": "git clone https://github.com/pbakaus/impeccable.git",
       "release_url": "https://github.com/pbakaus/impeccable/releases/tag/engine-v0.1.8",
-      "why_now": "近 7 天新增约 2,644 Star。近期 GitHub 社区关注度明显上升。"
+      "why_now": "近 7 天新增约 2,644 Star。越来越多人直接让 Coding Agent 生成前端，如何提高视觉质量、减少模板化 AI 风格成为新的痛点。Impeccable 把设计指导做成可安装 Skill，并加入浏览器实时迭代，因此非常贴近当前 AI 设计工作流。"
     }
   ]
 }
