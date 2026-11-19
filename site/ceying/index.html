@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1100">
+  <meta name="description" content="青岛策影文化传媒有限公司专注短视频内容制作、企业账号内容代运营、广告投放代理与优化，提供从内容生产到广告投放执行的一站式营销服务。">
+  <meta name="theme-color" content="#ffffff">
+  <title>青岛策影文化传媒有限公司｜短视频内容制作 · 账号代运营 · 广告投放</title>
+  <style>
+    :root { --orange:#f47208; --orange-dark:#e45e00; --ink:#16191e; --muted:#777b83; --line:#ebebeb; --panel:#faf9f7; --max:1040px; }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; scroll-padding-top:105px; }
+    body { margin:0; min-width:1100px; background:#fff; color:var(--ink); font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei","Noto Sans CJK SC",sans-serif; -webkit-font-smoothing:antialiased; }
+    a { color:inherit; text-decoration:none; }
+    button { font:inherit; }
+    .container { width:var(--max); margin:auto; }
+    .header { position:sticky; top:0; z-index:30; height:82px; background:rgba(255,255,255,.97); box-shadow:0 1px 12px rgba(22,25,30,.07); }
+    .header-inner { height:100%; display:flex; align-items:center; justify-content:space-between; gap:28px; }
+    .logo { display:flex; align-items:center; gap:12px; min-width:250px; }
+    .brand-icon { width:42px; height:42px; flex:none; }
+    .logo-text { display:flex; flex-direction:column; line-height:1.14; }
+    .logo-text strong { font-weight:900; font-size:22px; letter-spacing:.01em; }
+    .logo-text small { font-size:11px; font-weight:700; letter-spacing:.18em; margin-top:5px; }
+    .nav { display:flex; height:100%; align-items:center; gap:32px; font-size:14px; font-weight:700; }
+    .nav a { height:100%; display:flex; align-items:center; position:relative; transition:color .18s; }
+    .nav a:hover,.nav a.active { color:var(--orange); }
+    .nav a.active:after { content:""; position:absolute; left:0; right:0; bottom:20px; height:3px; border-radius:3px; background:var(--orange); }
+    .top-cta { display:inline-flex; align-items:center; justify-content:center; background:var(--orange); color:#fff; border-radius:8px; font-weight:750; padding:12px 22px; font-size:14px; white-space:nowrap; box-shadow:0 6px 18px rgba(244,114,8,.14); transition:background .18s,transform .18s; }
+    .top-cta:hover,.btn-primary:hover { background:var(--orange-dark); transform:translateY(-1px); }
+    .hero { height:333px; position:relative; background:linear-gradient(112deg,#ffffff 5%,#fffaf5 67%,#fff1df 100%); overflow:hidden; }
+    .hero:before { content:""; position:absolute; width:790px; height:285px; right:-140px; top:105px; border:80px solid rgba(255,165,69,.13); border-radius:50%; transform:rotate(-20deg); }
+    .hero:after { content:""; position:absolute; width:1050px; height:285px; left:-320px; top:260px; border:28px solid rgba(248,173,100,.17); border-radius:50%; transform:rotate(-5deg); }
+    .hero-inner { position:relative; z-index:1; padding-top:58px; }
+    h1 { font-size:42px; line-height:1.3; margin:0 0 12px; letter-spacing:.02em; font-weight:900; }
+    .hero-sub { font-size:20px; font-weight:750; letter-spacing:.08em; margin:0 0 14px; }
+    .hero-line { height:3px; width:40px; background:var(--orange); border-radius:5px; margin:17px 0; }
+    .hero-desc { margin:0 0 23px; font-size:16px; color:#41444a; letter-spacing:.012em; }
+    .actions { display:flex; gap:16px; }
+    .btn { display:inline-flex; align-items:center; justify-content:center; gap:10px; padding:12px 27px; min-width:148px; height:44px; font-size:15px; border-radius:8px; font-weight:700; transition:background .18s,transform .18s; }
+    .btn-primary { background:var(--orange); color:#fff; box-shadow:0 6px 18px rgba(244,114,8,.12); }
+    .btn-outline { color:#24262a; border:1.5px solid var(--orange); background:#fff; }
+    .btn-outline:hover { background:#fff3e9; }
+    .arrow { font-size:19px; line-height:0; transform:translateY(-1px); }
+    section { scroll-margin-top:98px; }
+    .section-block { padding:35px 0 37px; border-bottom:1px solid #e8e8e8; }
+    .section-head { display:flex; align-items:baseline; gap:16px; margin:0 0 19px; }
+    .section-head:before { content:""; align-self:center; width:6px; height:34px; flex:none; background:var(--orange); border-radius:8px; }
+    .section-head h2 { font-size:29px; font-weight:900; margin:0; letter-spacing:.01em; }
+    .section-head span { color:#85888d; font-size:14px; font-weight:500; letter-spacing:.04em; }
+    .about p { margin:0 0 12px 25px; font-size:16px; line-height:1.87; color:#2f3237; }
+    .about p:last-child { margin-bottom:0; }
+    .services { background:#fbfbfb; }
+    .service-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:18px; }
+    .service-card { min-height:116px; display:flex; align-items:center; gap:25px; padding:23px 24px; border:1px solid #eae6e3; border-radius:12px; background:linear-gradient(110deg,#fff 0%,#fbf8f5 100%); box-shadow:0 3px 14px rgba(28,22,14,.025); }
+    .service-icon { color:var(--orange); display:flex; align-items:center; justify-content:center; width:84px; flex:none; }
+    .service-icon svg { width:46px; height:46px; stroke:currentColor; fill:none; stroke-width:1.9; stroke-linecap:round; stroke-linejoin:round; }
+    .card-sep { height:57px; width:1px; background:#ffc18e; flex:none; }
+    .service-copy h3 { font-size:20px; line-height:1.4; margin:0 0 11px; font-weight:850; white-space:nowrap; }
+    .service-copy h3 em { color:var(--orange); font-size:21px; font-style:normal; margin-right:9px; }
+    .service-copy p { color:#6f7177; font-size:13.5px; margin:0; line-height:1.65; white-space:nowrap; }
+    .process { padding-bottom:39px; }
+    .steps { display:grid; grid-template-columns:1fr 35px 1fr 35px 1fr 35px 1fr; align-items:center; text-align:center; gap:7px; }
+    .step .circle { height:58px; width:58px; display:flex; align-items:center; justify-content:center; background:#fff2e7; color:var(--orange); margin:0 auto 10px; border-radius:50%; }
+    .step .circle svg { width:32px; height:32px; fill:none; stroke:currentColor; stroke-width:1.8; stroke-linejoin:round; stroke-linecap:round; }
+    .step h3 { font-size:16px; font-weight:850; margin:0 0 8px; }
+    .step p { margin:0; color:#575a61; font-size:13.5px; line-height:1.75; }
+    .between { color:var(--orange); font-size:30px; font-weight:300; transform:translateY(-20px); }
+    .contact { padding:33px 0 38px; border-bottom:0; }
+    .contact-layout { display:grid; grid-template-columns:1.36fr 1fr; align-items:center; }
+    .contact-info { display:flex; flex-direction:column; gap:14px; }
+    .contact-row { display:flex; align-items:center; gap:18px; font-size:15px; }
+    .contact-row svg { width:22px; height:22px; flex:none; stroke:var(--orange); stroke-width:1.7; fill:none; stroke-linecap:round; stroke-linejoin:round; }
+    .contact-row a:hover { color:var(--orange); }
+    .contact-action { min-height:120px; border-left:1px solid #dedede; display:flex; align-items:center; justify-content:center; }
+    .contact-action .btn { min-width:230px; height:53px; font-size:18px; }
+    .footer { background:linear-gradient(120deg,#fffaf5,#fdf8f3); border-top:1px solid #f8eee8; }
+    .footer-inner { min-height:75px; display:flex; justify-content:center; align-items:center; gap:28px; color:#3d3d40; font-size:14px; }
+    .footer-inner b { color:#191b1e; font-size:18px; }
+    .footer-inner small { margin-left:6px; color:#6e737b; font-size:12px; font-weight:700; letter-spacing:.04em; }
+    .foot-divider { height:21px; width:1px; background:#bbb; }
+    .copyright { text-align:center; color:#a2a1a0; font-size:11px; padding:0 0 16px; }
+    @media (prefers-reduced-motion:reduce) { html {scroll-behavior:auto;} .btn,.top-cta { transition:none; } }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="container header-inner">
+      <a class="logo" href="#home" aria-label="策影文化传媒 - 返回首页">
+        <svg class="brand-icon" viewBox="0 0 44 44" fill="none" aria-hidden="true">
+          <path d="M10 5V39" stroke="#F47208" stroke-width="5" stroke-linecap="round"/>
+          <path d="M17 7L38 20.8C39.1 21.5 39.1 22.5 38 23.2L17 37" stroke="#F47208" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <div class="logo-text"><strong>策影文化传媒</strong><small>CEYING MEDIA</small></div>
+      </a>
+      <nav class="nav" aria-label="页面导航">
+        <a class="active" href="#home">首页</a>
+        <a href="#about">关于我们</a>
+        <a href="#services">主营业务</a>
+        <a href="#process">服务流程</a>
+        <a href="#contact">联系我们</a>
+      </nav>
+      <a class="top-cta" href="tel:18364288203">立即咨询</a>
+    </div>
+  </header>
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <h1>青岛策影文化传媒有限公司</h1>
+        <p class="hero-sub">短视频内容制作 · 企业账号代运营 · 广告投放代理</p>
+        <div class="hero-line"></div>
+        <p class="hero-desc">为企业和品牌客户提供从内容生产到广告投放执行的一站式营销服务</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="#contact">咨询合作 <span class="arrow">›</span></a>
+          <a class="btn btn-outline" href="#services">了解服务 <span class="arrow">›</span></a>
+        </div>
+      </div>
+    </section>
+    <section id="about" class="about">
+      <div class="container section-block">
+        <div class="section-head"><h2>关于我们</h2><span>ABOUT US</span></div>
+        <p>青岛策影文化传媒有限公司是一家专注于短视频内容制作、企业账号代运营与广告投放代理的营销服务机构，为企业和品牌客户提供从内容生产到广告投放执行的一站式服务。</p>
+        <p>公司主营业务归属于商务服务—营销与代运营服务，服务对象为有营销推广需求的企业及品牌客户，双方签订书面服务合同，按约定交付服务成果并收取服务费用。</p>
+      </div>
+    </section>
+    <section id="services" class="services">
+      <div class="container section-block">
+        <div class="section-head"><h2>主营业务</h2><span>CORE SERVICES</span></div>
+        <div class="service-grid">
+          <article class="service-card">
+            <div class="service-icon"><svg viewBox="0 0 48 48" aria-hidden="true"><rect x="3" y="13" width="29" height="23" rx="4"/><path d="M32 20 44 13v23L32 29"/><path d="m15 20 9 5-9 5z"/></svg></div>
+            <div class="card-sep"></div>
+            <div class="service-copy"><h3><em>01</em>短视频拍摄与内容制作</h3><p>内容策划 / 拍摄执行 / 后期制作 / 成片交付</p></div>
+          </article>
+          <article class="service-card">
+            <div class="service-icon"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="m24 4 20 11-20 11L4 15 24 4Z"/><path d="m5 23 19 11 19-11M5 31l19 11 19-11"/></svg></div>
+            <div class="card-sep"></div>
+            <div class="service-copy"><h3><em>02</em>企业账号内容代运营</h3><p>内容规划 / 素材拍摄 / 内容发布 / 账号维护</p></div>
+          </article>
+          <article class="service-card">
+            <div class="service-icon"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M4 42h40"/><rect x="8" y="27" width="8" height="15"/><rect x="20" y="17" width="8" height="25"/><rect x="32" y="7" width="8" height="35"/></svg></div>
+            <div class="card-sep"></div>
+            <div class="service-copy"><h3><em>03</em>广告投放代理与优化</h3><p>账户搭建 / 投放执行 / 数据监测 / 效果优化</p></div>
+          </article>
+          <article class="service-card">
+            <div class="service-icon"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M17 32c-2-4-9-9-9-18a16 16 0 0 1 32 0c0 9-7 14-9 18"/><path d="M17 33h14M19 39h10M21 44h6"/></svg></div>
+            <div class="card-sep"></div>
+            <div class="service-copy"><h3><em>04</em>营销策划与广告创意</h3><p>品牌传播 / 活动策划 / 创意设计 / 物料制作</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section id="process" class="process">
+      <div class="container section-block">
+        <div class="section-head"><h2>服务流程</h2><span>SERVICE PROCESS</span></div>
+        <div class="steps">
+          <div class="step"><div class="circle"><svg viewBox="0 0 40 40"><path d="M34 18c0 8-7 14-16 14-2 0-5-.3-7-1l-7 4 2-8C4 24 2 21 2 18 2 10 9 5 18 5s16 5 16 13Z"/><path d="M12 18h1m5 0h1m5 0h1"/></svg></div><h3>1. 需求沟通</h3><p>了解客户行业、目标与预算<br>明确服务范围</p></div>
+          <div class="between">›</div>
+          <div class="step"><div class="circle"><svg viewBox="0 0 40 40"><path d="M10 3h15l7 7v27H10Z"/><path d="M25 3v8h7M16 18h11M16 24h11M16 30h8"/></svg></div><h3>2. 方案制定</h3><p>输出服务方案与报价<br>双方确认后签订服务合同</p></div>
+          <div class="between">›</div>
+          <div class="step"><div class="circle"><svg viewBox="0 0 40 40"><rect x="4" y="5" width="32" height="30" rx="4"/><path d="m17 13 12 7-12 7Z"/></svg></div><h3>3. 执行交付</h3><p>按合同约定的周期与节点<br>交付内容成果或投放执行</p></div>
+          <div class="between">›</div>
+          <div class="step"><div class="circle"><svg viewBox="0 0 40 40"><path d="M4 35h32"/><rect x="7" y="22" width="6" height="13"/><rect x="17" y="14" width="6" height="21"/><rect x="27" y="5" width="6" height="30"/></svg></div><h3>4. 数据复盘</h3><p>提供阶段执行情况说明<br>与优化建议</p></div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="section-head"><h2>联系我们</h2><span>CONTACT US</span></div>
+        <div class="contact-layout">
+          <div class="contact-info">
+            <div class="contact-row"><svg viewBox="0 0 24 24"><path d="M3 21h18M6 21V4h10v17M16 10h5v11M9 8h1m3 0h1m-5 4h1m3 0h1m-5 4h1m3 0h1"/></svg><span><b>公司全称：</b> 青岛策影文化传媒有限公司</span></div>
+            <div class="contact-row"><svg viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg><span><b>办公地址：</b> 山东省青岛市崂山区株洲路88号1号楼1602-3室</span></div>
+            <div class="contact-row"><svg viewBox="0 0 24 24"><path d="M6 3h4l2 5-3 3c1 2 3 4 5 5l3-3 5 2v4c0 2-2 3-4 2A21 21 0 0 1 3 6c-1-2 1-3 3-3Z"/></svg><span><b>联系电话：</b> <a href="tel:18364288203">18364288203</a></span></div>
+            <div class="contact-row"><svg viewBox="0 0 24 24"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="m3 7 9 7 9-7"/></svg><span><b>电子邮箱：</b> <a href="mailto:xiao80238203@vip.qq.com">xiao80238203@vip.qq.com</a></span></div>
+          </div>
+          <div class="contact-action"><a href="tel:18364288203" class="btn btn-primary">立即咨询合作 <span class="arrow">›</span></a></div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container footer-inner"><span><b>策影文化传媒</b><small>CEYING MEDIA</small></span><span class="foot-divider"></span><span>内容 · 运营 · 投放 · 创意</span><span class="foot-divider"></span><span>一站式营销服务机构</span></div>
+    <div class="copyright">© 2026 青岛策影文化传媒有限公司</div>
+  </footer>
+</body>
+</html>
